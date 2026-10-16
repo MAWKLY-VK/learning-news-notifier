@@ -56,7 +56,7 @@
    ]
   },
   "https://feeds.feedburner.com/TheHackersNews": {
-   "newest": "2026-10-15T20:24:36Z",
+   "newest": "2026-10-16T06:55:55Z",
    "seen": [
     "4f95732c4969",
     "dc7b54e8c00a",
@@ -107,7 +107,10 @@
     "6ab9bdcb522c",
     "cdc576e64c59",
     "986cc714fb42",
-    "222e66a51003"
+    "222e66a51003",
+    "5fc8c6dd8c54",
+    "f909b9dee009",
+    "1fd194e19c3d"
    ]
   },
   "https://github.blog/feed/": {
@@ -125,6 +128,36 @@
     "32753c5d923d"
    ]
   },
+  "https://github.com/OthmanAdi/planning-with-files/releases.atom": {
+   "newest": "2026-10-10T10:03:51Z",
+   "seen": [
+    "5af1b62e192c",
+    "c1ae59dd25d5",
+    "0b695771c56d",
+    "08aae2948905",
+    "6176894c2f97",
+    "a3c0edeb39f1",
+    "079215f07b80",
+    "a14f6ed71615",
+    "a6a00670c74d",
+    "4ac360abcc56"
+   ]
+  },
+  "https://github.com/addyosmani/agent-skills/releases.atom": {
+   "newest": "2026-10-13T20:21:58Z",
+   "seen": [
+    "d711b7455301",
+    "326fdd3cf767",
+    "48c370c10dfa",
+    "b6cb782f0039",
+    "ae94dff85072",
+    "ba8b25871862",
+    "09e2e5e500db",
+    "abe50724859b",
+    "5dbe68c7b854",
+    "76fdb78b73e1"
+   ]
+  },
   "https://github.com/anthropics/claude-code/releases.atom": {
    "newest": "2026-10-15T19:22:06Z",
    "seen": [
@@ -138,6 +171,46 @@
     "a0c68459b46f",
     "46551c8c7e30",
     "42001fcc32b2"
+   ]
+  },
+  "https://github.com/anthropics/skills/commits/main.atom": {
+   "newest": "2026-10-09T18:45:49Z",
+   "seen": [
+    "f82caf9045bf",
+    "d04dd6283a45",
+    "892e30b0d7e7",
+    "74e981440f73",
+    "bb6b9558da58",
+    "0f7b27ca263a",
+    "33f4d3ea2644",
+    "11137cbb7219",
+    "d7adba1b10a5",
+    "e70e5f4d0362",
+    "c8a1c32ffcdf",
+    "39b2fbf06d01",
+    "483b15297f93",
+    "6592e907f001",
+    "58b11c60d95f",
+    "3c7cc77fe422",
+    "30c1a217f83b",
+    "9dfd6224e401",
+    "769c56b9d4e4",
+    "b0a66d2424c8"
+   ]
+  },
+  "https://github.com/coreyhaines31/marketingskills/releases.atom": {
+   "newest": "2026-10-15T18:35:40Z",
+   "seen": [
+    "0fdf745467ff",
+    "d7ba0ac90f78",
+    "1ecd4634bb45",
+    "eb1be3d775fc",
+    "9f49de1815be",
+    "1d9aa88135cd",
+    "846775a9225d",
+    "e8f382524b27",
+    "c432b7541edf",
+    "1c9a1254c8b2"
    ]
   },
   "https://github.com/google-gemini/gemini-cli/releases.atom": {
@@ -159,6 +232,21 @@
     "6cd5eb288867",
     "b3338e99a7ed",
     "6a998849cf5f"
+   ]
+  },
+  "https://github.com/mksglu/context-mode/releases.atom": {
+   "newest": "2026-06-29T18:18:53Z",
+   "seen": [
+    "483f70c33d9f",
+    "e4d393f360f4",
+    "3947e7459722",
+    "43240dd35b7f",
+    "f13413f808f3",
+    "856257d83693",
+    "78cb30162ffa",
+    "01fa44c1604e",
+    "fd0173ca7280",
+    "be53f3b96eb6"
    ]
   },
   "https://github.com/ollama/ollama/releases.atom": {
@@ -190,19 +278,65 @@
     "4a2f620f713a"
    ]
   },
+  "https://github.com/search?type=repositories&q=topic%3Aclaude-skills%20topic%3Aagent-skills%20topic%3Aclaude-code-plugin%20topic%3Aclaude-code-plugins%20topic%3Amcp-server": {
+   "newest": null,
+   "seen": [
+    "60bb3ed6ec0e",
+    "19b7744b9aab",
+    "c58a6a29df1e",
+    "c61593382f08",
+    "c040e486daa7",
+    "1c156b97aa3c",
+    "ecb27f3ae212",
+    "a99814f1bf26",
+    "d8275869d400",
+    "6835bafa337f",
+    "dcb38cfdbff3",
+    "9a25cb1bacb0",
+    "299d766afa44",
+    "0f6f931f5ee4",
+    "9693153614fe",
+    "af34c645008f",
+    "cd0d0ab7688b",
+    "2f47eb181c06",
+    "baee90922d9d",
+    "321a15bf88b2",
+    "836f83ec6b3f",
+    "9d65207b9f20",
+    "a6c5f2817931",
+    "1c750ef6350d"
+   ]
+  },
+  "https://github.com/thedotmack/claude-mem/releases.atom": {
+   "newest": "2026-10-13T21:31:41Z",
+   "seen": [
+    "044ac23edd43",
+    "33cbd398046b",
+    "b9482b79b536",
+    "9765fc738efb",
+    "6652e4e0dfaf",
+    "6e06387efeb3",
+    "4ea5c6ff64ce",
+    "adab46d197f5",
+    "2af70eade452"
+   ]
+  },
   "https://hnrss.org/frontpage?points=300": {
-   "newest": "2026-10-15T17:47:39Z",
+   "newest": "2026-10-15T20:23:25Z",
    "seen": [
     "73f957b7094f",
     "6bef5746e1b3",
     "6d6e401be3ec",
     "470b9f14f30a",
     "bffd3a287ae7",
-    "5b0bca40d1d8"
+    "5b0bca40d1d8",
+    "bc628b7d8adb",
+    "93c86dc219fd",
+    "d9e1c86d872d"
    ]
   },
   "https://huggingface.co/blog/feed.xml": {
-   "newest": "2026-10-15T20:34:01Z",
+   "newest": "2026-10-16T01:44:47Z",
    "seen": [
     "8ff67d77127c",
     "9101339b1ac2",
@@ -253,7 +387,8 @@
     "672ebf75c430",
     "3733c75a28bf",
     "9d251ac6836a",
-    "a01e02239da0"
+    "a01e02239da0",
+    "ba4e7337aba2"
    ]
   },
   "https://krebsonsecurity.com/feed/": {
@@ -327,7 +462,7 @@
    ]
   },
   "https://rss.arxiv.org/rss/cs.AI": {
-   "newest": "2026-10-15T04:00:00Z",
+   "newest": "2026-10-16T04:00:00Z",
    "seen": [
     "1a60e1a3c1a2",
     "7629afb49d81",
@@ -378,11 +513,61 @@
     "733324461028",
     "cd19dffd83ff",
     "6c27ee943986",
-    "3bf4cdefeed7"
+    "3bf4cdefeed7",
+    "e4379f813092",
+    "1de0efa00f4a",
+    "3d26f8157ad6",
+    "b2ec07dd4d6a",
+    "937695ddaeba",
+    "9b7ec7694ed7",
+    "5750d600dc5d",
+    "bb4d939ccf5c",
+    "0c1a37d01746",
+    "58425bcbcf8b",
+    "18726d833751",
+    "d1a5971fcf1f",
+    "5ccdda21c4e0",
+    "e4f9a57d95a0",
+    "046c227ea8a0",
+    "c40be0474374",
+    "717734ee077a",
+    "2a7652ae6ea7",
+    "2f6dacc51379",
+    "7dda6aa2f1c2",
+    "1288b65e4193",
+    "9cb94c57c87f",
+    "6c94a47b3731",
+    "5ee472ba5ec6",
+    "e5987102dc9b",
+    "43c328177ed1",
+    "ac7d118981b5",
+    "f6c8ee99f5b4",
+    "174efa011f0a",
+    "4ce87a9f8c6a",
+    "0c3a2ae4d47b",
+    "eb6c7f50d7a5",
+    "369fffae6c32",
+    "b79996235c0c",
+    "45d9aba8795d",
+    "111d5f00e9cf",
+    "26d4c8179a6d",
+    "c0e589abc2be",
+    "0483e8283d25",
+    "26a651681fd6",
+    "f89ad60232c3",
+    "414143af857f",
+    "3119d4a3896f",
+    "e7b98deb1215",
+    "b068738af86b",
+    "e1b0cc36bab0",
+    "adbc47102961",
+    "983d7bed7ad7",
+    "edc5f15428f2",
+    "e89b53eef65e"
    ]
   },
   "https://rss.arxiv.org/rss/cs.CR": {
-   "newest": "2026-10-15T04:00:00Z",
+   "newest": "2026-10-16T04:00:00Z",
    "seen": [
     "2aaf05337d03",
     "237b4b21d4ab",
@@ -412,11 +597,53 @@
     "f2b0d60cbef1",
     "057eabe728f5",
     "0dd273fec47d",
-    "80fe3c837b90"
+    "80fe3c837b90",
+    "c22085cca873",
+    "958895be5223",
+    "b645d86bfd10",
+    "e53d12c346e0",
+    "1f83f58ce182",
+    "869a8a7f2f8f",
+    "079017be2ae7",
+    "df4c1c5ef123",
+    "160ac8d6f8af",
+    "673bef17e9d8",
+    "2e58589e029d",
+    "e10b3fbad458",
+    "5c9bb32c4cda",
+    "1ec417b93b72",
+    "32a54a31db3c",
+    "1b36cfee7f61",
+    "915a71fa0340",
+    "3535d6033656",
+    "5f66316f1179",
+    "f8bc478d1983",
+    "0fbbf9eec883",
+    "30f4c3e02375",
+    "f50b3a5d53d2",
+    "f40222ab6abf",
+    "a37c95645a83",
+    "5cd8c1670881",
+    "f80879bdea6f",
+    "7f4ad92c21e8",
+    "233292d65ebb",
+    "5fb2841e8b66",
+    "0a0acf9e5ffa",
+    "3f4c99dfa963",
+    "6711a8a487cc",
+    "a300cbd6ff7b",
+    "9a2c763391dd",
+    "171b6d2c1f5f",
+    "c632d760d210",
+    "12255b2e48c6",
+    "16ae2715f50b",
+    "4e7176a6cbbe",
+    "8b4321452570",
+    "7edabcddc258"
    ]
   },
   "https://rss.arxiv.org/rss/cs.SE": {
-   "newest": "2026-10-15T04:00:00Z",
+   "newest": "2026-10-16T04:00:00Z",
    "seen": [
     "b3be5d591f46",
     "d781e9c67048",
@@ -433,11 +660,29 @@
     "20c5d15b7abc",
     "81b232e70b9a",
     "20262dc9da1f",
-    "94c635e5a1d0"
+    "94c635e5a1d0",
+    "b325334d8cd8",
+    "c2441c7caa2f",
+    "884e45f3b762",
+    "d2fb53a9b439",
+    "178e69e6a72d",
+    "70f2dac5f568",
+    "6f39c8d3735b",
+    "a2bd83f82026",
+    "34de69736c6c",
+    "114d9a725db8",
+    "1039e6bec992",
+    "55e304d16872",
+    "4ee48f89b5c8",
+    "8195e8687d0c",
+    "cea610f47482",
+    "89a4f660d2bc",
+    "d5edf5ab00a3",
+    "acea93570fae"
    ]
   },
   "https://www.bleepingcomputer.com/feed/": {
-   "newest": "2026-10-15T20:25:04Z",
+   "newest": "2026-10-16T07:37:35Z",
    "seen": [
     "937c7f4fab21",
     "fac7cd6e29f5",
@@ -453,7 +698,9 @@
     "20dc09b781c4",
     "b14fd868476b",
     "6c8051f534fe",
-    "a094aa58c0da"
+    "a094aa58c0da",
+    "494b44d4ddb2",
+    "d342f7137dd6"
    ]
   },
   "https://www.quantamagazine.org/feed/": {
