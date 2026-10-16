@@ -56,7 +56,7 @@
    ]
   },
   "https://feeds.feedburner.com/TheHackersNews": {
-   "newest": "2026-10-16T11:30:00Z",
+   "newest": "2026-10-16T17:48:45Z",
    "seen": [
     "4f95732c4969",
     "dc7b54e8c00a",
@@ -111,7 +111,11 @@
     "5fc8c6dd8c54",
     "f909b9dee009",
     "1fd194e19c3d",
-    "61ac6bfaa7c9"
+    "61ac6bfaa7c9",
+    "82bd71e8965d",
+    "7ca539292393",
+    "2f6312b7767d",
+    "2f67e7ff74fc"
    ]
   },
   "https://github.blog/feed/": {
@@ -130,7 +134,7 @@
    ]
   },
   "https://github.com/OthmanAdi/planning-with-files/releases.atom": {
-   "newest": "2026-10-10T10:03:51Z",
+   "newest": "2026-10-16T15:52:54Z",
    "seen": [
     "5af1b62e192c",
     "c1ae59dd25d5",
@@ -141,7 +145,8 @@
     "079215f07b80",
     "a14f6ed71615",
     "a6a00670c74d",
-    "4ac360abcc56"
+    "4ac360abcc56",
+    "5b3fdae73ae8"
    ]
   },
   "https://github.com/addyosmani/agent-skills/releases.atom": {
@@ -308,7 +313,10 @@
     "9d65207b9f20",
     "a6c5f2817931",
     "1c750ef6350d",
-    "b9d5d49ff62d"
+    "b9d5d49ff62d",
+    "658a853f2930",
+    "c0aa06e36ac6",
+    "0a5981180547"
    ]
   },
   "https://github.com/thedotmack/claude-mem/releases.atom": {
@@ -327,7 +335,7 @@
    ]
   },
   "https://hnrss.org/frontpage?points=300": {
-   "newest": "2026-10-15T23:37:42Z",
+   "newest": "2026-10-16T01:32:45Z",
    "seen": [
     "73f957b7094f",
     "6bef5746e1b3",
@@ -341,7 +349,8 @@
     "4cd6479e97f8",
     "12a9fd61f936",
     "0038e5e469ed",
-    "0ad9f1158b67"
+    "0ad9f1158b67",
+    "1e6f5003868e"
    ]
   },
   "https://huggingface.co/blog/feed.xml": {
@@ -692,7 +701,7 @@
    ]
   },
   "https://www.bleepingcomputer.com/feed/": {
-   "newest": "2026-10-16T12:01:29Z",
+   "newest": "2026-10-16T17:20:03Z",
    "seen": [
     "937c7f4fab21",
     "fac7cd6e29f5",
@@ -712,7 +721,9 @@
     "494b44d4ddb2",
     "d342f7137dd6",
     "7e8ace9d42e7",
-    "862e2db1b4e0"
+    "862e2db1b4e0",
+    "d269ee990910",
+    "50880c900177"
    ]
   },
   "https://www.quantamagazine.org/feed/": {
@@ -727,7 +738,7 @@
    ]
   },
   "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml": {
-   "newest": "2026-10-15T22:43:23Z",
+   "newest": "2026-10-16T15:00:00Z",
    "seen": [
     "18666a8c9ef2",
     "4bee47ba2525",
@@ -738,7 +749,9 @@
     "93fd72245aad",
     "6f502c5df3d9",
     "16af82df22e3",
-    "d6c98090942a"
+    "d6c98090942a",
+    "f574d6b69979",
+    "5f261f8d0910"
    ]
   }
  }
