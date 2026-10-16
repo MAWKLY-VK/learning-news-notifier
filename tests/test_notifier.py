@@ -42,16 +42,16 @@ def rss(items, extra_ns="") -> bytes:
 
 
 def atom_releases(tags) -> bytes:
-    """tags: (tag, hours after BASE)"""
+    """tags: (tag, hours after BASE[, release notes])"""
     entries = "".join(
         f"<entry><id>tag:github.com,2008:Repository/1/{tag}</id>"
         f"<updated>{(BASE + timedelta(hours=hours)).isoformat()}</updated>"
         f'<link rel="alternate" type="text/html" href="https://github.com/acme/tool/releases/tag/{tag}"/>'
         f"<title>{tag}</title>"
         f'<content type="html">&lt;h2&gt;What&#39;s changed&lt;/h2&gt;&lt;ul&gt;'
-        f"&lt;li&gt;Added the {tag} feature by @someone in #12&lt;/li&gt;&lt;/ul&gt;</content>"
+        f"&lt;li&gt;{notes[0] if notes else f'Added the {tag} feature'} by @someone in #12&lt;/li&gt;&lt;/ul&gt;</content>"
         f'<media:thumbnail height="30" width="30" url="https://avatars.example/u/1"/></entry>'
-        for tag, hours in tags
+        for tag, hours, *notes in tags
     )
     return ('<?xml version="1.0" encoding="UTF-8"?><feed xmlns="http://www.w3.org/2005/Atom" '
             'xmlns:media="http://search.yahoo.com/mrss/"><title>Release notes</title>'
@@ -253,6 +253,88 @@ class Filters(NotifierTestCase):
         self.assertEqual(self.titles(), ["Brand new"])
 
 
+def repo(full_name, stars, description="", topics=()):
+    owner, name = full_name.split("/")
+    return {
+        "full_name": full_name, "name": name, "html_url": f"https://github.com/{full_name}",
+        "description": description if description is not None else None,
+        "stargazers_count": stars, "created_at": "2026-10-10T08:00:00Z", "topics": list(topics),
+        "owner": {"login": owner, "html_url": f"https://github.com/{owner}", "avatar_url": f"https://avatars.example/{owner}"},
+        "fork": False, "archived": False,
+    }
+
+
+class AddOns(NotifierTestCase):
+    """The github_search source, add-on releases and filtered commit feeds."""
+
+    def setUp(self):
+        super().setUp()
+        config = json.loads(json.dumps(CONFIG))
+        config["channels"][0]["feeds"] += [
+            {"name": "Add-ons", "kind": "github_search", "topics": ["skills", "plugins"],
+             "min_stars": 100, "days": 14, "limit": 2, "skip_text": "[一-鿿]"},
+            {"name": "Official", "url": "https://github.com/acme/skills/commits/main.atom",
+             "skip_title": "(?i)^Merge |^(?!.*\\bskills?\\b)", "heading": "🔄 **تحديث رسمي**"},
+        ]
+        self.config.write_text(json.dumps(config, ensure_ascii=False), encoding="utf-8")
+        self.results = {"skills": [repo("a/one", 500, "Does one thing")], "plugins": [repo("a/one", 500, "Does one thing")]}
+        self.queries = []
+        self.world.feeds["https://github.com/acme/skills/commits/main.atom"] = atom_releases([("Old skill work", 1)])
+
+        def search(query):
+            self.queries.append(query)
+            return {"items": self.results[query.split()[0].split(":")[1]]}
+
+        patch = mock.patch.object(notifier, "github_search_page", search)
+        patch.start()
+        self.addCleanup(patch.stop)
+
+    def test_new_popular_repo_is_posted_once_with_its_card(self):
+        self.run_notifier()
+        self.assertEqual(self.world.posted, [])
+        self.assertTrue(all("created:>=" in query and "stars:>=100" in query for query in self.queries))
+        self.assertIn("topic:plugins", self.queries[-1])
+
+        three = repo("c/three", 900, "Does three things", topics=["plugins", "claude"])
+        self.results["plugins"].append(three)
+        self.results["skills"] += [three, repo("d/zh", 800, "一个技能"), repo("e/blank", 700, None)]
+        self.run_notifier()
+        self.assertEqual(len(self.world.posted), 1)  # the same repository in two topics, posted once
+        payload = self.world.posted[0][1]
+        embed = payload["embeds"][0]
+        self.assertEqual(payload["thread_name"], "🧩 three: عربي Does three things")
+        self.assertEqual(embed["title"], "c/three")
+        self.assertEqual(embed["url"], "https://github.com/c/three")
+        self.assertEqual(embed["image"]["url"], "https://opengraph.githubassets.com/1/c/three")
+        self.assertEqual(embed["author"]["name"], "c")
+        self.assertEqual(embed["footer"]["text"], "Does three things")
+        self.assertIn("900 نجمة", embed["description"])
+        self.assertIn("`plugins` `claude`", embed["description"])
+
+        self.run_notifier()
+        self.assertEqual(len(self.world.posted), 1)
+
+    def test_release_title_text_is_translated(self):
+        self.run_notifier()
+        self.world.feeds[RELEASES_URL] = atom_releases([("v1.2.0: Faster startup", 30, "Fixed a crash"), ("v1.0.0", 1)])
+        self.run_notifier()
+        payload = self.world.posted[0][1]
+        self.assertEqual(payload["thread_name"], "🆕 Tool v1.2.0")
+        self.assertEqual(payload["embeds"][0]["title"], "Tool v1.2.0")
+        self.assertIn("عربي Faster startup", payload["embeds"][0]["description"])
+
+    def test_commit_feed_keeps_only_skill_changes(self):
+        self.run_notifier()
+        self.world.feeds["https://github.com/acme/skills/commits/main.atom"] = atom_releases([
+            ("Merge pull request #9 from x/skill-fix", 40), ("Fix a typo in the README", 30),
+            ("Update pdf skill to read tables", 20), ("Old skill work", 1)])
+        self.run_notifier()
+        self.assertEqual(self.titles(), ["Update pdf skill to read tables"])
+        embed = self.world.posted[0][1]["embeds"][0]
+        self.assertTrue(embed["description"].startswith("🔄 **تحديث رسمي**"))
+        self.assertEqual(embed["author"]["url"], "https://github.com/acme/skills")
+
+
 class Payloads(NotifierTestCase):
     def test_forum_and_text_payloads(self):
         long_title = "Very long headline " * 10
@@ -371,6 +453,24 @@ class Parsing(unittest.TestCase):
 
         protected, tokens = notifier.protect("fix(acp): open /config for an LLM-Referenced C-test")
         self.assertEqual(tokens, ["fix(acp):", "/config", "LLM-Referenced", "C-test"])
+        self.assertEqual(notifier.protect("Update the claude-api skill and a long-running task")[1], ["claude-api"])
+        self.assertEqual(notifier.split_release_title("v2.11.37 — Copy reads the ledger"), ("v2.11.37", "Copy reads the ledger"))
+        self.assertEqual(notifier.split_release_title("Agent Skills 0.6.13"), ("Agent Skills 0.6.13", ""))
+        self.assertEqual(notifier.split_release_title("Release v5.20.0"), ("v5.20.0", ""))
+        self.assertEqual(notifier.protect("Claude-mem now loads faster", keep=("claude-mem",))[1], ["Claude-mem"])
+
+    def test_cut_commit_title_is_completed_and_release_headline_not_repeated(self):
+        data = ('<feed xmlns="http://www.w3.org/2005/Atom"><entry><id>c1</id>'
+                '<link rel="alternate" href="https://github.com/a/b/commit/1"/>'
+                "<title>Update pdf skill: better tab…</title><updated>2026-10-01T00:00:00Z</updated>"
+                '<content type="html">&lt;pre&gt;Update pdf skill: better tables everywhere\n\nMore.&lt;/pre&gt;'
+                "</content></entry></feed>").encode("utf-8")
+        self.assertEqual(notifier.parse_feed(data).items[0].title, "Update pdf skill: better tables everywhere")
+
+        feed = notifier.Feed(name="Tool", url=RELEASES_URL, limit=1, kind="release")
+        item = notifier.Item("k", "v1.3.0 — Faster startup everywhere", "https://x", None, "",
+                             "<p>Faster startup everywhere, thanks to caching.</p>", None, "", None, 0)
+        self.assertEqual(notifier.item_summary(item, feed), "Faster startup everywhere, thanks to caching.")
         self.assertEqual(notifier.tidy("جلب GPT - Rosalind ؟", "Bringing GPT-Rosalind?"), "جلب GPT-Rosalind؟")
 
     def test_bad_config_is_reported(self):

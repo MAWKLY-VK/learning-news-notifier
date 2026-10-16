@@ -42,6 +42,9 @@ jobs:
           DISCORD_WEBHOOK_PROGRAMMING: ${{ secrets.DISCORD_WEBHOOK_PROGRAMMING }}
           DISCORD_WEBHOOK_SECURITY: ${{ secrets.DISCORD_WEBHOOK_SECURITY }}
           DISCORD_WEBHOOK_RESEARCH: ${{ secrets.DISCORD_WEBHOOK_RESEARCH }}
+          # Provided by GitHub automatically (no secret to add): used to search
+          # GitHub for new popular add-ons (the "github_search" source).
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           # Optional secret, strongly recommended: an email raises the free
           # MyMemory translation quota from 5,000 to 50,000 characters a day.
           MYMEMORY_EMAIL: ${{ secrets.MYMEMORY_EMAIL }}

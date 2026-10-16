@@ -17,7 +17,19 @@
         {"name": "Codex CLI", "url": "https://github.com/openai/codex/releases.atom", "kind": "release"},
         {"name": "Gemini CLI", "url": "https://github.com/google-gemini/gemini-cli/releases.atom", "kind": "release"},
         {"name": "Open WebUI", "url": "https://github.com/open-webui/open-webui/releases.atom", "kind": "release"},
-        {"name": "Transformers", "url": "https://github.com/huggingface/transformers/releases.atom", "kind": "release"}
+        {"name": "Transformers", "url": "https://github.com/huggingface/transformers/releases.atom", "kind": "release"},
+        {"name": "إضافات جديدة رائجة", "kind": "github_search",
+         "topics": ["claude-skills", "agent-skills", "claude-code-plugin", "claude-code-plugins", "mcp-server"],
+         "min_stars": 150, "days": 14, "limit": 2,
+         "skip_text": "[぀-ヿ㐀-鿿가-힯]"},
+        {"name": "Anthropic Skills", "url": "https://github.com/anthropics/skills/commits/main.atom", "limit": 2,
+         "skip_title": "(?i)^Merge |^(?!.*\\bskills?\\b)",
+         "heading": "🔄 **تحديث في مهارات Anthropic الرسمية**"},
+        {"name": "Marketing Skills", "url": "https://github.com/coreyhaines31/marketingskills/releases.atom", "kind": "release", "limit": 1},
+        {"name": "claude-mem", "url": "https://github.com/thedotmack/claude-mem/releases.atom", "kind": "release", "limit": 1},
+        {"name": "Planning with Files", "url": "https://github.com/OthmanAdi/planning-with-files/releases.atom", "kind": "release", "limit": 1},
+        {"name": "Agent Skills", "url": "https://github.com/addyosmani/agent-skills/releases.atom", "kind": "release", "limit": 1},
+        {"name": "context-mode", "url": "https://github.com/mksglu/context-mode/releases.atom", "kind": "release", "limit": 1}
       ]
     },
     {

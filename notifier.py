@@ -12,6 +12,10 @@ Titles and summaries are machine translated to Arabic with the free MyMemory
 API (MYMEMORY_EMAIL raises its daily quota); the original English title is kept
 in the card footer. When translation fails the card stays in English.
 
+A source can also be a GitHub search ("kind": "github_search"): new
+repositories with given topics (agent skills, Claude Code plugins, MCP
+servers...) that passed a number of stars within a few days of being created.
+
 What was already seen is remembered in state.json, per feed. Only the Python
 standard library is used.
 
@@ -71,6 +75,8 @@ MAX_FEED_BYTES = 10_000_000
 MAX_PAGE_BYTES = 400_000
 
 COLOR_RELEASE = 0xD29922
+COLOR_REPO = 0x8250DF
+GITHUB_API = "https://api.github.com"
 
 WEBHOOK_RE = re.compile(
     r"^https://(?:(?:ptb|canary)\.)?discord(?:app)?\.com/api/(?:v\d+/)?webhooks/\d+/[\w-]+"
@@ -80,7 +86,8 @@ SECRET_NAME_RE = re.compile(r"^[A-Z][A-Z0-9_]*$")
 PRERELEASE_RE = re.compile(
     r"(?i)\b(?:alpha|beta|rc|pre|preview|nightly|canary|dev|snapshot)\d*\b|\d(?:a|b|rc)\d"
 )
-GITHUB_RELEASES_RE = re.compile(r"^https://github\.com/([\w.-]+)/([\w.-]+)/releases\.atom$")
+# GitHub's Atom feeds of a repository: releases, tags and the commits of a branch.
+GITHUB_FEED_RE = re.compile(r"^https://github\.com/([\w.-]+)/([\w.-]+)/(?:releases|tags|commits/[\w./-]+)\.atom$")
 
 log = logging.getLogger("learning-news")
 
@@ -98,7 +105,7 @@ class Feed:
     name: str
     url: str
     limit: int
-    kind: str = "news"  # "news" | "release"
+    kind: str = "news"  # "news" | "release" | "github_search"
     skip_title: re.Pattern | None = None
     skip_text: re.Pattern | None = None
     page_image: bool = False
@@ -106,6 +113,13 @@ class Feed:
     show_authors: bool = False
     icon: str | None = None
     color: int | None = None
+    heading: str | None = None  # first line of every card from this feed
+    # github_search: repositories with any of these topics (or matching query),
+    # created in the last `days` days, with at least `min_stars` stars.
+    topics: list[str] = field(default_factory=list)
+    query: str = ""
+    min_stars: int = 100
+    days: int = 14
 
 
 @dataclass
@@ -162,8 +176,23 @@ def load_config(path: Path) -> list[Channel]:
         channel_limit = raw.get("limit", default_limit)
         feeds = []
         for raw_feed in raw.get("feeds") or []:
-            url = str(raw_feed.get("url") or "").strip()
-            feed_where = f"{where} feed {url or raw_feed.get('name')}"
+            feed_kind = raw_feed.get("kind", "news")
+            feed_where = f"{where} feed {raw_feed.get('url') or raw_feed.get('name')}"
+            if feed_kind not in ("news", "release", "github_search"):
+                raise NotifierError(f"{feed_where}: \"kind\" must be \"news\", \"release\" or \"github_search\"")
+            topics = [str(topic).strip() for topic in raw_feed.get("topics") or [] if str(topic).strip()]
+            query = str(raw_feed.get("query") or "").strip()
+            if feed_kind == "github_search":
+                if not topics and not query:
+                    raise NotifierError(f"{feed_where}: a github_search needs \"topics\" or \"query\"")
+                for name in ("min_stars", "days"):
+                    if not isinstance(raw_feed.get(name, 1), int) or raw_feed.get(name, 1) < 1:
+                        raise NotifierError(f"{feed_where}: \"{name}\" must be a whole number, 1 or more")
+                # The search page on github.com: what state.json remembers this source by.
+                terms = " ".join([f"topic:{topic}" for topic in topics] + ([query] if query else []))
+                url = "https://github.com/search?type=repositories&q=" + urllib.parse.quote(terms)
+            else:
+                url = str(raw_feed.get("url") or "").strip()
             if not url.startswith(("https://", "http://")):
                 raise NotifierError(f"{feed_where}: \"url\" must start with https://")
             if url in urls:
@@ -172,9 +201,6 @@ def load_config(path: Path) -> list[Channel]:
             limit = raw_feed.get("limit", channel_limit)
             if not isinstance(limit, int) or limit < 0:
                 raise NotifierError(f"{feed_where}: \"limit\" must be a whole number, 0 or more")
-            feed_kind = raw_feed.get("kind", "news")
-            if feed_kind not in ("news", "release"):
-                raise NotifierError(f"{feed_where}: \"kind\" must be \"news\" or \"release\"")
             skip_title = raw_feed.get("skip_title")
             if feed_kind == "release" and not raw_feed.get("prereleases") and not skip_title:
                 skip_title = PRERELEASE_RE.pattern
@@ -190,6 +216,11 @@ def load_config(path: Path) -> list[Channel]:
                 show_authors=bool(raw_feed.get("show_authors")),
                 icon=raw_feed.get("icon") or None,
                 color=parse_color(raw_feed["color"], feed_where) if raw_feed.get("color") else None,
+                heading=str(raw_feed.get("heading") or "").strip() or None,
+                topics=topics,
+                query=query,
+                min_stars=raw_feed.get("min_stars", 100),
+                days=raw_feed.get("days", 14),
             ))
         if not feeds:
             raise NotifierError(f"{where}: no feeds")
@@ -212,9 +243,10 @@ def load_config(path: Path) -> list[Channel]:
 # Fetching
 # --------------------------------------------------------------------------
 
-def http_get(url: str, accept: str, limit: int, timeout: float = 30, partial: bool = False) -> bytes:
+def http_get(url: str, accept: str, limit: int, timeout: float = 30, partial: bool = False,
+             extra_headers: dict | None = None) -> bytes:
     """GET a URL; one retry on network errors and server errors."""
-    headers = {"User-Agent": USER_AGENT, "Accept": accept, "Accept-Language": "en"}
+    headers = {"User-Agent": USER_AGENT, "Accept": accept, "Accept-Language": "en", **(extra_headers or {})}
     for attempt in range(2):
         request = urllib.request.Request(url, headers=headers)
         try:
@@ -250,6 +282,65 @@ def fetch_page(url: str) -> str:
     return data.decode("utf-8", "replace")
 
 
+def github_search_page(query: str) -> dict:
+    """One page of GitHub's repository search, most starred first."""
+    headers = {"X-GitHub-Api-Version": "2022-11-28"}
+    token = os.environ.get("GITHUB_TOKEN") or os.environ.get("GH_TOKEN")
+    if token:
+        headers["Authorization"] = f"Bearer {token}"
+    params = urllib.parse.urlencode({"q": query, "sort": "stars", "order": "desc", "per_page": SCAN})
+    data = http_get(f"{GITHUB_API}/search/repositories?{params}", "application/vnd.github+json",
+                    MAX_FEED_BYTES, extra_headers=headers)
+    try:
+        return json.loads(data)
+    except ValueError:
+        raise NotifierError("GitHub search returned something that is not JSON") from None
+
+
+def search_github(feed: Feed, now: datetime) -> ParsedFeed:
+    """Repositories of the feed's topics created in its last `days` days, most starred first."""
+    since = (now - timedelta(days=feed.days)).date().isoformat()
+    filters = f"created:>={since} stars:>={feed.min_stars}"
+    queries = [f"topic:{topic} {feed.query} {filters}" for topic in feed.topics] or [f"{feed.query} {filters}"]
+    repos: dict[str, dict] = {}
+    for query in queries:
+        for repo in github_search_page(" ".join(query.split())).get("items") or []:
+            # One repository often has several of the topics: it is kept once.
+            if repo.get("full_name") and repo.get("description") and not repo.get("fork") and not repo.get("archived"):
+                repos.setdefault(repo["full_name"], repo)
+    ordered = sorted(repos.values(), key=lambda repo: repo.get("stargazers_count") or 0, reverse=True)
+    return ParsedFeed("GitHub", None, [repo_item(repo, position) for position, repo in enumerate(ordered)])
+
+
+def repo_item(repo: dict, position: int) -> Item:
+    owner = repo.get("owner") or {}
+    description = " ".join(str(repo["description"]).split())
+    return Item(
+        key=hashlib.sha1(f"github:{repo['full_name'].lower()}".encode("utf-8")).hexdigest()[:12],
+        title=repo.get("name") or repo["full_name"],
+        link=repo["html_url"],
+        # No date: a repository is new to us when it first passes the star
+        # threshold, which can be days after it was created.
+        date=None,
+        summary_html=html.escape(description),
+        content_html="",
+        # GitHub's social card: name, description and stars as a picture.
+        image=f"https://opengraph.githubassets.com/1/{repo['full_name']}",
+        author=owner.get("login") or "",
+        comments=None,
+        position=position,
+        extra={
+            "repo": repo["full_name"],
+            "description": description,
+            "stars": repo.get("stargazers_count") or 0,
+            "created": (repo.get("created_at") or "")[:10],
+            "topics": list(repo.get("topics") or [])[:6],
+            "owner_url": owner.get("html_url"),
+            "owner_avatar": owner.get("avatar_url"),
+        },
+    )
+
+
 # --------------------------------------------------------------------------
 # Feed parsing (RSS 2.0, RSS 1.0 and Atom)
 # --------------------------------------------------------------------------
@@ -270,6 +361,7 @@ class Item:
     author: str
     comments: str | None
     position: int
+    extra: dict = field(default_factory=dict)  # github_search: stars, topics...
 
 
 @dataclass
@@ -436,6 +528,12 @@ def parse_item(node, position: int) -> Item | None:
             break
     summary = markup_of(child(node, "description", "summary"))
     content = markup_of(child(node, "encoded", "content"))
+    if title.endswith("…"):
+        # GitHub cuts long commit titles short; the whole message is in the content.
+        whole = html.unescape(re.sub(r"<[^>]+>", "", content or summary)).strip()
+        first_line = whole.splitlines()[0].strip() if whole else ""
+        if first_line.startswith(title[:-1].rstrip()):
+            title = first_line
     author = text_of(child(node, "creator"))
     if not author:
         authors = [text_of(child(element, "name")) for element in node if local(element.tag) == "author"]
@@ -572,6 +670,18 @@ def excerpt(text: str, limit: int = SUMMARY_CHARS) -> str:
     return "\n".join(picked)
 
 
+# "v3.24.0: Qoder CLI support", "v2.11.37 — Copywriting reads the ledger"
+RELEASE_TITLE_RE = re.compile(r"^(?:Release:?\s+)?(.*?\bv?\d+(?:\.\d+)+[\w.+-]*)\s*(?::|—|–|\s-)\s+(.+)$")
+
+
+def split_release_title(title: str) -> tuple[str, str]:
+    """(version, what the release title says besides the version)."""
+    match = RELEASE_TITLE_RE.match(title)
+    if match:
+        return match.group(1).strip(), match.group(2).strip()
+    return re.sub(r"^Release:?\s+", "", title).strip(), ""
+
+
 def item_summary(item: Item, feed: Feed) -> str:
     sources = [item.content_html, item.summary_html] if feed.kind == "release" else [
         item.summary_html, item.content_html]
@@ -582,6 +692,11 @@ def item_summary(item: Item, feed: Feed) -> str:
             text = candidate
             break
         text = text or candidate
+    if feed.kind == "release":
+        headline = split_release_title(item.title)[1]
+        # Often the notes open with the same sentence as the title.
+        if headline and headline.rstrip(".…").lower()[:40] not in text[:300].lower():
+            text = f"{headline}\n{text}" if text else headline
     if text and text.strip().lower() == item.title.strip().lower():
         return ""
     return excerpt(text)
@@ -601,8 +716,9 @@ PROTECT_PATTERNS = [
     r"^[a-z]+(?:\([^)]*\))?!?:(?=\s)",  # "fix(scope):" of commit-style release notes
     r"(?<![\w/])/[a-z][\w-]*",  # slash commands such as /config
     r"\bCVE-\d{4}-\d+\b",
-    r"\b(?:RCE|XSS|CSRF|SQLi|DDoS|VPN|SDK|CLI|GPU|CPU)\b",
+    r"\b(?:RCE|XSS|CSRF|SQLi|DDoS|VPN|SDK|CLI|GPU|CPU|MCP|MIT)\b",
     r"\b[A-Z][A-Za-z0-9]*(?:-[A-Za-z0-9]+)+\b",  # GPT-Rosalind, C-RADIO, LLM-Referenced
+    r"\b[a-z0-9]+(?:-[a-z0-9]+)+(?= (?:skill|plugin|server|agent|extension|hook)s?\b)",  # the claude-api skill
     r"\bClaude(?: (?:Code|Opus|Sonnet|Haiku))?(?: \d+(?:\.\d+)*)?\b",
     r"\b(?:Hugging Face|Hacker News|The Verge|Quanta Magazine|Krebs on Security|Google DeepMind|DeepMind"
     r"|OpenAI|Anthropic|Gemini|Gemma|Llama|Ollama|Mistral|DeepSeek|Qwen|Codex|Copilot|ChatGPT|Sora|Grok"
@@ -635,7 +751,8 @@ GLOSSARY = [
 PLACEHOLDER_RE = re.compile(r"ZQ\s?(\d+)")
 
 
-def protect(text: str) -> tuple[str, list[str]]:
+def protect(text: str, keep: tuple[str, ...] = ()) -> tuple[str, list[str]]:
+    """Swap what must not be translated for placeholders; `keep` adds names such as claude-mem."""
     tokens: list[str] = []
 
     def swap(pattern: str, replacement: str | None) -> None:
@@ -651,6 +768,9 @@ def protect(text: str) -> tuple[str, list[str]]:
 
     for pattern in PROTECT_PATTERNS[:2]:  # links and code before anything else
         swap(pattern, None)
+    for word in keep:
+        if re.search(r"[A-Za-z]", word):
+            swap(rf"(?i)(?<![\w-]){re.escape(word)}(?![\w-])", None)
     for pattern, arabic in GLOSSARY:
         swap(pattern, arabic)
     for pattern in PROTECT_PATTERNS[2:]:
@@ -690,7 +810,7 @@ class Translator:
     def __init__(self, enabled: bool, email: str | None):
         self.enabled = enabled
         self.email = email
-        self.cache: dict[str, str | None] = {}
+        self.cache: dict[tuple, str | None] = {}
         self.calls = 0
         self.chars = 0
 
@@ -698,13 +818,14 @@ class Translator:
     def status(self) -> str:
         return "MyMemory" + (" (email quota)" if self.email else "") if self.enabled else "off"
 
-    def __call__(self, text: str) -> str | None:
+    def __call__(self, text: str, keep: tuple[str, ...] = ()) -> str | None:
         text = " ".join(text.split())
         if not self.enabled or not text:
             return None
-        if text in self.cache:
-            return self.cache[text]
-        protected, tokens = protect(text)
+        key = (text, keep)
+        if key in self.cache:
+            return self.cache[key]
+        protected, tokens = protect(text, keep)
         if not re.search(r"[A-Za-z]{2,}", PLACEHOLDER_RE.sub("", protected)):
             return text  # only names, code and numbers: nothing to translate
         try:
@@ -720,7 +841,7 @@ class Translator:
         result = tidy(" ".join(result.split()), text) if result else None
         if result and not re.search(r"[\u0600-\u06FF]", result):
             result = None  # came back untranslated
-        self.cache[text] = result
+        self.cache[key] = result
         return result
 
     def fetch(self, text: str) -> str:
@@ -752,14 +873,14 @@ class Translator:
         return html.unescape(translated)
 
 
-def translate_block(text: str, translate: Translator) -> str | None:
+def translate_block(text: str, translate: Translator, keep: tuple[str, ...] = ()) -> str | None:
     """Translate line by line, keeping "• " bullets; None unless every line worked."""
     out = []
     for line in text.splitlines():
         bullet = line.startswith("• ")
         body = line[2:] if bullet else line
         trailing = " …" if body.endswith(" …") else ""
-        translated = translate(body[: -len(trailing)] if trailing else body)
+        translated = translate(body[: -len(trailing)] if trailing else body, keep)
         if not translated:
             return None
         out.append(("• " if bullet else "") + translated + trailing)
@@ -893,15 +1014,23 @@ def link_url(url: str) -> str:
 
 
 def release_title(post: Post) -> str:
-    title = re.sub(r"^(?:Release:?\s+)", "", post.item.title).strip()
+    title = split_release_title(post.item.title)[0]
     if post.feed.name.lower() not in title.lower():
         title = f"{post.feed.name} {title}"
     return title
 
 
 def feed_author(post: Post) -> dict:
+    if post.feed.kind == "github_search":
+        extra = post.item.extra
+        author = {"name": truncate(post.item.author or extra["repo"].split("/")[0], 256)}
+        if extra.get("owner_url"):
+            author["url"] = extra["owner_url"]
+        if extra.get("owner_avatar"):
+            author["icon_url"] = extra["owner_avatar"]
+        return author
     author = {"name": truncate(post.feed.name, 256)}
-    match = GITHUB_RELEASES_RE.match(post.feed.url)
+    match = GITHUB_FEED_RE.match(post.feed.url)
     if match:
         author["url"] = f"https://github.com/{match.group(1)}/{match.group(2)}"
     icon = post.feed.icon or post.icon
@@ -916,22 +1045,33 @@ def build_message(post: Post) -> tuple[dict, str]:
     """The Discord embed of a post and the name of its forum thread."""
     feed, item = post.feed, post.item
     release = feed.kind == "release"
-    lines = []
+    repo = feed.kind == "github_search"
+    summary = post.summary_ar or post.summary
+    lines = [feed.heading] if feed.heading else []
     if release:
         title = release_title(post)
-        lines.append(f"🆕 **إصدار جديد من {escape_markdown(feed.name)}**")
+        lines = lines or [f"🆕 **إصدار جديد من {escape_markdown(feed.name)}**"]
         thread_name = f"🆕 {title}"
-        match = GITHUB_RELEASES_RE.match(feed.url)
+        match = GITHUB_FEED_RE.match(feed.url)
         footer = f"{match.group(1)}/{match.group(2)} · {item.title}" if match else f"{feed.name} · {item.title}"
+    elif repo:
+        extra = item.extra
+        title = extra["repo"]
+        lines = lines or ["🧩 **إضافة جديدة رائجة**"]
+        lines.append(f"⭐ {extra['stars']:,} نجمة · 📅 أُنشئت في {extra['created']}")
+        # The forum list shows only the post's name: put what it does there too.
+        thread_name = f"🧩 {item.title}: {summary}" if summary else f"🧩 {item.title}"
+        footer = extra["description"] if post.summary_ar else extra["repo"]
     else:
         title = post.title_ar or item.title
         thread_name = title
         footer = item.title if post.title_ar else feed.name
-    summary = post.summary_ar or post.summary
     if summary:
         if lines:
             lines.append("")
         lines.append(escape_markdown(summary))
+    if repo and item.extra.get("topics"):
+        lines += ["", "🏷️ " + " ".join(f"`{topic}`" for topic in item.extra["topics"])]
     if feed.show_authors and item.author:
         lines += ["", f"✍️ {escape_markdown(truncate(item.author, 200))}"]
     # Aggregators such as Hacker News link to someone else's article and keep
@@ -940,6 +1080,8 @@ def build_message(post: Post) -> tuple[dict, str]:
     discussion = item.comments if item.comments and urllib.parse.urlsplit(item.comments).hostname != host else None
     if release:
         label = "ملاحظات الإصدار"
+    elif repo:
+        label = "المستودع على GitHub"
     elif discussion:
         label = "اقرأ المقال"
     else:
@@ -953,7 +1095,8 @@ def build_message(post: Post) -> tuple[dict, str]:
         "title": truncate(title, 256),
         "url": item.link,
         "description": truncate("\n".join(lines).strip(), 4000),
-        "color": feed.color if feed.color is not None else (COLOR_RELEASE if release else post.channel.color),
+        "color": feed.color if feed.color is not None else (
+            COLOR_RELEASE if release else COLOR_REPO if repo else post.channel.color),
         "footer": {"text": truncate(footer, 2048)},
     }
     if item.date:
@@ -1057,9 +1200,11 @@ def warn(message: str) -> None:
         print(f"::warning::{message}", flush=True)  # shown on the run's summary page
 
 
-def fetch_all(feeds: list[Feed]) -> dict[str, ParsedFeed | NotifierError]:
+def fetch_all(feeds: list[Feed], now: datetime) -> dict[str, ParsedFeed | NotifierError]:
     def one(feed: Feed):
         try:
+            if feed.kind == "github_search":
+                return search_github(feed, now)
             return parse_feed(fetch_feed(feed.url))
         except NotifierError as error:
             return error
@@ -1123,8 +1268,8 @@ def run(args) -> int:
     state = load_state(args.state)
     before = json.dumps(state, sort_keys=True)
     feeds = [feed for channel in channels for feed in channel.feeds]
-    results = fetch_all(feeds)
     now = datetime.now(timezone.utc)
+    results = fetch_all(feeds, now)
 
     plans: dict[str, list[Post]] = {}
     new_states: dict[str, dict] = {}
@@ -1157,12 +1302,14 @@ def run(args) -> int:
     translate = Translator(args.translate, os.environ.get("MYMEMORY_EMAIL", "").strip() or None)
     # Titles first: when the daily quota runs out, the titles are what matters most.
     for post in all_posts:
-        if post.feed.kind != "release":
-            translated = translate(post.item.title)
+        if post.feed.kind == "news":  # release versions and repository names stay as they are
+            translated = translate(post.item.title, (post.feed.name,))
             post.title_ar = translated if translated != " ".join(post.item.title.split()) else None
     for post in all_posts:
         if post.summary:
-            post.summary_ar = translate_block(post.summary, translate)
+            # The source's own name (claude-mem, a repository) is not a word to translate.
+            keep = (post.feed.name, post.item.title) if post.feed.kind == "github_search" else (post.feed.name,)
+            post.summary_ar = translate_block(post.summary, translate, keep)
     for post in all_posts:
         embed, thread_name = build_message(post)
         post.payload = message_payload(post.channel, embed, thread_name)
