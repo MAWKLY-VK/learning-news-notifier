@@ -165,7 +165,7 @@
    ]
   },
   "https://github.com/anthropics/claude-code/releases.atom": {
-   "newest": "2026-10-15T19:22:06Z",
+   "newest": "2026-10-16T20:53:06Z",
    "seen": [
     "e630e4025c88",
     "b0ee8db96d1f",
@@ -176,7 +176,8 @@
     "36a70aeeef0d",
     "a0c68459b46f",
     "46551c8c7e30",
-    "42001fcc32b2"
+    "42001fcc32b2",
+    "cfc00a6fd426"
    ]
   },
   "https://github.com/anthropics/skills/commits/main.atom": {
@@ -257,11 +258,12 @@
    ]
   },
   "https://github.com/ollama/ollama/releases.atom": {
-   "newest": "2026-10-15T19:18:39Z",
+   "newest": "2026-10-16T22:43:31Z",
    "seen": [
     "8cb56d93255a",
     "ea4ec1f2b6c3",
-    "88ccb3f23d38"
+    "88ccb3f23d38",
+    "5aa9008397e0"
    ]
   },
   "https://github.com/open-webui/open-webui/releases.atom": {
@@ -335,7 +337,7 @@
    ]
   },
   "https://hnrss.org/frontpage?points=300": {
-   "newest": "2026-10-16T01:32:45Z",
+   "newest": "2026-10-16T18:55:59Z",
    "seen": [
     "73f957b7094f",
     "6bef5746e1b3",
@@ -350,7 +352,9 @@
     "12a9fd61f936",
     "0038e5e469ed",
     "0ad9f1158b67",
-    "1e6f5003868e"
+    "1e6f5003868e",
+    "74380c15b89d",
+    "894970a00b03"
    ]
   },
   "https://huggingface.co/blog/feed.xml": {
@@ -426,7 +430,7 @@
    ]
   },
   "https://openai.com/news/rss.xml": {
-   "newest": "2026-10-15T19:00:00Z",
+   "newest": "2026-10-16T19:00:00Z",
    "seen": [
     "1dd9ce125c6e",
     "1d5a9cc2d950",
@@ -477,7 +481,9 @@
     "a0e0fec2c2b5",
     "dd00c04c9b95",
     "fa14b8f7db46",
-    "a72d1e4da6b0"
+    "a72d1e4da6b0",
+    "9db4940a53f8",
+    "65442e708214"
    ]
   },
   "https://rss.arxiv.org/rss/cs.AI": {
@@ -701,7 +707,7 @@
    ]
   },
   "https://www.bleepingcomputer.com/feed/": {
-   "newest": "2026-10-16T17:20:03Z",
+   "newest": "2026-10-16T20:00:59Z",
    "seen": [
     "937c7f4fab21",
     "fac7cd6e29f5",
@@ -723,7 +729,8 @@
     "7e8ace9d42e7",
     "862e2db1b4e0",
     "d269ee990910",
-    "50880c900177"
+    "50880c900177",
+    "8dfac5c34b84"
    ]
   },
   "https://www.quantamagazine.org/feed/": {
