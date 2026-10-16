@@ -1,0 +1,67 @@
+name: Learning news to Discord
+
+on:
+  schedule:
+    # Every 6 hours, at 00:08, 06:08, 12:08 and 18:08 in UTC+3 (cron is in
+    # UTC). GitHub may start scheduled runs a few minutes late.
+    - cron: "8 3,9,15,21 * * *"
+  workflow_dispatch:
+    inputs:
+      latest:
+        description: "Also post the newest N items of every feed (webhook test). 0 = normal run"
+        required: false
+        default: "0"
+      dry_run:
+        description: "Only print the messages in the run log; post nothing"
+        type: boolean
+        default: false
+      channel:
+        description: "Only these channels: ai, programming, security, research (comma separated). Empty = all"
+        required: false
+        default: ""
+
+permissions:
+  contents: write # commit state.json
+
+concurrency:
+  group: learning-news-notifier
+  cancel-in-progress: false
+
+jobs:
+  notify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v6
+
+      - name: Post new items to Discord
+        env:
+          # One webhook per Discord channel, each a repository secret. A new
+          # channel in feeds.json needs its secret added here too.
+          DISCORD_WEBHOOK_AI: ${{ secrets.DISCORD_WEBHOOK_AI }}
+          DISCORD_WEBHOOK_PROGRAMMING: ${{ secrets.DISCORD_WEBHOOK_PROGRAMMING }}
+          DISCORD_WEBHOOK_SECURITY: ${{ secrets.DISCORD_WEBHOOK_SECURITY }}
+          DISCORD_WEBHOOK_RESEARCH: ${{ secrets.DISCORD_WEBHOOK_RESEARCH }}
+          # Optional secret, strongly recommended: an email raises the free
+          # MyMemory translation quota from 5,000 to 50,000 characters a day.
+          MYMEMORY_EMAIL: ${{ secrets.MYMEMORY_EMAIL }}
+          # "0" keeps everything in English.
+          TRANSLATE: "1"
+          LATEST: ${{ inputs.latest || '0' }}
+          DRY_RUN: ${{ inputs.dry_run && '--dry-run' || '' }}
+          CHANNEL: ${{ inputs.channel || '' }}
+        run: python3 notifier.py --latest "$LATEST" $DRY_RUN
+
+      # Runs even when posting failed part-way, so what was posted is remembered.
+      - name: Save state.json
+        if: success() || failure()
+        run: |
+          git add state.json 2>/dev/null || exit 0
+          if git diff --cached --quiet; then
+            echo "state.json unchanged"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "Update notifier state"
+          git push || (git pull --rebase && git push)

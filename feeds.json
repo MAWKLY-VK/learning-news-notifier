@@ -1,0 +1,60 @@
+{
+  "limit": 3,
+  "channels": [
+    {
+      "key": "ai",
+      "name": "الذكاء الاصطناعي",
+      "type": "forum",
+      "webhook_secret": "DISCORD_WEBHOOK_AI",
+      "color": "#10A37F",
+      "feeds": [
+        {"name": "OpenAI", "url": "https://openai.com/news/rss.xml"},
+        {"name": "Hugging Face", "url": "https://huggingface.co/blog/feed.xml", "page_image": true},
+        {"name": "Google DeepMind", "url": "https://deepmind.google/blog/rss.xml"},
+        {"name": "The Verge", "url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"},
+        {"name": "Claude Code", "url": "https://github.com/anthropics/claude-code/releases.atom", "kind": "release"},
+        {"name": "Ollama", "url": "https://github.com/ollama/ollama/releases.atom", "kind": "release"},
+        {"name": "Codex CLI", "url": "https://github.com/openai/codex/releases.atom", "kind": "release"},
+        {"name": "Gemini CLI", "url": "https://github.com/google-gemini/gemini-cli/releases.atom", "kind": "release"},
+        {"name": "Open WebUI", "url": "https://github.com/open-webui/open-webui/releases.atom", "kind": "release"},
+        {"name": "Transformers", "url": "https://github.com/huggingface/transformers/releases.atom", "kind": "release"}
+      ]
+    },
+    {
+      "key": "programming",
+      "name": "البرمجة",
+      "type": "forum",
+      "webhook_secret": "DISCORD_WEBHOOK_PROGRAMMING",
+      "color": "#5865F2",
+      "feeds": [
+        {"name": "GitHub Blog", "url": "https://github.blog/feed/", "page_image": true},
+        {"name": "Hacker News", "url": "https://hnrss.org/frontpage?points=300", "limit": 2, "page_image": true, "page_summary": true}
+      ]
+    },
+    {
+      "key": "security",
+      "name": "الأمن السيبراني",
+      "type": "forum",
+      "webhook_secret": "DISCORD_WEBHOOK_SECURITY",
+      "color": "#ED4245",
+      "feeds": [
+        {"name": "The Hacker News", "url": "https://feeds.feedburner.com/TheHackersNews"},
+        {"name": "Krebs on Security", "url": "https://krebsonsecurity.com/feed/"},
+        {"name": "BleepingComputer", "url": "https://www.bleepingcomputer.com/feed/", "page_image": true}
+      ]
+    },
+    {
+      "key": "research",
+      "name": "مقالات—أبحاث—دراسات",
+      "type": "text",
+      "webhook_secret": "DISCORD_WEBHOOK_RESEARCH",
+      "color": "#F1C40F",
+      "feeds": [
+        {"name": "arXiv cs.AI", "url": "https://rss.arxiv.org/rss/cs.AI", "skip_text": "Announce Type: (?:replace|cross)", "show_authors": true},
+        {"name": "arXiv cs.CR", "url": "https://rss.arxiv.org/rss/cs.CR", "skip_text": "Announce Type: (?:replace|cross)", "show_authors": true},
+        {"name": "arXiv cs.SE", "url": "https://rss.arxiv.org/rss/cs.SE", "skip_text": "Announce Type: (?:replace|cross)", "show_authors": true},
+        {"name": "Quanta Magazine", "url": "https://www.quantamagazine.org/feed/"}
+      ]
+    }
+  ]
+}
