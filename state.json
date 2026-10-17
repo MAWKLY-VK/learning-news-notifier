@@ -136,7 +136,7 @@
    ]
   },
   "https://github.com/OthmanAdi/planning-with-files/releases.atom": {
-   "newest": "2026-10-16T15:52:54Z",
+   "newest": "2026-10-17T16:01:22Z",
    "seen": [
     "5af1b62e192c",
     "c1ae59dd25d5",
@@ -148,7 +148,8 @@
     "a14f6ed71615",
     "a6a00670c74d",
     "4ac360abcc56",
-    "5b3fdae73ae8"
+    "5b3fdae73ae8",
+    "22c34153f248"
    ]
   },
   "https://github.com/addyosmani/agent-skills/releases.atom": {
@@ -260,7 +261,7 @@
    ]
   },
   "https://github.com/ollama/ollama/releases.atom": {
-   "newest": "2026-10-17T00:58:39Z",
+   "newest": "2026-10-17T15:29:04Z",
    "seen": [
     "8cb56d93255a",
     "ea4ec1f2b6c3",
@@ -327,7 +328,7 @@
    ]
   },
   "https://github.com/thedotmack/claude-mem/releases.atom": {
-   "newest": "2026-10-17T02:17:07Z",
+   "newest": "2026-10-17T16:25:51Z",
    "seen": [
     "044ac23edd43",
     "33cbd398046b",
@@ -339,11 +340,13 @@
     "adab46d197f5",
     "2af70eade452",
     "ed755afa952a",
-    "de0a4b9a0d69"
+    "de0a4b9a0d69",
+    "8b80c2aba791",
+    "79a4aed30e28"
    ]
   },
   "https://hnrss.org/frontpage?points=300": {
-   "newest": "2026-10-16T19:04:47Z",
+   "newest": "2026-10-17T08:21:25Z",
    "seen": [
     "73f957b7094f",
     "6bef5746e1b3",
@@ -365,7 +368,9 @@
     "9c769618d47d",
     "138da39db88f",
     "29c1f0deb4ac",
-    "a2a8b46ace14"
+    "a2a8b46ace14",
+    "eae325e88597",
+    "674cf12d6505"
    ]
   },
   "https://huggingface.co/blog/feed.xml": {
@@ -719,7 +724,7 @@
    ]
   },
   "https://www.bleepingcomputer.com/feed/": {
-   "newest": "2026-10-16T20:00:59Z",
+   "newest": "2026-10-17T15:18:51Z",
    "seen": [
     "937c7f4fab21",
     "fac7cd6e29f5",
@@ -742,7 +747,9 @@
     "862e2db1b4e0",
     "d269ee990910",
     "50880c900177",
-    "8dfac5c34b84"
+    "8dfac5c34b84",
+    "43fc56afbb27",
+    "74a44f824ba0"
    ]
   },
   "https://www.quantamagazine.org/feed/": {
@@ -757,7 +764,7 @@
    ]
   },
   "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml": {
-   "newest": "2026-10-16T15:00:00Z",
+   "newest": "2026-10-17T15:04:36Z",
    "seen": [
     "18666a8c9ef2",
     "4bee47ba2525",
@@ -770,7 +777,9 @@
     "16af82df22e3",
     "d6c98090942a",
     "f574d6b69979",
-    "5f261f8d0910"
+    "5f261f8d0910",
+    "4888c937d986",
+    "a1a40acf1119"
    ]
   }
  }
