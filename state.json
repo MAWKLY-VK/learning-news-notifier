@@ -346,7 +346,7 @@
    ]
   },
   "https://hnrss.org/frontpage?points=300": {
-   "newest": "2026-10-17T08:21:25Z",
+   "newest": "2026-10-17T18:01:41Z",
    "seen": [
     "73f957b7094f",
     "6bef5746e1b3",
@@ -370,7 +370,9 @@
     "29c1f0deb4ac",
     "a2a8b46ace14",
     "eae325e88597",
-    "674cf12d6505"
+    "674cf12d6505",
+    "34cb3b773a19",
+    "9453b739bdf4"
    ]
   },
   "https://huggingface.co/blog/feed.xml": {
