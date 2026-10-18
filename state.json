@@ -169,7 +169,7 @@
    ]
   },
   "https://github.com/anthropics/claude-code/releases.atom": {
-   "newest": "2026-10-16T20:53:06Z",
+   "newest": "2026-10-18T22:26:54Z",
    "seen": [
     "e630e4025c88",
     "b0ee8db96d1f",
@@ -181,7 +181,8 @@
     "a0c68459b46f",
     "46551c8c7e30",
     "42001fcc32b2",
-    "cfc00a6fd426"
+    "cfc00a6fd426",
+    "43acb5f3a79e"
    ]
   },
   "https://github.com/anthropics/skills/commits/main.atom": {
@@ -352,7 +353,7 @@
    ]
   },
   "https://hnrss.org/frontpage?points=300": {
-   "newest": "2026-10-18T06:50:36Z",
+   "newest": "2026-10-18T16:56:56Z",
    "seen": [
     "73f957b7094f",
     "6bef5746e1b3",
@@ -387,7 +388,10 @@
     "2714b59c0cdd",
     "1dd2ac5ef795",
     "b77d13124efd",
-    "bb22af570abd"
+    "bb22af570abd",
+    "50344b7ca9fc",
+    "3f3a9c52786f",
+    "d85c28a1f6d3"
    ]
   },
   "https://huggingface.co/blog/feed.xml": {
@@ -782,7 +786,7 @@
    ]
   },
   "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml": {
-   "newest": "2026-10-17T15:04:36Z",
+   "newest": "2026-10-18T18:28:10Z",
    "seen": [
     "18666a8c9ef2",
     "4bee47ba2525",
@@ -797,7 +801,8 @@
     "f574d6b69979",
     "5f261f8d0910",
     "4888c937d986",
-    "a1a40acf1119"
+    "a1a40acf1119",
+    "97027eaf00f7"
    ]
   }
  }
