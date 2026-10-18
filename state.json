@@ -56,7 +56,7 @@
    ]
   },
   "https://feeds.feedburner.com/TheHackersNews": {
-   "newest": "2026-10-17T11:11:56Z",
+   "newest": "2026-10-18T08:23:02Z",
    "seen": [
     "4f95732c4969",
     "dc7b54e8c00a",
@@ -117,7 +117,8 @@
     "2f6312b7767d",
     "2f67e7ff74fc",
     "b3dabcb4d0c0",
-    "1fae9cde44bf"
+    "1fae9cde44bf",
+    "952b3a6c7b9c"
    ]
   },
   "https://github.blog/feed/": {
@@ -325,7 +326,9 @@
     "c0aa06e36ac6",
     "0a5981180547",
     "670d5bb07cd3",
-    "d5b32e54a193"
+    "d5b32e54a193",
+    "bef2c90dbdc0",
+    "434e29001b3a"
    ]
   },
   "https://github.com/thedotmack/claude-mem/releases.atom": {
@@ -347,7 +350,7 @@
    ]
   },
   "https://hnrss.org/frontpage?points=300": {
-   "newest": "2026-10-17T18:01:41Z",
+   "newest": "2026-10-18T00:14:22Z",
    "seen": [
     "73f957b7094f",
     "6bef5746e1b3",
@@ -377,7 +380,11 @@
     "d43336b08389",
     "fce31674a2ac",
     "852338688131",
-    "a2f0976c3904"
+    "a2f0976c3904",
+    "faee42d52b88",
+    "2714b59c0cdd",
+    "1dd2ac5ef795",
+    "b77d13124efd"
    ]
   },
   "https://huggingface.co/blog/feed.xml": {
