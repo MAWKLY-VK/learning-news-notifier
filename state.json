@@ -261,13 +261,14 @@
    ]
   },
   "https://github.com/ollama/ollama/releases.atom": {
-   "newest": "2026-10-17T15:29:04Z",
+   "newest": "2026-10-18T00:28:57Z",
    "seen": [
     "8cb56d93255a",
     "ea4ec1f2b6c3",
     "88ccb3f23d38",
     "5aa9008397e0",
-    "50cce79e2284"
+    "50cce79e2284",
+    "c701d1e5543d"
    ]
   },
   "https://github.com/open-webui/open-webui/releases.atom": {
@@ -372,7 +373,11 @@
     "eae325e88597",
     "674cf12d6505",
     "34cb3b773a19",
-    "9453b739bdf4"
+    "9453b739bdf4",
+    "d43336b08389",
+    "fce31674a2ac",
+    "852338688131",
+    "a2f0976c3904"
    ]
   },
   "https://huggingface.co/blog/feed.xml": {
