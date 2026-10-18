@@ -328,7 +328,9 @@
     "670d5bb07cd3",
     "d5b32e54a193",
     "bef2c90dbdc0",
-    "434e29001b3a"
+    "434e29001b3a",
+    "6f142a3aab1e",
+    "cf1385d58cd0"
    ]
   },
   "https://github.com/thedotmack/claude-mem/releases.atom": {
@@ -350,7 +352,7 @@
    ]
   },
   "https://hnrss.org/frontpage?points=300": {
-   "newest": "2026-10-18T00:14:22Z",
+   "newest": "2026-10-18T06:50:36Z",
    "seen": [
     "73f957b7094f",
     "6bef5746e1b3",
@@ -384,7 +386,8 @@
     "faee42d52b88",
     "2714b59c0cdd",
     "1dd2ac5ef795",
-    "b77d13124efd"
+    "b77d13124efd",
+    "bb22af570abd"
    ]
   },
   "https://huggingface.co/blog/feed.xml": {
@@ -738,7 +741,7 @@
    ]
   },
   "https://www.bleepingcomputer.com/feed/": {
-   "newest": "2026-10-17T15:18:51Z",
+   "newest": "2026-10-18T14:23:16Z",
    "seen": [
     "937c7f4fab21",
     "fac7cd6e29f5",
@@ -763,7 +766,8 @@
     "50880c900177",
     "8dfac5c34b84",
     "43fc56afbb27",
-    "74a44f824ba0"
+    "74a44f824ba0",
+    "74ff0a30f9fe"
    ]
   },
   "https://www.quantamagazine.org/feed/": {
