@@ -56,7 +56,7 @@
    ]
   },
   "https://feeds.feedburner.com/TheHackersNews": {
-   "newest": "2026-10-18T08:23:02Z",
+   "newest": "2026-10-19T06:29:44Z",
    "seen": [
     "4f95732c4969",
     "dc7b54e8c00a",
@@ -118,7 +118,9 @@
     "2f67e7ff74fc",
     "b3dabcb4d0c0",
     "1fae9cde44bf",
-    "952b3a6c7b9c"
+    "952b3a6c7b9c",
+    "1de1c48ce23b",
+    "f519e0b522d7"
    ]
   },
   "https://github.blog/feed/": {
@@ -331,7 +333,8 @@
     "bef2c90dbdc0",
     "434e29001b3a",
     "6f142a3aab1e",
-    "cf1385d58cd0"
+    "cf1385d58cd0",
+    "ab11769f3fda"
    ]
   },
   "https://github.com/thedotmack/claude-mem/releases.atom": {
@@ -353,7 +356,7 @@
    ]
   },
   "https://hnrss.org/frontpage?points=300": {
-   "newest": "2026-10-18T16:56:56Z",
+   "newest": "2026-10-18T20:48:14Z",
    "seen": [
     "73f957b7094f",
     "6bef5746e1b3",
@@ -391,7 +394,10 @@
     "bb22af570abd",
     "50344b7ca9fc",
     "3f3a9c52786f",
-    "d85c28a1f6d3"
+    "d85c28a1f6d3",
+    "81b6ff29d055",
+    "420ed2a4f9ba",
+    "02abbab0e1b5"
    ]
   },
   "https://huggingface.co/blog/feed.xml": {
@@ -630,7 +636,7 @@
    ]
   },
   "https://rss.arxiv.org/rss/cs.CR": {
-   "newest": "2026-10-16T04:00:00Z",
+   "newest": "2026-10-19T04:00:00Z",
    "seen": [
     "2aaf05337d03",
     "237b4b21d4ab",
@@ -702,11 +708,47 @@
     "16ae2715f50b",
     "4e7176a6cbbe",
     "8b4321452570",
-    "7edabcddc258"
+    "7edabcddc258",
+    "d16da5bebc79",
+    "3cdeca166ecd",
+    "cf5c13029e84",
+    "0515c396a323",
+    "af743fda2f06",
+    "b4edfd5b08f6",
+    "7f7ea3e0129e",
+    "2669b3ca0fea",
+    "211ab69da6df",
+    "1d958f892cd6",
+    "7dcc56752f63",
+    "ab2646890162",
+    "e1640c2732cc",
+    "fdf3b7d6fa39",
+    "c7bffd02ea44",
+    "e036954f8121",
+    "6509d6bd8fdc",
+    "5e9ccf3f209a",
+    "0a302fde729d",
+    "9f4cb227537c",
+    "7a02c5004e9d",
+    "839fa39efbc1",
+    "ee55a3aabc3c",
+    "39c19770fac6",
+    "b1fb9eebc213",
+    "ec2510f4652a",
+    "35ab2262416a",
+    "4ec1148aa4cc",
+    "9c421b844e0b",
+    "074d8b9802f0",
+    "f25cdd1c374d",
+    "388e8c809669",
+    "ed1eac5ea4b4",
+    "b5a5fdf23331",
+    "e99e0eabae69",
+    "6665c4e39f29"
    ]
   },
   "https://rss.arxiv.org/rss/cs.SE": {
-   "newest": "2026-10-16T04:00:00Z",
+   "newest": "2026-10-19T04:00:00Z",
    "seen": [
     "b3be5d591f46",
     "d781e9c67048",
@@ -741,7 +783,24 @@
     "cea610f47482",
     "89a4f660d2bc",
     "d5edf5ab00a3",
-    "acea93570fae"
+    "acea93570fae",
+    "d95d00a51737",
+    "6c14a4fcffcc",
+    "996cf21c1d63",
+    "560b85391de5",
+    "3ea45bea9d42",
+    "ca9fd0a59ac8",
+    "cbfbda93c0bb",
+    "7117847624e5",
+    "bf67dc07311a",
+    "55e3d594eb3f",
+    "023a74a76616",
+    "d9334afb929c",
+    "60c3f95af124",
+    "95c71755f775",
+    "7d77759710eb",
+    "cf69bbc737d6",
+    "94971bd8ed52"
    ]
   },
   "https://www.bleepingcomputer.com/feed/": {
