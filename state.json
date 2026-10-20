@@ -194,7 +194,7 @@
    ]
   },
   "https://github.com/anthropics/claude-code/releases.atom": {
-   "newest": "2026-10-19T21:34:39Z",
+   "newest": "2026-10-20T20:46:50Z",
    "seen": [
     "e630e4025c88",
     "b0ee8db96d1f",
@@ -208,7 +208,8 @@
     "42001fcc32b2",
     "cfc00a6fd426",
     "43acb5f3a79e",
-    "0b6d0aec9252"
+    "0b6d0aec9252",
+    "6347e640c915"
    ]
   },
   "https://github.com/anthropics/skills/commits/main.atom": {
@@ -259,9 +260,10 @@
    ]
   },
   "https://github.com/google-gemini/gemini-cli/releases.atom": {
-   "newest": "2026-10-13T20:44:46Z",
+   "newest": "2026-10-20T21:17:57Z",
    "seen": [
-    "a9d0fbb5d57f"
+    "a9d0fbb5d57f",
+    "1856452513b7"
    ]
   },
   "https://github.com/huggingface/transformers/releases.atom": {
@@ -372,7 +374,7 @@
    ]
   },
   "https://github.com/thedotmack/claude-mem/releases.atom": {
-   "newest": "2026-10-17T16:25:51Z",
+   "newest": "2026-10-20T22:41:06Z",
    "seen": [
     "044ac23edd43",
     "33cbd398046b",
@@ -386,7 +388,9 @@
     "ed755afa952a",
     "de0a4b9a0d69",
     "8b80c2aba791",
-    "79a4aed30e28"
+    "79a4aed30e28",
+    "782d247a952f",
+    "62190c98c07a"
    ]
   },
   "https://hnrss.org/frontpage?points=300": {
@@ -999,7 +1003,7 @@
    ]
   },
   "https://www.bleepingcomputer.com/feed/": {
-   "newest": "2026-10-20T18:11:03Z",
+   "newest": "2026-10-20T20:56:43Z",
    "seen": [
     "937c7f4fab21",
     "fac7cd6e29f5",
@@ -1043,7 +1047,9 @@
     "b8cb67bf0a57",
     "54e589c7063e",
     "4162cca6289c",
-    "2bcaf37a740b"
+    "2bcaf37a740b",
+    "aa2f36ffa3be",
+    "05dd90fd0f45"
    ]
   },
   "https://www.quantamagazine.org/feed/": {
