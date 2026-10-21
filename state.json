@@ -56,7 +56,7 @@
    ]
   },
   "https://feeds.feedburner.com/TheHackersNews": {
-   "newest": "2026-10-21T13:15:09Z",
+   "newest": "2026-10-21T18:01:57Z",
    "seen": [
     "4f95732c4969",
     "dc7b54e8c00a",
@@ -152,11 +152,14 @@
     "ec0fd993c8b5",
     "b81260804ad3",
     "c7a020f274e0",
-    "f29fd7d40b5f"
+    "f29fd7d40b5f",
+    "6478f5844cef",
+    "2cd8b2bd53ed",
+    "f5335e20393b"
    ]
   },
   "https://github.blog/feed/": {
-   "newest": "2026-10-20T16:05:03Z",
+   "newest": "2026-10-21T16:00:00Z",
    "seen": [
     "1515a8a30657",
     "3902c431970b",
@@ -169,7 +172,8 @@
     "3571a14eebcb",
     "32753c5d923d",
     "88c6cef59a0b",
-    "fbec33bd28b4"
+    "fbec33bd28b4",
+    "8f99f6dadd2c"
    ]
   },
   "https://github.com/OthmanAdi/planning-with-files/releases.atom": {
@@ -312,7 +316,7 @@
    ]
   },
   "https://github.com/ollama/ollama/releases.atom": {
-   "newest": "2026-10-21T04:01:19Z",
+   "newest": "2026-10-21T18:32:27Z",
    "seen": [
     "8cb56d93255a",
     "ea4ec1f2b6c3",
@@ -320,7 +324,9 @@
     "5aa9008397e0",
     "50cce79e2284",
     "c701d1e5543d",
-    "0d8a53e290e3"
+    "0d8a53e290e3",
+    "bf62d47896ee",
+    "19d415eb5f7c"
    ]
   },
   "https://github.com/open-webui/open-webui/releases.atom": {
@@ -388,7 +394,9 @@
     "719262f5735b",
     "b63b07057666",
     "fae48420a3ad",
-    "5d49396dbc1f"
+    "5d49396dbc1f",
+    "e5c11be57943",
+    "ef0f8c60d9a0"
    ]
   },
   "https://github.com/thedotmack/claude-mem/releases.atom": {
@@ -412,7 +420,7 @@
    ]
   },
   "https://hnrss.org/frontpage?points=300": {
-   "newest": "2026-10-21T09:08:08Z",
+   "newest": "2026-10-21T15:48:56Z",
    "seen": [
     "73f957b7094f",
     "6bef5746e1b3",
@@ -483,11 +491,14 @@
     "c45daaabbb3c",
     "9dfeaa8f45b4",
     "6636dcfb4fe9",
-    "3e9dfec2f0af"
+    "3e9dfec2f0af",
+    "ae8cdee1d7b9",
+    "43d32b4b5940",
+    "3551e98dcfc6"
    ]
   },
   "https://huggingface.co/blog/feed.xml": {
-   "newest": "2026-10-21T12:51:24Z",
+   "newest": "2026-10-21T18:26:30Z",
    "seen": [
     "8ff67d77127c",
     "9101339b1ac2",
@@ -549,11 +560,15 @@
     "94e7f4f5c0e5",
     "ca293d8533a3",
     "4eb9f7080b11",
-    "38715d90bd30"
+    "38715d90bd30",
+    "9b35c0bfb2f0",
+    "f9b499debdda",
+    "354f89a6c7db",
+    "7104bc51c295"
    ]
   },
   "https://krebsonsecurity.com/feed/": {
-   "newest": "2026-10-19T13:48:56Z",
+   "newest": "2026-10-21T15:26:07Z",
    "seen": [
     "b09bb95dc803",
     "6eb01cc69dc7",
@@ -565,11 +580,12 @@
     "be8333669686",
     "7c38ed4a8bf6",
     "1e50c6516574",
-    "deacdc2e65dd"
+    "deacdc2e65dd",
+    "c96a68345704"
    ]
   },
   "https://openai.com/news/rss.xml": {
-   "newest": "2026-10-21T13:00:00Z",
+   "newest": "2026-10-21T17:00:00Z",
    "seen": [
     "1dd9ce125c6e",
     "1d5a9cc2d950",
@@ -631,7 +647,9 @@
     "1de8e62ff715",
     "edef63b51aed",
     "61f4d0141ff3",
-    "74fcf21eca7a"
+    "74fcf21eca7a",
+    "d3f519557f32",
+    "4ab93569e260"
    ]
   },
   "https://rss.arxiv.org/rss/cs.AI": {
@@ -1154,7 +1172,7 @@
    ]
   },
   "https://www.bleepingcomputer.com/feed/": {
-   "newest": "2026-10-21T14:07:05Z",
+   "newest": "2026-10-21T18:34:42Z",
    "seen": [
     "937c7f4fab21",
     "fac7cd6e29f5",
@@ -1207,11 +1225,13 @@
     "73d154fe3b9b",
     "ba8deb36fe9d",
     "bc6b0429e7ca",
-    "a5afc0aef898"
+    "a5afc0aef898",
+    "288893f63679",
+    "71f0485320c6"
    ]
   },
   "https://www.quantamagazine.org/feed/": {
-   "newest": "2026-10-19T15:40:26Z",
+   "newest": "2026-10-21T14:00:07Z",
    "seen": [
     "21028eea3cf4",
     "47af22fffb9c",
@@ -1219,11 +1239,12 @@
     "d12390f66680",
     "883ef1a0b865",
     "030affc05f1c",
-    "604192172654"
+    "604192172654",
+    "6557e995f0a1"
    ]
   },
   "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml": {
-   "newest": "2026-10-21T13:57:43Z",
+   "newest": "2026-10-21T15:00:00Z",
    "seen": [
     "18666a8c9ef2",
     "4bee47ba2525",
@@ -1250,7 +1271,8 @@
     "f4b9cd0765da",
     "a727f381ea56",
     "375572a3e90a",
-    "916ee47a1bc9"
+    "916ee47a1bc9",
+    "5b3d649b2a24"
    ]
   }
  }
