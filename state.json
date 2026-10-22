@@ -56,7 +56,7 @@
    ]
   },
   "https://feeds.feedburner.com/TheHackersNews": {
-   "newest": "2026-10-22T04:21:26Z",
+   "newest": "2026-10-22T13:38:22Z",
    "seen": [
     "4f95732c4969",
     "dc7b54e8c00a",
@@ -157,7 +157,15 @@
     "2cd8b2bd53ed",
     "f5335e20393b",
     "a9726704f0fa",
-    "9b69347cfd29"
+    "9b69347cfd29",
+    "3d29fe5d9f89",
+    "eff3ebf7d52f",
+    "29143f2ae20d",
+    "a9227db3dd33",
+    "1d3516a0d0a6",
+    "76b18c2dc5a9",
+    "d76b50dba162",
+    "c145f24074c2"
    ]
   },
   "https://github.blog/feed/": {
@@ -426,7 +434,7 @@
    ]
   },
   "https://hnrss.org/frontpage?points=300": {
-   "newest": "2026-10-21T23:51:37Z",
+   "newest": "2026-10-22T08:51:31Z",
    "seen": [
     "73f957b7094f",
     "6bef5746e1b3",
@@ -509,7 +517,13 @@
     "f34097febad8",
     "d492f6d3218e",
     "21610db26e3e",
-    "8bf3c20e71b4"
+    "8bf3c20e71b4",
+    "c6abb6300085",
+    "52483c4155f6",
+    "1702ff8b90a4",
+    "ce684d52ef98",
+    "effffae44487",
+    "fc18c66f5b5a"
    ]
   },
   "https://huggingface.co/blog/feed.xml": {
@@ -601,7 +615,7 @@
    ]
   },
   "https://openai.com/news/rss.xml": {
-   "newest": "2026-10-21T21:00:00Z",
+   "newest": "2026-10-22T06:00:00Z",
    "seen": [
     "1dd9ce125c6e",
     "1d5a9cc2d950",
@@ -668,7 +682,8 @@
     "4ab93569e260",
     "b2deaf97c98c",
     "2ed22a61b2f1",
-    "9201054eeb4c"
+    "9201054eeb4c",
+    "63c31ca523f9"
    ]
   },
   "https://rss.arxiv.org/rss/cs.AI": {
@@ -1225,7 +1240,7 @@
    ]
   },
   "https://www.bleepingcomputer.com/feed/": {
-   "newest": "2026-10-22T08:27:11Z",
+   "newest": "2026-10-22T14:02:12Z",
    "seen": [
     "937c7f4fab21",
     "fac7cd6e29f5",
@@ -1284,7 +1299,10 @@
     "3371acd3dcb3",
     "e9fd60a700e2",
     "832124389031",
-    "df0211e45e19"
+    "df0211e45e19",
+    "0f812922fb34",
+    "c78f9791369d",
+    "92b876190d73"
    ]
   },
   "https://www.quantamagazine.org/feed/": {
@@ -1301,7 +1319,7 @@
    ]
   },
   "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml": {
-   "newest": "2026-10-21T22:33:44Z",
+   "newest": "2026-10-22T13:00:00Z",
    "seen": [
     "18666a8c9ef2",
     "4bee47ba2525",
@@ -1333,7 +1351,11 @@
     "bd4af7cb3c22",
     "d0044142c60a",
     "f17b4be6a247",
-    "b3a05664ea16"
+    "b3a05664ea16",
+    "14434873aac1",
+    "aa27990bd5e7",
+    "964c6f231431",
+    "11b2de968580"
    ]
   }
  }
