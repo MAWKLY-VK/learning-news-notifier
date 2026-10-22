@@ -56,7 +56,7 @@
    ]
   },
   "https://feeds.feedburner.com/TheHackersNews": {
-   "newest": "2026-10-21T18:57:34Z",
+   "newest": "2026-10-22T04:21:26Z",
    "seen": [
     "4f95732c4969",
     "dc7b54e8c00a",
@@ -156,7 +156,8 @@
     "6478f5844cef",
     "2cd8b2bd53ed",
     "f5335e20393b",
-    "a9726704f0fa"
+    "a9726704f0fa",
+    "9b69347cfd29"
    ]
   },
   "https://github.blog/feed/": {
@@ -211,7 +212,7 @@
    ]
   },
   "https://github.com/anthropics/claude-code/releases.atom": {
-   "newest": "2026-10-21T22:17:02Z",
+   "newest": "2026-10-22T04:34:55Z",
    "seen": [
     "e630e4025c88",
     "b0ee8db96d1f",
@@ -228,7 +229,8 @@
     "0b6d0aec9252",
     "6347e640c915",
     "0a11668f40a6",
-    "6d69415eff81"
+    "6d69415eff81",
+    "f79d4d9bcb7c"
    ]
   },
   "https://github.com/anthropics/skills/commits/main.atom": {
@@ -318,7 +320,7 @@
    ]
   },
   "https://github.com/ollama/ollama/releases.atom": {
-   "newest": "2026-10-21T21:46:35Z",
+   "newest": "2026-10-22T01:33:10Z",
    "seen": [
     "8cb56d93255a",
     "ea4ec1f2b6c3",
@@ -328,7 +330,8 @@
     "c701d1e5543d",
     "0d8a53e290e3",
     "bf62d47896ee",
-    "19d415eb5f7c"
+    "19d415eb5f7c",
+    "69c57027e4e5"
    ]
   },
   "https://github.com/open-webui/open-webui/releases.atom": {
@@ -423,7 +426,7 @@
    ]
   },
   "https://hnrss.org/frontpage?points=300": {
-   "newest": "2026-10-21T17:45:13Z",
+   "newest": "2026-10-21T23:51:37Z",
    "seen": [
     "73f957b7094f",
     "6bef5746e1b3",
@@ -501,11 +504,16 @@
     "0b150af27b0d",
     "19e3a86fa6c4",
     "2c39f216819e",
-    "02acf95117e7"
+    "02acf95117e7",
+    "5edd909d6f35",
+    "f34097febad8",
+    "d492f6d3218e",
+    "21610db26e3e",
+    "8bf3c20e71b4"
    ]
   },
   "https://huggingface.co/blog/feed.xml": {
-   "newest": "2026-10-21T18:26:30Z",
+   "newest": "2026-10-22T07:51:31Z",
    "seen": [
     "8ff67d77127c",
     "9101339b1ac2",
@@ -571,7 +579,8 @@
     "9b35c0bfb2f0",
     "f9b499debdda",
     "354f89a6c7db",
-    "7104bc51c295"
+    "7104bc51c295",
+    "5d118fadbe79"
    ]
   },
   "https://krebsonsecurity.com/feed/": {
@@ -658,62 +667,13 @@
     "d3f519557f32",
     "4ab93569e260",
     "b2deaf97c98c",
-    "2ed22a61b2f1"
+    "2ed22a61b2f1",
+    "9201054eeb4c"
    ]
   },
   "https://rss.arxiv.org/rss/cs.AI": {
-   "newest": "2026-10-21T04:00:00Z",
+   "newest": "2026-10-22T04:00:00Z",
    "seen": [
-    "1a60e1a3c1a2",
-    "7629afb49d81",
-    "548df80996ba",
-    "114de43706ab",
-    "93df7c4d3657",
-    "71c0d53b7135",
-    "fcbbbc55ac59",
-    "1f88bea9a003",
-    "cef08aae10c0",
-    "08e25287d30e",
-    "240b2eecca72",
-    "55e504edcc96",
-    "677db08bfeac",
-    "bfa7f627f18c",
-    "3a70011b7542",
-    "ef3cc683b2fe",
-    "9a8c9f0d5a34",
-    "a78ef950d91c",
-    "fbe669140e90",
-    "a3ba84c05230",
-    "addc7e1eefc7",
-    "56202b6881d7",
-    "db7795423f1c",
-    "3a959ca14d5b",
-    "2216335343b7",
-    "e0e00d5e44ea",
-    "f86709976ddf",
-    "bf27ad48af23",
-    "a874f7693c45",
-    "c94215ac86c4",
-    "34a11ea779f6",
-    "030c43ee0d7d",
-    "6736d9cdb70d",
-    "22c39ecfe12c",
-    "ec785e4a5730",
-    "9a24f0b1ae17",
-    "a92ce49a71da",
-    "265181cf35ac",
-    "9871b89a2f4e",
-    "7176ffea490f",
-    "6ccb12514385",
-    "737fb0a202f7",
-    "e908ce40b865",
-    "25e62544f776",
-    "a20e67c3d4bb",
-    "e0c19264248d",
-    "733324461028",
-    "cd19dffd83ff",
-    "6c27ee943986",
-    "3bf4cdefeed7",
     "e4379f813092",
     "1de0efa00f4a",
     "3d26f8157ad6",
@@ -863,34 +823,62 @@
     "ceeb963d52b3",
     "a838bc5dcdff",
     "e59d51bdf105",
-    "13e12dfba3e9"
+    "13e12dfba3e9",
+    "eba8e248403f",
+    "82c222154599",
+    "389cb34639d6",
+    "b5a19f389227",
+    "926d7a35ab8b",
+    "1ce5a15b1822",
+    "bb60e777a38d",
+    "641963786a0c",
+    "c46c5610ed2f",
+    "5ac49a7be094",
+    "d12621306048",
+    "9e7f75a9b638",
+    "9575855505cd",
+    "1cd8860ef2b4",
+    "256b47463814",
+    "67241200e6a1",
+    "cf30dadc565b",
+    "61ced65cf8a6",
+    "fa7a174a4aec",
+    "33562df4cd09",
+    "b8cd588447ea",
+    "df32a3a01dff",
+    "0d78eac3006c",
+    "546b2d9b1973",
+    "e6b95f3142b4",
+    "ed2b3f8b9a1e",
+    "a12b536f268e",
+    "6ff99a9611b0",
+    "0cd26d158054",
+    "c6a95bc6ce20",
+    "98bd23a2d779",
+    "57b1b84a8a32",
+    "47d50d50aad9",
+    "20037af9016d",
+    "f477fe73fad7",
+    "0795bd22b7fe",
+    "22e26530b84e",
+    "de8debc084f9",
+    "c522d76b0602",
+    "f1743c177821",
+    "7d7798e847ae",
+    "27ad5b8fd9d0",
+    "eea2ba1aeb4e",
+    "9c2ae5e8f201",
+    "80c8c75db1fc",
+    "7d6f67102511",
+    "799205b5f421",
+    "7fc31c9c64de",
+    "02dc7bc58253",
+    "5faddb689bfc"
    ]
   },
   "https://rss.arxiv.org/rss/cs.CR": {
-   "newest": "2026-10-21T04:00:00Z",
+   "newest": "2026-10-22T04:00:00Z",
    "seen": [
-    "237b4b21d4ab",
-    "ace98c7af8fa",
-    "8defca3e3dd7",
-    "2e3089764b99",
-    "1b8af08d4fdf",
-    "b6631f70d506",
-    "0be553c14e49",
-    "2833699d2e77",
-    "f25a09b9deac",
-    "12deba239f1c",
-    "ce0d9cc4aad7",
-    "2e2084beaf9c",
-    "aaf1a5f8cc59",
-    "d4c45a229d38",
-    "5aaa90785f88",
-    "31bcd8752dd2",
-    "e5987de34dfc",
-    "2ffa2e6beec6",
-    "35d48c12d8db",
-    "6f9b94bc9790",
-    "aa1d12fa4c96",
-    "b4913504b4c9",
     "219949459f17",
     "b7c253c01662",
     "f2b0d60cbef1",
@@ -1068,11 +1056,33 @@
     "6bdef1bba851",
     "3c533748da85",
     "8ce70ee353a7",
-    "943b45604d4d"
+    "943b45604d4d",
+    "478e62f02807",
+    "51447bf57f2f",
+    "187673a4f955",
+    "6d6d7baf78e8",
+    "a4a92aa9972e",
+    "8a1f5ce32e9e",
+    "9a163c15590c",
+    "60b8cdb97b55",
+    "65559fdfa1fb",
+    "4175aa0abcd2",
+    "b4d28dad5353",
+    "65afcc73be8b",
+    "c96df8c496a4",
+    "0cf0260433fe",
+    "9dcbf472d289",
+    "d881ae275581",
+    "764a6408effc",
+    "5c6362e9b7bb",
+    "29ac02f518ff",
+    "dc0e1e69ae31",
+    "63ede7dd2857",
+    "1dde1e19a475"
    ]
   },
   "https://rss.arxiv.org/rss/cs.SE": {
-   "newest": "2026-10-21T04:00:00Z",
+   "newest": "2026-10-22T04:00:00Z",
    "seen": [
     "b3be5d591f46",
     "d781e9c67048",
@@ -1177,11 +1187,45 @@
     "a28456c74f0b",
     "0c77ae6fe6ff",
     "1b9727301c09",
-    "26f86053afb9"
+    "26f86053afb9",
+    "dbc5592b90a1",
+    "baeae6c14718",
+    "4fdacd7af8a2",
+    "19d7d4793846",
+    "be003fa78689",
+    "e8ae80181b7f",
+    "cd594412ee84",
+    "70fcef36d6a3",
+    "9e4172068a34",
+    "a5badff2b6bf",
+    "61f5838917c2",
+    "76d023853b18",
+    "c43fb12a9564",
+    "2c483326d1ee",
+    "a5438d01d782",
+    "6008576edb3f",
+    "57f5e1adcbd1",
+    "45df1dcf6415",
+    "09e1309c1c14",
+    "edfae2f04b5d",
+    "4827f219401b",
+    "bb48562241cc",
+    "1fda7488bbca",
+    "56e33e604498",
+    "c7070dbec10e",
+    "5b2798519449",
+    "a1d2e899b598",
+    "5b722033372b",
+    "c35c220c87ea",
+    "01a4c802f2a9",
+    "8fb92afb7dca",
+    "49bb4c0eb8bf",
+    "eeaa88440316",
+    "3cceb5ba17a8"
    ]
   },
   "https://www.bleepingcomputer.com/feed/": {
-   "newest": "2026-10-21T22:16:26Z",
+   "newest": "2026-10-22T08:27:11Z",
    "seen": [
     "937c7f4fab21",
     "fac7cd6e29f5",
@@ -1239,7 +1283,8 @@
     "71f0485320c6",
     "3371acd3dcb3",
     "e9fd60a700e2",
-    "832124389031"
+    "832124389031",
+    "df0211e45e19"
    ]
   },
   "https://www.quantamagazine.org/feed/": {
