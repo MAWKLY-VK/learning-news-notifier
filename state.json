@@ -57,7 +57,7 @@
    ]
   },
   "https://feeds.feedburner.com/TheHackersNews": {
-   "newest": "2026-10-23T11:25:43Z",
+   "newest": "2026-10-23T18:50:13Z",
    "seen": [
     "4f95732c4969",
     "dc7b54e8c00a",
@@ -177,7 +177,11 @@
     "6f084559d703",
     "3a89e69463ce",
     "80697809b26e",
-    "3bc9a46d2904"
+    "3bc9a46d2904",
+    "f059789b2437",
+    "015a882ee274",
+    "4645fb818a8e",
+    "077ef200d3e0"
    ]
   },
   "https://github.blog/feed/": {
@@ -200,7 +204,7 @@
    ]
   },
   "https://github.com/OthmanAdi/planning-with-files/releases.atom": {
-   "newest": "2026-10-20T13:29:58Z",
+   "newest": "2026-10-23T18:03:11Z",
    "seen": [
     "5af1b62e192c",
     "c1ae59dd25d5",
@@ -214,7 +218,8 @@
     "4ac360abcc56",
     "5b3fdae73ae8",
     "22c34153f248",
-    "27e2e769e32b"
+    "27e2e769e32b",
+    "9d8a02875a60"
    ]
   },
   "https://github.com/addyosmani/agent-skills/releases.atom": {
@@ -342,7 +347,7 @@
    ]
   },
   "https://github.com/ollama/ollama/releases.atom": {
-   "newest": "2026-10-23T02:12:47Z",
+   "newest": "2026-10-23T17:17:19Z",
    "seen": [
     "8cb56d93255a",
     "ea4ec1f2b6c3",
@@ -355,7 +360,8 @@
     "19d415eb5f7c",
     "69c57027e4e5",
     "93075ca7943b",
-    "d4e5a2ab16fd"
+    "d4e5a2ab16fd",
+    "61696709805b"
    ]
   },
   "https://github.com/open-webui/open-webui/releases.atom": {
@@ -432,7 +438,7 @@
    ]
   },
   "https://github.com/thedotmack/claude-mem/releases.atom": {
-   "newest": "2026-10-20T22:41:06Z",
+   "newest": "2026-10-23T18:51:46Z",
    "seen": [
     "044ac23edd43",
     "33cbd398046b",
@@ -448,11 +454,12 @@
     "8b80c2aba791",
     "79a4aed30e28",
     "782d247a952f",
-    "62190c98c07a"
+    "62190c98c07a",
+    "9ec530a4566f"
    ]
   },
   "https://hnrss.org/frontpage?points=300": {
-   "newest": "2026-10-22T23:45:56Z",
+   "newest": "2026-10-23T16:59:08Z",
    "seen": [
     "73f957b7094f",
     "6bef5746e1b3",
@@ -554,11 +561,15 @@
     "6a571c7d2c3a",
     "917865f09bd0",
     "13a585aca2c4",
-    "5640b8422aa1"
+    "5640b8422aa1",
+    "ce7fed74f496",
+    "3a7d21e534d1",
+    "60728a8dd9ff",
+    "84e8451c98cf"
    ]
   },
   "https://huggingface.co/blog/feed.xml": {
-   "newest": "2026-10-23T00:00:00Z",
+   "newest": "2026-10-23T16:15:50Z",
    "seen": [
     "8ff67d77127c",
     "9101339b1ac2",
@@ -628,7 +639,8 @@
     "5d118fadbe79",
     "eaa0ebff7daf",
     "95eb6975ad24",
-    "6430909168b5"
+    "6430909168b5",
+    "d5dfb55b0129"
    ]
   },
   "https://krebsonsecurity.com/feed/": {
@@ -649,7 +661,7 @@
    ]
   },
   "https://openai.com/news/rss.xml": {
-   "newest": "2026-10-23T00:00:00Z",
+   "newest": "2026-10-23T17:00:00Z",
    "seen": [
     "1dd9ce125c6e",
     "1d5a9cc2d950",
@@ -720,7 +732,8 @@
     "63c31ca523f9",
     "ba6fa07d677a",
     "27825e300358",
-    "15c1f8ef7a58"
+    "15c1f8ef7a58",
+    "298c8de07d18"
    ]
   },
   "https://rss.arxiv.org/rss/cs.AI": {
@@ -1302,7 +1315,7 @@
    ]
   },
   "https://www.bleepingcomputer.com/feed/": {
-   "newest": "2026-10-23T14:00:10Z",
+   "newest": "2026-10-23T18:54:41Z",
    "seen": [
     "937c7f4fab21",
     "fac7cd6e29f5",
@@ -1371,11 +1384,15 @@
     "177124c993da",
     "6af5f5a84e31",
     "eb477469ff02",
-    "4eed9c7e0436"
+    "4eed9c7e0436",
+    "5d4b1321ac5e",
+    "f582252343af",
+    "27be26c6f177",
+    "e62f85ca100b"
    ]
   },
   "https://www.quantamagazine.org/feed/": {
-   "newest": "2026-10-21T14:00:07Z",
+   "newest": "2026-10-23T14:54:10Z",
    "seen": [
     "21028eea3cf4",
     "47af22fffb9c",
@@ -1384,11 +1401,12 @@
     "883ef1a0b865",
     "030affc05f1c",
     "604192172654",
-    "6557e995f0a1"
+    "6557e995f0a1",
+    "fa6b3ea0b1ca"
    ]
   },
   "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml": {
-   "newest": "2026-10-23T12:00:00Z",
+   "newest": "2026-10-23T17:00:18Z",
    "seen": [
     "18666a8c9ef2",
     "4bee47ba2525",
@@ -1437,7 +1455,10 @@
     "7e16fd732643",
     "1ac89674c9fb",
     "5742238c656e",
-    "7e4e6855385a"
+    "7e4e6855385a",
+    "e067a4bed9a3",
+    "dd390d9e8ff6",
+    "d30681dea731"
    ]
   }
  }
