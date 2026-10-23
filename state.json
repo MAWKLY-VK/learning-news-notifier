@@ -57,7 +57,7 @@
    ]
   },
   "https://feeds.feedburner.com/TheHackersNews": {
-   "newest": "2026-10-23T07:50:01Z",
+   "newest": "2026-10-23T11:25:43Z",
    "seen": [
     "4f95732c4969",
     "dc7b54e8c00a",
@@ -173,7 +173,11 @@
     "f74ce17a74d9",
     "23872cb1986e",
     "199bd0864fa3",
-    "a2a9e372db7b"
+    "a2a9e372db7b",
+    "6f084559d703",
+    "3a89e69463ce",
+    "80697809b26e",
+    "3bc9a46d2904"
    ]
   },
   "https://github.blog/feed/": {
@@ -423,7 +427,8 @@
     "5d49396dbc1f",
     "e5c11be57943",
     "ef0f8c60d9a0",
-    "4272fe4ec844"
+    "4272fe4ec844",
+    "d943f25b1127"
    ]
   },
   "https://github.com/thedotmack/claude-mem/releases.atom": {
@@ -547,11 +552,13 @@
     "dd9979ef5743",
     "6589fc0fec70",
     "6a571c7d2c3a",
-    "917865f09bd0"
+    "917865f09bd0",
+    "13a585aca2c4",
+    "5640b8422aa1"
    ]
   },
   "https://huggingface.co/blog/feed.xml": {
-   "newest": "2026-10-22T22:24:34Z",
+   "newest": "2026-10-23T00:00:00Z",
    "seen": [
     "8ff67d77127c",
     "9101339b1ac2",
@@ -620,7 +627,8 @@
     "7104bc51c295",
     "5d118fadbe79",
     "eaa0ebff7daf",
-    "95eb6975ad24"
+    "95eb6975ad24",
+    "6430909168b5"
    ]
   },
   "https://krebsonsecurity.com/feed/": {
@@ -1294,7 +1302,7 @@
    ]
   },
   "https://www.bleepingcomputer.com/feed/": {
-   "newest": "2026-10-22T21:25:31Z",
+   "newest": "2026-10-23T14:00:10Z",
    "seen": [
     "937c7f4fab21",
     "fac7cd6e29f5",
@@ -1361,7 +1369,9 @@
     "5d4f96d6acc6",
     "0151e8522bf7",
     "177124c993da",
-    "6af5f5a84e31"
+    "6af5f5a84e31",
+    "eb477469ff02",
+    "4eed9c7e0436"
    ]
   },
   "https://www.quantamagazine.org/feed/": {
@@ -1378,7 +1388,7 @@
    ]
   },
   "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml": {
-   "newest": "2026-10-22T21:51:25Z",
+   "newest": "2026-10-23T12:00:00Z",
    "seen": [
     "18666a8c9ef2",
     "4bee47ba2525",
@@ -1426,7 +1436,8 @@
     "3233b67e067a",
     "7e16fd732643",
     "1ac89674c9fb",
-    "5742238c656e"
+    "5742238c656e",
+    "7e4e6855385a"
    ]
   }
  }
