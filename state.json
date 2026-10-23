@@ -238,7 +238,7 @@
    ]
   },
   "https://github.com/anthropics/claude-code/releases.atom": {
-   "newest": "2026-10-22T22:18:57Z",
+   "newest": "2026-10-23T23:39:00Z",
    "seen": [
     "e630e4025c88",
     "b0ee8db96d1f",
@@ -257,7 +257,8 @@
     "0a11668f40a6",
     "6d69415eff81",
     "f79d4d9bcb7c",
-    "2bb9c7065015"
+    "2bb9c7065015",
+    "cd4781d96bb5"
    ]
   },
   "https://github.com/anthropics/skills/commits/main.atom": {
@@ -434,7 +435,8 @@
     "e5c11be57943",
     "ef0f8c60d9a0",
     "4272fe4ec844",
-    "d943f25b1127"
+    "d943f25b1127",
+    "7ef4add10e64"
    ]
   },
   "https://github.com/thedotmack/claude-mem/releases.atom": {
@@ -565,7 +567,8 @@
     "ce7fed74f496",
     "3a7d21e534d1",
     "60728a8dd9ff",
-    "84e8451c98cf"
+    "84e8451c98cf",
+    "0e035c1e29fb"
    ]
   },
   "https://huggingface.co/blog/feed.xml": {
@@ -733,7 +736,8 @@
     "ba6fa07d677a",
     "27825e300358",
     "15c1f8ef7a58",
-    "298c8de07d18"
+    "298c8de07d18",
+    "48e2274fdf2b"
    ]
   },
   "https://rss.arxiv.org/rss/cs.AI": {
@@ -1315,7 +1319,7 @@
    ]
   },
   "https://www.bleepingcomputer.com/feed/": {
-   "newest": "2026-10-23T18:54:41Z",
+   "newest": "2026-10-23T20:55:05Z",
    "seen": [
     "937c7f4fab21",
     "fac7cd6e29f5",
@@ -1388,7 +1392,8 @@
     "5d4b1321ac5e",
     "f582252343af",
     "27be26c6f177",
-    "e62f85ca100b"
+    "e62f85ca100b",
+    "201a6bfc4c9c"
    ]
   },
   "https://www.quantamagazine.org/feed/": {
@@ -1406,7 +1411,7 @@
    ]
   },
   "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml": {
-   "newest": "2026-10-23T17:00:18Z",
+   "newest": "2026-10-23T21:11:07Z",
    "seen": [
     "18666a8c9ef2",
     "4bee47ba2525",
@@ -1458,7 +1463,9 @@
     "7e4e6855385a",
     "e067a4bed9a3",
     "dd390d9e8ff6",
-    "d30681dea731"
+    "d30681dea731",
+    "740465d534ba",
+    "b72669c84c64"
    ]
   }
  }
