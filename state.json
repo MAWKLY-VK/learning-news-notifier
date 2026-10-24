@@ -57,7 +57,7 @@
    ]
   },
   "https://feeds.feedburner.com/TheHackersNews": {
-   "newest": "2026-10-24T06:25:57Z",
+   "newest": "2026-10-24T11:09:29Z",
    "seen": [
     "4f95732c4969",
     "dc7b54e8c00a",
@@ -182,7 +182,11 @@
     "015a882ee274",
     "4645fb818a8e",
     "077ef200d3e0",
-    "838b4b1ce253"
+    "838b4b1ce253",
+    "94d51fe2d204",
+    "afec56c7243a",
+    "3a1a036ef73a",
+    "a0a9e49aec28"
    ]
   },
   "https://github.blog/feed/": {
@@ -573,7 +577,8 @@
     "84e8451c98cf",
     "0e035c1e29fb",
     "fe5a0c6de7a4",
-    "c4602c23fd4a"
+    "c4602c23fd4a",
+    "04453c344b18"
    ]
   },
   "https://huggingface.co/blog/feed.xml": {
