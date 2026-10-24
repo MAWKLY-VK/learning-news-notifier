@@ -57,7 +57,7 @@
    ]
   },
   "https://feeds.feedburner.com/TheHackersNews": {
-   "newest": "2026-10-23T18:50:13Z",
+   "newest": "2026-10-24T06:25:57Z",
    "seen": [
     "4f95732c4969",
     "dc7b54e8c00a",
@@ -181,7 +181,8 @@
     "f059789b2437",
     "015a882ee274",
     "4645fb818a8e",
-    "077ef200d3e0"
+    "077ef200d3e0",
+    "838b4b1ce253"
    ]
   },
   "https://github.blog/feed/": {
@@ -348,7 +349,7 @@
    ]
   },
   "https://github.com/ollama/ollama/releases.atom": {
-   "newest": "2026-10-23T17:17:19Z",
+   "newest": "2026-10-24T00:30:13Z",
    "seen": [
     "8cb56d93255a",
     "ea4ec1f2b6c3",
@@ -362,7 +363,8 @@
     "69c57027e4e5",
     "93075ca7943b",
     "d4e5a2ab16fd",
-    "61696709805b"
+    "61696709805b",
+    "1790a53fca44"
    ]
   },
   "https://github.com/open-webui/open-webui/releases.atom": {
@@ -436,7 +438,8 @@
     "ef0f8c60d9a0",
     "4272fe4ec844",
     "d943f25b1127",
-    "7ef4add10e64"
+    "7ef4add10e64",
+    "96c77360652b"
    ]
   },
   "https://github.com/thedotmack/claude-mem/releases.atom": {
@@ -461,7 +464,7 @@
    ]
   },
   "https://hnrss.org/frontpage?points=300": {
-   "newest": "2026-10-23T16:59:08Z",
+   "newest": "2026-10-23T19:09:54Z",
    "seen": [
     "73f957b7094f",
     "6bef5746e1b3",
@@ -568,7 +571,9 @@
     "3a7d21e534d1",
     "60728a8dd9ff",
     "84e8451c98cf",
-    "0e035c1e29fb"
+    "0e035c1e29fb",
+    "fe5a0c6de7a4",
+    "c4602c23fd4a"
    ]
   },
   "https://huggingface.co/blog/feed.xml": {
