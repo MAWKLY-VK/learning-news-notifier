@@ -209,7 +209,7 @@
    ]
   },
   "https://github.com/OthmanAdi/planning-with-files/releases.atom": {
-   "newest": "2026-10-23T18:03:11Z",
+   "newest": "2026-10-24T17:24:40Z",
    "seen": [
     "5af1b62e192c",
     "c1ae59dd25d5",
@@ -224,7 +224,8 @@
     "5b3fdae73ae8",
     "22c34153f248",
     "27e2e769e32b",
-    "9d8a02875a60"
+    "9d8a02875a60",
+    "10e21c640504"
    ]
   },
   "https://github.com/addyosmani/agent-skills/releases.atom": {
@@ -353,7 +354,7 @@
    ]
   },
   "https://github.com/ollama/ollama/releases.atom": {
-   "newest": "2026-10-24T00:30:13Z",
+   "newest": "2026-10-24T17:50:51Z",
    "seen": [
     "8cb56d93255a",
     "ea4ec1f2b6c3",
@@ -368,7 +369,8 @@
     "93075ca7943b",
     "d4e5a2ab16fd",
     "61696709805b",
-    "1790a53fca44"
+    "1790a53fca44",
+    "df4c1212e1c9"
    ]
   },
   "https://github.com/open-webui/open-webui/releases.atom": {
@@ -443,7 +445,8 @@
     "4272fe4ec844",
     "d943f25b1127",
     "7ef4add10e64",
-    "96c77360652b"
+    "96c77360652b",
+    "fa6324f2e756"
    ]
   },
   "https://github.com/thedotmack/claude-mem/releases.atom": {
@@ -468,7 +471,7 @@
    ]
   },
   "https://hnrss.org/frontpage?points=300": {
-   "newest": "2026-10-23T19:09:54Z",
+   "newest": "2026-10-24T05:49:57Z",
    "seen": [
     "73f957b7094f",
     "6bef5746e1b3",
@@ -578,7 +581,11 @@
     "0e035c1e29fb",
     "fe5a0c6de7a4",
     "c4602c23fd4a",
-    "04453c344b18"
+    "04453c344b18",
+    "e6b7461e9054",
+    "966dcb7a9064",
+    "1eeb832635e9",
+    "7b70c9cd2d7c"
    ]
   },
   "https://huggingface.co/blog/feed.xml": {
@@ -1329,7 +1336,7 @@
    ]
   },
   "https://www.bleepingcomputer.com/feed/": {
-   "newest": "2026-10-23T20:55:05Z",
+   "newest": "2026-10-24T14:17:32Z",
    "seen": [
     "937c7f4fab21",
     "fac7cd6e29f5",
@@ -1403,7 +1410,8 @@
     "f582252343af",
     "27be26c6f177",
     "e62f85ca100b",
-    "201a6bfc4c9c"
+    "201a6bfc4c9c",
+    "a6ce31709924"
    ]
   },
   "https://www.quantamagazine.org/feed/": {
