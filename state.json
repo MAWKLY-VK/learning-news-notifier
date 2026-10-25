@@ -355,7 +355,7 @@
    ]
   },
   "https://github.com/ollama/ollama/releases.atom": {
-   "newest": "2026-10-24T17:50:51Z",
+   "newest": "2026-10-25T18:06:57Z",
    "seen": [
     "8cb56d93255a",
     "ea4ec1f2b6c3",
@@ -601,7 +601,8 @@
     "c87b749570fa",
     "d446d83c633f",
     "d57394262bc9",
-    "a77582a56f27"
+    "a77582a56f27",
+    "29d4c4ba4d9d"
    ]
   },
   "https://huggingface.co/blog/feed.xml": {
@@ -1352,7 +1353,7 @@
    ]
   },
   "https://www.bleepingcomputer.com/feed/": {
-   "newest": "2026-10-24T14:17:32Z",
+   "newest": "2026-10-25T15:49:38Z",
    "seen": [
     "937c7f4fab21",
     "fac7cd6e29f5",
@@ -1427,7 +1428,8 @@
     "27be26c6f177",
     "e62f85ca100b",
     "201a6bfc4c9c",
-    "a6ce31709924"
+    "a6ce31709924",
+    "9e8f060397f4"
    ]
   },
   "https://www.quantamagazine.org/feed/": {
