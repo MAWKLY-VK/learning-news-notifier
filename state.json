@@ -57,7 +57,7 @@
    ]
   },
   "https://feeds.feedburner.com/TheHackersNews": {
-   "newest": "2026-10-26T06:03:48Z",
+   "newest": "2026-10-26T14:06:13Z",
    "seen": [
     "4f95732c4969",
     "dc7b54e8c00a",
@@ -190,7 +190,13 @@
     "5d0e99bc982d",
     "3eda0d6ae7e3",
     "4a8154151413",
-    "8239096a100a"
+    "8239096a100a",
+    "8e95a20d61e4",
+    "35a2887f8653",
+    "275e6f3b55af",
+    "49aedb62ce7d",
+    "a5411bb33d7f",
+    "3576934612fc"
    ]
   },
   "https://github.blog/feed/": {
@@ -481,7 +487,7 @@
    ]
   },
   "https://hnrss.org/frontpage?points=300": {
-   "newest": "2026-10-25T18:23:54Z",
+   "newest": "2026-10-26T13:04:50Z",
    "seen": [
     "73f957b7094f",
     "6bef5746e1b3",
@@ -610,7 +616,12 @@
     "1d5f61825786",
     "f685877d59af",
     "5ab5f71fc179",
-    "53100366cf45"
+    "53100366cf45",
+    "9ba2f6beb9e0",
+    "8da996be40f2",
+    "ae3aed79da22",
+    "0068d2d053b3",
+    "3fc62f73bf2c"
    ]
   },
   "https://huggingface.co/blog/feed.xml": {
@@ -706,7 +717,7 @@
    ]
   },
   "https://openai.com/news/rss.xml": {
-   "newest": "2026-10-23T17:00:00Z",
+   "newest": "2026-10-26T07:00:00Z",
    "seen": [
     "1dd9ce125c6e",
     "1d5a9cc2d950",
@@ -779,7 +790,8 @@
     "27825e300358",
     "15c1f8ef7a58",
     "298c8de07d18",
-    "48e2274fdf2b"
+    "48e2274fdf2b",
+    "eb7708c5f537"
    ]
   },
   "https://rss.arxiv.org/rss/cs.AI": {
@@ -1391,7 +1403,7 @@
    ]
   },
   "https://www.bleepingcomputer.com/feed/": {
-   "newest": "2026-10-25T15:49:38Z",
+   "newest": "2026-10-26T15:38:24Z",
    "seen": [
     "937c7f4fab21",
     "fac7cd6e29f5",
@@ -1467,11 +1479,16 @@
     "e62f85ca100b",
     "201a6bfc4c9c",
     "a6ce31709924",
-    "9e8f060397f4"
+    "9e8f060397f4",
+    "fbd9cb2b4455",
+    "4dd6d369bedf",
+    "9cb042202f4d",
+    "3c0f1fb39eea",
+    "cf08225efb6b"
    ]
   },
   "https://www.quantamagazine.org/feed/": {
-   "newest": "2026-10-23T14:54:10Z",
+   "newest": "2026-10-26T14:54:29Z",
    "seen": [
     "21028eea3cf4",
     "47af22fffb9c",
@@ -1481,11 +1498,12 @@
     "030affc05f1c",
     "604192172654",
     "6557e995f0a1",
-    "fa6b3ea0b1ca"
+    "fa6b3ea0b1ca",
+    "30a830a39c1e"
    ]
   },
   "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml": {
-   "newest": "2026-10-25T13:25:32Z",
+   "newest": "2026-10-26T15:58:27Z",
    "seen": [
     "18666a8c9ef2",
     "4bee47ba2525",
@@ -1543,7 +1561,11 @@
     "41e28042f793",
     "b0e212d8576d",
     "e2ea79a88d73",
-    "cc5f5a5698bc"
+    "cc5f5a5698bc",
+    "341c23abeae1",
+    "d3cd3ac33675",
+    "741204a424b0",
+    "5296547ccc20"
    ]
   }
  }
