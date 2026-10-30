@@ -415,7 +415,7 @@
    ]
   },
   "https://github.com/mksglu/context-mode/releases.atom": {
-   "newest": "2026-10-29T20:03:39Z",
+   "newest": "2026-10-30T00:19:04Z",
    "seen": [
     "483f70c33d9f",
     "e4d393f360f4",
@@ -440,7 +440,8 @@
     "4d0f169b1fab",
     "54067ca74902",
     "90b7dc1a49e0",
-    "bb05ba142f87"
+    "bb05ba142f87",
+    "c7935872dc0f"
    ]
   },
   "https://github.com/ollama/ollama/releases.atom": {
@@ -589,7 +590,7 @@
    ]
   },
   "https://hnrss.org/frontpage?points=300": {
-   "newest": "2026-10-29T19:41:39Z",
+   "newest": "2026-10-29T21:38:59Z",
    "seen": [
     "73f957b7094f",
     "6bef5746e1b3",
@@ -764,7 +765,10 @@
     "23a8891bbf7d",
     "52da2f885766",
     "e4eae24d8b96",
-    "80d32e0e7f89"
+    "80d32e0e7f89",
+    "bd635f9aa740",
+    "ed95d2e7901d",
+    "89bac0471e0b"
    ]
   },
   "https://huggingface.co/blog/feed.xml": {
@@ -1576,7 +1580,7 @@
    ]
   },
   "https://www.bleepingcomputer.com/feed/": {
-   "newest": "2026-10-29T19:23:41Z",
+   "newest": "2026-10-29T23:35:52Z",
    "seen": [
     "937c7f4fab21",
     "fac7cd6e29f5",
@@ -1691,7 +1695,12 @@
     "f34fb5d0be19",
     "a556f2a13255",
     "7c2b70bd7e3e",
-    "e692538b686e"
+    "e692538b686e",
+    "fe7730fa4068",
+    "17e71a11c730",
+    "a6d0e88b749c",
+    "7d9fa054e5fe",
+    "7363e725b55a"
    ]
   },
   "https://www.quantamagazine.org/feed/": {
