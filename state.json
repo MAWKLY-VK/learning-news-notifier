@@ -59,7 +59,7 @@
    ]
   },
   "https://feeds.feedburner.com/TheHackersNews": {
-   "newest": "2026-10-31T08:27:43Z",
+   "newest": "2026-10-31T12:01:56Z",
    "seen": [
     "4f95732c4969",
     "dc7b54e8c00a",
@@ -254,7 +254,8 @@
     "46d8d781bead",
     "21ad2182a136",
     "e8eb82345a00",
-    "4a3beb5aa5ff"
+    "4a3beb5aa5ff",
+    "1f2870fb86df"
    ]
   },
   "https://github.blog/feed/": {
@@ -434,7 +435,7 @@
    ]
   },
   "https://github.com/mksglu/context-mode/releases.atom": {
-   "newest": "2026-10-30T13:59:52Z",
+   "newest": "2026-10-31T17:36:40Z",
    "seen": [
     "483f70c33d9f",
     "e4d393f360f4",
@@ -462,7 +463,9 @@
     "bb05ba142f87",
     "c7935872dc0f",
     "173a1119eef3",
-    "3208a6cd10ce"
+    "3208a6cd10ce",
+    "6e827cdc9e13",
+    "d5e22f22e469"
    ]
   },
   "https://github.com/ollama/ollama/releases.atom": {
@@ -617,7 +620,7 @@
    ]
   },
   "https://hnrss.org/frontpage?points=300": {
-   "newest": "2026-10-30T20:23:30Z",
+   "newest": "2026-10-31T10:21:30Z",
    "seen": [
     "73f957b7094f",
     "6bef5746e1b3",
@@ -802,7 +805,8 @@
     "533c46eb72c7",
     "732f05bbae9a",
     "082e956a26af",
-    "617f17abe0c1"
+    "617f17abe0c1",
+    "3fd8c526c058"
    ]
   },
   "https://huggingface.co/blog/feed.xml": {
@@ -1619,7 +1623,7 @@
    ]
   },
   "https://www.bleepingcomputer.com/feed/": {
-   "newest": "2026-10-30T21:09:46Z",
+   "newest": "2026-10-31T18:01:12Z",
    "seen": [
     "937c7f4fab21",
     "fac7cd6e29f5",
@@ -1747,7 +1751,12 @@
     "27c3e9ac8130",
     "96a0f026f2e0",
     "e645dafde1d4",
-    "f167e37bde6d"
+    "f167e37bde6d",
+    "a291b7051796",
+    "4e3b797fd4a7",
+    "b35f9e575d4b",
+    "845cf24b8961",
+    "ba55b05e53ea"
    ]
   },
   "https://www.quantamagazine.org/feed/": {
@@ -1769,7 +1778,7 @@
    ]
   },
   "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml": {
-   "newest": "2026-10-30T22:32:53Z",
+   "newest": "2026-10-31T16:05:00Z",
    "seen": [
     "18666a8c9ef2",
     "4bee47ba2525",
@@ -1867,7 +1876,8 @@
     "da148ab9dcdc",
     "09f96bc37fec",
     "c0d4376a58f1",
-    "0d3c54b0a7c7"
+    "0d3c54b0a7c7",
+    "d1b6852b4a40"
    ]
   }
  }
