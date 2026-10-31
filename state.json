@@ -276,7 +276,7 @@
    ]
   },
   "https://github.com/OthmanAdi/planning-with-files/releases.atom": {
-   "newest": "2026-10-28T17:42:47Z",
+   "newest": "2026-10-30T20:57:43Z",
    "seen": [
     "5af1b62e192c",
     "c1ae59dd25d5",
@@ -293,7 +293,8 @@
     "27e2e769e32b",
     "9d8a02875a60",
     "10e21c640504",
-    "dd6ffe1167cb"
+    "dd6ffe1167cb",
+    "29836a265f9c"
    ]
   },
   "https://github.com/addyosmani/agent-skills/releases.atom": {
@@ -366,7 +367,7 @@
    ]
   },
   "https://github.com/coreyhaines31/marketingskills/releases.atom": {
-   "newest": "2026-10-29T17:22:56Z",
+   "newest": "2026-10-30T23:29:01Z",
    "seen": [
     "0fdf745467ff",
     "d7ba0ac90f78",
@@ -394,7 +395,8 @@
     "48b251ecc751",
     "0db2020b8e2f",
     "1f4b0fdf70d5",
-    "e2453d357e92"
+    "e2453d357e92",
+    "7c54a121677b"
    ]
   },
   "https://github.com/google-gemini/gemini-cli/releases.atom": {
@@ -574,7 +576,9 @@
     "7d824c7d4237",
     "20c26af36c15",
     "fea701770060",
-    "95e395b5ff0a"
+    "95e395b5ff0a",
+    "94b345c734b4",
+    "1db42e5f01fd"
    ]
   },
   "https://github.com/thedotmack/claude-mem/releases.atom": {
@@ -787,7 +791,8 @@
     "ed95d2e7901d",
     "89bac0471e0b",
     "3df6c6a3636a",
-    "e17e43249bd6"
+    "e17e43249bd6",
+    "9cc25a86e246"
    ]
   },
   "https://huggingface.co/blog/feed.xml": {
@@ -984,7 +989,8 @@
     "7bf0065ceb16",
     "6750c2461412",
     "c7606af40dbb",
-    "25cc4c9bb2e3"
+    "25cc4c9bb2e3",
+    "d2282bcce162"
    ]
   },
   "https://rss.arxiv.org/rss/cs.AI": {
@@ -1603,7 +1609,7 @@
    ]
   },
   "https://www.bleepingcomputer.com/feed/": {
-   "newest": "2026-10-30T15:58:20Z",
+   "newest": "2026-10-30T21:09:46Z",
    "seen": [
     "937c7f4fab21",
     "fac7cd6e29f5",
@@ -1730,7 +1736,8 @@
     "09382f93624b",
     "27c3e9ac8130",
     "96a0f026f2e0",
-    "e645dafde1d4"
+    "e645dafde1d4",
+    "f167e37bde6d"
    ]
   },
   "https://www.quantamagazine.org/feed/": {
@@ -1752,7 +1759,7 @@
    ]
   },
   "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml": {
-   "newest": "2026-10-30T18:21:38Z",
+   "newest": "2026-10-30T22:32:53Z",
    "seen": [
     "18666a8c9ef2",
     "4bee47ba2525",
@@ -1847,7 +1854,10 @@
     "5fdffb8bbfba",
     "cd93137ee2f0",
     "040af99b1709",
-    "da148ab9dcdc"
+    "da148ab9dcdc",
+    "09f96bc37fec",
+    "c0d4376a58f1",
+    "0d3c54b0a7c7"
    ]
   }
  }
