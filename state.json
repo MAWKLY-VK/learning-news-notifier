@@ -59,7 +59,7 @@
    ]
   },
   "https://feeds.feedburner.com/TheHackersNews": {
-   "newest": "2026-10-30T16:58:44Z",
+   "newest": "2026-10-31T08:27:43Z",
    "seen": [
     "4f95732c4969",
     "dc7b54e8c00a",
@@ -251,7 +251,10 @@
     "4eafb481bfd9",
     "6473fc7702e5",
     "bfec2004bdb1",
-    "46d8d781bead"
+    "46d8d781bead",
+    "21ad2182a136",
+    "e8eb82345a00",
+    "4a3beb5aa5ff"
    ]
   },
   "https://github.blog/feed/": {
@@ -298,7 +301,7 @@
    ]
   },
   "https://github.com/addyosmani/agent-skills/releases.atom": {
-   "newest": "2026-10-29T05:07:00Z",
+   "newest": "2026-10-31T06:40:31Z",
    "seen": [
     "d711b7455301",
     "326fdd3cf767",
@@ -310,11 +313,12 @@
     "abe50724859b",
     "5dbe68c7b854",
     "76fdb78b73e1",
-    "8bf98022ec94"
+    "8bf98022ec94",
+    "5df1aa847736"
    ]
   },
   "https://github.com/anthropics/claude-code/releases.atom": {
-   "newest": "2026-10-30T01:06:26Z",
+   "newest": "2026-10-31T01:01:35Z",
    "seen": [
     "e630e4025c88",
     "b0ee8db96d1f",
@@ -337,7 +341,8 @@
     "cd4781d96bb5",
     "16ce72832eeb",
     "f35336f830f2",
-    "865f57db5649"
+    "865f57db5649",
+    "d1bbd9e040ed"
    ]
   },
   "https://github.com/anthropics/skills/commits/main.atom": {
@@ -578,7 +583,8 @@
     "fea701770060",
     "95e395b5ff0a",
     "94b345c734b4",
-    "1db42e5f01fd"
+    "1db42e5f01fd",
+    "21ef6bcdc7f0"
    ]
   },
   "https://github.com/thedotmack/claude-mem/releases.atom": {
@@ -611,7 +617,7 @@
    ]
   },
   "https://hnrss.org/frontpage?points=300": {
-   "newest": "2026-10-30T15:52:18Z",
+   "newest": "2026-10-30T20:23:30Z",
    "seen": [
     "73f957b7094f",
     "6bef5746e1b3",
@@ -792,7 +798,11 @@
     "89bac0471e0b",
     "3df6c6a3636a",
     "e17e43249bd6",
-    "9cc25a86e246"
+    "9cc25a86e246",
+    "533c46eb72c7",
+    "732f05bbae9a",
+    "082e956a26af",
+    "617f17abe0c1"
    ]
   },
   "https://huggingface.co/blog/feed.xml": {
@@ -994,7 +1004,7 @@
    ]
   },
   "https://rss.arxiv.org/rss/cs.AI": {
-   "newest": "2026-10-30T04:00:00Z",
+   "newest": "2026-10-31T04:00:00Z",
    "seen": [
     "1aeb4f24a2c9",
     "e65d294b7f68",
