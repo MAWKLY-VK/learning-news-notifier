@@ -263,7 +263,7 @@
    ]
   },
   "https://github.blog/feed/": {
-   "newest": "2026-10-28T16:09:28Z",
+   "newest": "2026-11-01T21:36:00Z",
    "seen": [
     "1515a8a30657",
     "3902c431970b",
@@ -280,7 +280,8 @@
     "8f99f6dadd2c",
     "fd319a83ade2",
     "abd38049b4ab",
-    "59e5d23d51ae"
+    "59e5d23d51ae",
+    "8ca6d53d3d9b"
    ]
   },
   "https://github.com/OthmanAdi/planning-with-files/releases.atom": {
@@ -439,7 +440,7 @@
    ]
   },
   "https://github.com/mksglu/context-mode/releases.atom": {
-   "newest": "2026-11-01T12:02:41Z",
+   "newest": "2026-11-01T23:14:07Z",
    "seen": [
     "483f70c33d9f",
     "e4d393f360f4",
@@ -474,7 +475,9 @@
     "a7dde09ddf8e",
     "51218bd08549",
     "ce4c4c55bdf0",
-    "6d0b848016a5"
+    "6d0b848016a5",
+    "4eb1e73babc0",
+    "920dc1db4e24"
    ]
   },
   "https://github.com/ollama/ollama/releases.atom": {
@@ -603,7 +606,7 @@
    ]
   },
   "https://github.com/thedotmack/claude-mem/releases.atom": {
-   "newest": "2026-11-01T04:02:00Z",
+   "newest": "2026-11-01T20:04:20Z",
    "seen": [
     "044ac23edd43",
     "33cbd398046b",
@@ -629,11 +632,12 @@
     "4187001d14a1",
     "fe2d92b03427",
     "3c2178e86fcf",
-    "c1c393ab16f5"
+    "c1c393ab16f5",
+    "ec5c319757a0"
    ]
   },
   "https://hnrss.org/frontpage?points=300": {
-   "newest": "2026-11-01T15:58:28Z",
+   "newest": "2026-11-01T17:28:16Z",
    "seen": [
     "73f957b7094f",
     "6bef5746e1b3",
@@ -828,7 +832,9 @@
     "4d41531d5462",
     "da8ab1cb9e9e",
     "f0da6b9dffa7",
-    "951e1a98ac95"
+    "951e1a98ac95",
+    "42dfeea4cb67",
+    "9d1e019d5c9d"
    ]
   },
   "https://huggingface.co/blog/feed.xml": {
@@ -1645,7 +1651,7 @@
    ]
   },
   "https://www.bleepingcomputer.com/feed/": {
-   "newest": "2026-11-01T15:11:21Z",
+   "newest": "2026-11-01T19:57:53Z",
    "seen": [
     "937c7f4fab21",
     "fac7cd6e29f5",
@@ -1780,7 +1786,8 @@
     "845cf24b8961",
     "ba55b05e53ea",
     "d15dc155427a",
-    "af6ffe74845e"
+    "af6ffe74845e",
+    "8cfea8890b08"
    ]
   },
   "https://www.quantamagazine.org/feed/": {
