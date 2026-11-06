@@ -62,13 +62,8 @@
    ]
   },
   "https://feeds.feedburner.com/TheHackersNews": {
-   "newest": "2026-11-05T14:41:10Z",
+   "newest": "2026-11-06T08:04:49Z",
    "seen": [
-    "fc3053d7e094",
-    "999e9923be39",
-    "ce862b886d1b",
-    "e7e058293387",
-    "12b5084185c2",
     "ba5ef20dc7e9",
     "6ab9bdcb522c",
     "cdc576e64c59",
@@ -263,7 +258,12 @@
     "96a1ace9f58c",
     "1981b067cd83",
     "5d4d03269391",
-    "59043a855535"
+    "59043a855535",
+    "306be99284dc",
+    "3fe484f436f5",
+    "a382c3d13c65",
+    "ed60ea7fa412",
+    "6facdf5f94df"
    ]
   },
   "https://github.blog/feed/": {
@@ -451,7 +451,7 @@
    ]
   },
   "https://github.com/mksglu/context-mode/releases.atom": {
-   "newest": "2026-11-05T15:30:43Z",
+   "newest": "2026-11-05T23:44:10Z",
    "seen": [
     "483f70c33d9f",
     "e4d393f360f4",
@@ -509,11 +509,12 @@
     "42ec6d0cb600",
     "9ee1ec3736cd",
     "b4adcebf7a0c",
-    "0cecb989bc12"
+    "0cecb989bc12",
+    "27ce7753223d"
    ]
   },
   "https://github.com/ollama/ollama/releases.atom": {
-   "newest": "2026-11-05T03:36:38Z",
+   "newest": "2026-11-06T01:47:18Z",
    "seen": [
     "8cb56d93255a",
     "ea4ec1f2b6c3",
@@ -537,7 +538,8 @@
     "52f444221319",
     "33e1e9f1a496",
     "c9fd6b692b78",
-    "c923d3b2345f"
+    "c923d3b2345f",
+    "6375b6236671"
    ]
   },
   "https://github.com/open-webui/open-webui/releases.atom": {
@@ -560,13 +562,14 @@
    ]
   },
   "https://github.com/openai/codex/releases.atom": {
-   "newest": "2026-11-03T23:04:31Z",
+   "newest": "2026-11-06T01:42:19Z",
    "seen": [
     "4a2f620f713a",
     "78223fbdd62d",
     "0bdd5a25814f",
     "647b59e35b42",
-    "9d5a45e7b350"
+    "9d5a45e7b350",
+    "0adbb953c4fd"
    ]
   },
   "https://github.com/search?type=repositories&q=topic%3Aclaude-skills%20topic%3Aagent-skills%20topic%3Aclaude-code-plugin%20topic%3Aclaude-code-plugins%20topic%3Amcp-server": {
@@ -650,7 +653,8 @@
     "bc954fd370bc",
     "b09ef617bf10",
     "141e268b6f0b",
-    "68b9a4829a88"
+    "68b9a4829a88",
+    "94e39819c250"
    ]
   },
   "https://github.com/thedotmack/claude-mem/releases.atom": {
@@ -689,17 +693,8 @@
    ]
   },
   "https://hnrss.org/frontpage?points=300": {
-   "newest": "2026-11-05T16:01:34Z",
+   "newest": "2026-11-05T23:09:57Z",
    "seen": [
-    "02abbab0e1b5",
-    "c21109668b1f",
-    "b278e021fdb2",
-    "4d77f7290239",
-    "69c855a3c9aa",
-    "008c4d7e3005",
-    "5fabe48a4ce5",
-    "389ee0fb902a",
-    "08028d8d434e",
     "d33dba2ab48c",
     "e7fd8cf2b322",
     "470f81a32e0a",
@@ -890,11 +885,20 @@
     "db6b197d6fe7",
     "d3f9baa09475",
     "021649d9d420",
-    "45ed9c8305d7"
+    "45ed9c8305d7",
+    "4376eb7685b1",
+    "8f7a08cea775",
+    "7c78f3bd5d1e",
+    "66d4dca8021f",
+    "68f729437723",
+    "19362c7ba9ad",
+    "3bddd94ced51",
+    "07706832bb39",
+    "021e663a35a4"
    ]
   },
   "https://huggingface.co/blog/feed.xml": {
-   "newest": "2026-11-05T19:35:16Z",
+   "newest": "2026-11-06T00:00:00Z",
    "seen": [
     "8ff67d77127c",
     "9101339b1ac2",
@@ -980,7 +984,8 @@
     "a55665cf4895",
     "5afc49da7bd4",
     "89209ab642b1",
-    "e8690f74b67f"
+    "e8690f74b67f",
+    "82196d4ece0a"
    ]
   },
   "https://krebsonsecurity.com/feed/": {
@@ -1003,7 +1008,7 @@
    ]
   },
   "https://openai.com/news/rss.xml": {
-   "newest": "2026-11-05T09:00:00Z",
+   "newest": "2026-11-05T20:00:00Z",
    "seen": [
     "1dd9ce125c6e",
     "1d5a9cc2d950",
@@ -1116,62 +1121,17 @@
     "0a437d67f2ef",
     "a4f4c423c542",
     "f93567576105",
-    "53c56afbaf05"
+    "53c56afbaf05",
+    "c0d7b0808284",
+    "1f9981de5700",
+    "300d91101f21",
+    "b58fee4edbbb",
+    "c88b52d0b210"
    ]
   },
   "https://rss.arxiv.org/rss/cs.AI": {
-   "newest": "2026-11-05T05:00:00Z",
+   "newest": "2026-11-06T05:00:00Z",
    "seen": [
-    "26f31cc7bd7e",
-    "51fbe6d87d63",
-    "ee0af1c9bd6b",
-    "01ef2000ca74",
-    "31c45b1ffabb",
-    "3a02c29483f7",
-    "67bff125c19e",
-    "6e89af51e65a",
-    "13f43a006267",
-    "4db05fcad40f",
-    "73d87e9d57ba",
-    "2bec28dae3f9",
-    "a63ea89b6f3b",
-    "18e9918bdfd7",
-    "68d24c414f79",
-    "f61ce544f6f8",
-    "77a20129ae49",
-    "80d4bdc4c105",
-    "f429f093a057",
-    "c1fa870c1f30",
-    "88c483256d5d",
-    "b88c1f85c5ba",
-    "b00c5e3b5c6f",
-    "463a575dcc19",
-    "6c2dadf4fae1",
-    "28542084b3d8",
-    "240ba9e8c3cc",
-    "1b826e98dfc5",
-    "5803550b5910",
-    "8398aae2814e",
-    "44f9c5d8296f",
-    "71a73e11bcc6",
-    "cf8eca1d294a",
-    "4ee2518aa7d8",
-    "039935e4014b",
-    "0da38fc3c7af",
-    "c0d57d172026",
-    "f91f527aa41a",
-    "922a34c4c23e",
-    "8a9300ba34c3",
-    "8970e2f3d196",
-    "a254dae29060",
-    "a7427defbc05",
-    "e853cac0b714",
-    "8749e9efcfda",
-    "9e0b2ac89223",
-    "6460e6032f7d",
-    "f47c3fbdc4e1",
-    "991e97e33969",
-    "b62281ffd971",
     "d4a8af191f6a",
     "98593efc1d6e",
     "b5ac6e04d4db",
@@ -1321,34 +1281,62 @@
     "101d1e152be5",
     "412302737b0d",
     "ac13097ae122",
-    "855eb96d7ef9"
+    "855eb96d7ef9",
+    "37c00d44dde2",
+    "72091e975e66",
+    "2bf497d09531",
+    "7fb3c51b553b",
+    "d2ce27c30039",
+    "ab7da1c5f5c5",
+    "5a6a89b40ce7",
+    "0ec20f5c13e9",
+    "83563b7c0d50",
+    "a360d26eb58d",
+    "b271bb78c3c4",
+    "2468c2ae7c3d",
+    "0cf470175d46",
+    "6b5ebfec90dc",
+    "f63b588cfab9",
+    "9ffbe75cf0b0",
+    "9b1173e78bb6",
+    "eebe37b3d722",
+    "de8680de64dd",
+    "efe518fc0ba9",
+    "609c02e2ba3c",
+    "84c9863fa1c7",
+    "480cbe5c16ba",
+    "c97a52e76fd5",
+    "2502895a13b6",
+    "42ff8040ef68",
+    "dcd6701be611",
+    "fee2dd668c9a",
+    "8d2262ebe92f",
+    "afd1e767d0e5",
+    "87f1f38ba4bc",
+    "59642fac2761",
+    "f3c184b153d4",
+    "a7b47f387661",
+    "82773635196a",
+    "9289a8bb6d01",
+    "52944badbf07",
+    "5265a98159d7",
+    "53fef792a3ff",
+    "50398c8d7ce7",
+    "22b73d6f6d76",
+    "877095aeaadd",
+    "dd226aeee36d",
+    "355018c1bb1e",
+    "00bd6437dc42",
+    "6d89d84a29d4",
+    "4fe1a9d8847b",
+    "e2e53f904f54",
+    "d140e7d79f4b",
+    "bf09ee988089"
    ]
   },
   "https://rss.arxiv.org/rss/cs.CR": {
-   "newest": "2026-11-05T05:00:00Z",
+   "newest": "2026-11-06T05:00:00Z",
    "seen": [
-    "8ddb956c5f4c",
-    "74273461d255",
-    "47f42a878655",
-    "3fe9716a893e",
-    "3efdd1b55b31",
-    "433e69891900",
-    "6014720b180e",
-    "db3c13414e43",
-    "4e7ec0d30a7d",
-    "d113883b99e5",
-    "d50d0beb0eb3",
-    "53b3c1e06cbb",
-    "06dc14fbcca0",
-    "1e4cb236d634",
-    "d6c98ba4b648",
-    "3ca16d999902",
-    "0a0ab38b7cc7",
-    "da915ba3c86f",
-    "3e555fc1b4e7",
-    "e19cc8291fce",
-    "acd52ac015d0",
-    "776165a52350",
     "d34c03862973",
     "806264154ec5",
     "06811cd3897a",
@@ -1526,47 +1514,34 @@
     "923e16be8461",
     "cb356d1e638a",
     "8d2d0b49237c",
-    "15a525174cbd"
+    "15a525174cbd",
+    "1d3739f526ba",
+    "2706721a4cd1",
+    "aa8cd8a01d34",
+    "9b1c33146ded",
+    "9c8b909f3690",
+    "1ae705c56c61",
+    "9ce9a341a69f",
+    "17049d4db7f9",
+    "113eb2c584a2",
+    "a92d8d8e6979",
+    "74780fd091f0",
+    "cabb5086068a",
+    "87b88bab18fe",
+    "8198da8ed13d",
+    "e8901bec1cb5",
+    "5ab1cd84035d",
+    "bfcc6073209c",
+    "5e847840b7bb",
+    "456963323d6c",
+    "54e4aaec5ae4",
+    "038f9bcab27b",
+    "98791cec84b0"
    ]
   },
   "https://rss.arxiv.org/rss/cs.SE": {
-   "newest": "2026-11-05T05:00:00Z",
+   "newest": "2026-11-06T05:00:00Z",
    "seen": [
-    "243e876dab7b",
-    "676d983548fa",
-    "d64729c00155",
-    "117ce3338bbe",
-    "65884323b457",
-    "ae044cdd2a5d",
-    "41e345eb08da",
-    "0fed2f4d6e69",
-    "3c6ef717b7f5",
-    "86974c68ed06",
-    "057f8b64e27b",
-    "7a20e1523a38",
-    "8ed088327485",
-    "a60f9fceba0b",
-    "325fc7ed7242",
-    "60890199bd60",
-    "1e110f519fe3",
-    "79937e4d5a58",
-    "2c891a74888a",
-    "6fbe18628a52",
-    "e7107ae241d3",
-    "2cda9fca2a89",
-    "421735ab31e2",
-    "7c5ea26d55ec",
-    "23199ba66d26",
-    "3bf8b607696f",
-    "b3b1adfa7149",
-    "9918c818d449",
-    "befd5e823801",
-    "a34bcd19c5a2",
-    "45fe7f1cb641",
-    "c52fc92eba83",
-    "1bb1e82429fc",
-    "4f9108f5f5fc",
-    "fbcd023975fe",
     "1cbec3c28507",
     "ceb024c75368",
     "38baae796015",
@@ -1731,11 +1706,46 @@
     "99f8d6e5ca63",
     "3b8acf0ba339",
     "d703e0c8cba3",
-    "5ae455315100"
+    "5ae455315100",
+    "5f856e687c75",
+    "7711b7aad303",
+    "1a7d6d4b54c2",
+    "c5be4f29bea2",
+    "70535e15f757",
+    "30ef92754b03",
+    "1a53eb7bd102",
+    "8c44aba2ee3b",
+    "c3a6487e209d",
+    "de02acf8e197",
+    "d361cd902c0d",
+    "a5d83346396b",
+    "4a63227afeba",
+    "b4a792343e96",
+    "ec11d85c8243",
+    "4da2277d722e",
+    "4bec28bf5d7d",
+    "6aa8ad5ee9b9",
+    "e15ea4dae9db",
+    "e8da993cd0a5",
+    "cd758a0ad96b",
+    "c6294bed75ba",
+    "9fc079abc937",
+    "170f09d11311",
+    "04831cde8ca3",
+    "bd6e44d9ad66",
+    "7ce9d6569475",
+    "9228614e8447",
+    "484008540080",
+    "174a09af4ca2",
+    "451981c04634",
+    "091b7f175781",
+    "1d7e129f21bd",
+    "6a6bb4100dc6",
+    "400764940c0a"
    ]
   },
   "https://www.bleepingcomputer.com/feed/": {
-   "newest": "2026-11-05T20:15:08Z",
+   "newest": "2026-11-06T09:22:28Z",
    "seen": [
     "937c7f4fab21",
     "fac7cd6e29f5",
@@ -1909,7 +1919,10 @@
     "5263a8e99f87",
     "671b07a9ce2d",
     "7e637a2f9fd7",
-    "58f4053a1bb9"
+    "58f4053a1bb9",
+    "886e9406677f",
+    "97d7db0e7e4a",
+    "3a8f9a3bb5fd"
    ]
   },
   "https://www.quantamagazine.org/feed/": {
@@ -1933,7 +1946,7 @@
    ]
   },
   "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml": {
-   "newest": "2026-11-05T19:03:04Z",
+   "newest": "2026-11-06T00:37:56Z",
    "seen": [
     "18666a8c9ef2",
     "4bee47ba2525",
@@ -2065,7 +2078,10 @@
     "bc97df8e6afe",
     "db7bfaa01f96",
     "957a2831b2a2",
-    "392244ebfcec"
+    "392244ebfcec",
+    "f9cfe2d74546",
+    "ec2c529c8a70",
+    "d26796f2d1f2"
    ]
   }
  }
