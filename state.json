@@ -293,7 +293,7 @@
    ]
   },
   "https://github.com/OthmanAdi/planning-with-files/releases.atom": {
-   "newest": "2026-11-03T02:02:21Z",
+   "newest": "2026-11-07T11:24:33Z",
    "seen": [
     "5af1b62e192c",
     "c1ae59dd25d5",
@@ -312,7 +312,8 @@
     "10e21c640504",
     "dd6ffe1167cb",
     "29836a265f9c",
-    "a3069683d6a9"
+    "a3069683d6a9",
+    "2dd7d09caeed"
    ]
   },
   "https://github.com/addyosmani/agent-skills/releases.atom": {
@@ -662,7 +663,9 @@
     "141e268b6f0b",
     "68b9a4829a88",
     "94e39819c250",
-    "c8e8ecf2c31b"
+    "c8e8ecf2c31b",
+    "41a0eb8fb592",
+    "96bf5dbcf0e9"
    ]
   },
   "https://github.com/thedotmack/claude-mem/releases.atom": {
@@ -704,10 +707,8 @@
    ]
   },
   "https://hnrss.org/frontpage?points=300": {
-   "newest": "2026-11-06T23:30:52Z",
+   "newest": "2026-11-07T09:46:03Z",
    "seen": [
-    "ee77ab8e92db",
-    "0e1c5ba11131",
     "a437c208a5ed",
     "6a2be4c3fe07",
     "c356354d699b",
@@ -905,7 +906,9 @@
     "e01cca8a1808",
     "16fcec163aad",
     "f6c0efc319de",
-    "ac7f852030f7"
+    "ac7f852030f7",
+    "d332bdc66824",
+    "91145a8a0640"
    ]
   },
   "https://huggingface.co/blog/feed.xml": {
@@ -1759,7 +1762,7 @@
    ]
   },
   "https://www.bleepingcomputer.com/feed/": {
-   "newest": "2026-11-07T00:00:55Z",
+   "newest": "2026-11-07T15:25:35Z",
    "seen": [
     "937c7f4fab21",
     "fac7cd6e29f5",
@@ -1945,7 +1948,9 @@
     "a97be9095b72",
     "ba147c5fc5c9",
     "b99b441690fc",
-    "ca1a9396bb65"
+    "ca1a9396bb65",
+    "5a765cf499c2",
+    "ded94754be20"
    ]
   },
   "https://www.quantamagazine.org/feed/": {
@@ -1970,7 +1975,7 @@
    ]
   },
   "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml": {
-   "newest": "2026-11-06T23:46:18Z",
+   "newest": "2026-11-07T15:50:00Z",
    "seen": [
     "18666a8c9ef2",
     "4bee47ba2525",
@@ -2114,7 +2119,11 @@
     "60c72e761339",
     "43debe4fe2ca",
     "95ad726d77e0",
-    "1677fa73b2cf"
+    "1677fa73b2cf",
+    "a5f429e8d080",
+    "fdd3410cc71e",
+    "7c58b7a46240",
+    "253f892e5d71"
    ]
   }
  }
