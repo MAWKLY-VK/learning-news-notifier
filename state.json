@@ -267,7 +267,7 @@
    ]
   },
   "https://github.blog/feed/": {
-   "newest": "2026-11-05T20:23:21Z",
+   "newest": "2026-11-06T22:15:59Z",
    "seen": [
     "1515a8a30657",
     "3902c431970b",
@@ -288,7 +288,8 @@
     "8ca6d53d3d9b",
     "bdad9a997041",
     "0d1b605c8118",
-    "f333d8cce6ce"
+    "f333d8cce6ce",
+    "b60d1ad958a3"
    ]
   },
   "https://github.com/OthmanAdi/planning-with-files/releases.atom": {
@@ -363,7 +364,7 @@
    ]
   },
   "https://github.com/anthropics/skills/commits/main.atom": {
-   "newest": "2026-10-28T19:20:38Z",
+   "newest": "2026-11-06T22:32:28Z",
    "seen": [
     "f82caf9045bf",
     "d04dd6283a45",
@@ -385,7 +386,8 @@
     "9dfd6224e401",
     "769c56b9d4e4",
     "b0a66d2424c8",
-    "b0c97a946f11"
+    "b0c97a946f11",
+    "6a31fbc32ac4"
    ]
   },
   "https://github.com/coreyhaines31/marketingskills/releases.atom": {
@@ -664,7 +666,7 @@
    ]
   },
   "https://github.com/thedotmack/claude-mem/releases.atom": {
-   "newest": "2026-11-06T11:52:02Z",
+   "newest": "2026-11-06T22:17:48Z",
    "seen": [
     "044ac23edd43",
     "33cbd398046b",
@@ -696,14 +698,13 @@
     "e7896e933e94",
     "8327b0bfe728",
     "f7ccce741c39",
-    "7efbadb002de"
+    "7efbadb002de",
+    "7858361d7136"
    ]
   },
   "https://hnrss.org/frontpage?points=300": {
-   "newest": "2026-11-06T12:13:51Z",
+   "newest": "2026-11-06T19:48:51Z",
    "seen": [
-    "ad52026ea032",
-    "7af74547eac9",
     "e83fbab38c56",
     "a7438b256556",
     "3a57073383d0",
@@ -901,7 +902,9 @@
     "021e663a35a4",
     "a1e867e2bccb",
     "d9b3ec7db087",
-    "9cac7bbc85bc"
+    "9cac7bbc85bc",
+    "5f061d53449b",
+    "46507cfdd7fc"
    ]
   },
   "https://huggingface.co/blog/feed.xml": {
@@ -1755,7 +1758,7 @@
    ]
   },
   "https://www.bleepingcomputer.com/feed/": {
-   "newest": "2026-11-06T20:24:19Z",
+   "newest": "2026-11-07T00:00:55Z",
    "seen": [
     "937c7f4fab21",
     "fac7cd6e29f5",
@@ -1939,7 +1942,9 @@
     "af6d1b8b9d25",
     "c4daeac5c98c",
     "a97be9095b72",
-    "ba147c5fc5c9"
+    "ba147c5fc5c9",
+    "b99b441690fc",
+    "ca1a9396bb65"
    ]
   },
   "https://www.quantamagazine.org/feed/": {
@@ -1964,7 +1969,7 @@
    ]
   },
   "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml": {
-   "newest": "2026-11-06T20:02:22Z",
+   "newest": "2026-11-06T23:46:18Z",
    "seen": [
     "18666a8c9ef2",
     "4bee47ba2525",
@@ -2106,7 +2111,9 @@
     "1cb939cc183a",
     "436915aa53f2",
     "60c72e761339",
-    "43debe4fe2ca"
+    "43debe4fe2ca",
+    "95ad726d77e0",
+    "1677fa73b2cf"
    ]
   }
  }
