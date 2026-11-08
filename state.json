@@ -458,7 +458,7 @@
    ]
   },
   "https://github.com/mksglu/context-mode/releases.atom": {
-   "newest": "2026-11-06T15:44:08Z",
+   "newest": "2026-11-08T01:05:53Z",
    "seen": [
     "483f70c33d9f",
     "e4d393f360f4",
@@ -518,7 +518,8 @@
     "b4adcebf7a0c",
     "0cecb989bc12",
     "27ce7753223d",
-    "217258a2902d"
+    "217258a2902d",
+    "6250a3522d16"
    ]
   },
   "https://github.com/ollama/ollama/releases.atom": {
@@ -665,7 +666,8 @@
     "94e39819c250",
     "c8e8ecf2c31b",
     "41a0eb8fb592",
-    "96bf5dbcf0e9"
+    "96bf5dbcf0e9",
+    "954d1ca7315a"
    ]
   },
   "https://github.com/thedotmack/claude-mem/releases.atom": {
@@ -708,13 +710,8 @@
    ]
   },
   "https://hnrss.org/frontpage?points=300": {
-   "newest": "2026-11-07T18:02:17Z",
+   "newest": "2026-11-08T03:11:48Z",
    "seen": [
-    "8fdd938e9044",
-    "805db4d19116",
-    "e32af9b5286b",
-    "f2f87495dfd6",
-    "c45daaabbb3c",
     "9dfeaa8f45b4",
     "6636dcfb4fe9",
     "3e9dfec2f0af",
@@ -909,7 +906,12 @@
     "91145a8a0640",
     "5f038803ed72",
     "7c9d4dbee529",
-    "9b4ba285ed21"
+    "9b4ba285ed21",
+    "a6b618b38a85",
+    "9baf92564289",
+    "9f0cbd80ed37",
+    "7509cc71636d",
+    "3354046f5330"
    ]
   },
   "https://huggingface.co/blog/feed.xml": {
