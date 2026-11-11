@@ -65,12 +65,8 @@
    ]
   },
   "https://feeds.feedburner.com/TheHackersNews": {
-   "newest": "2026-11-10T19:23:10Z",
+   "newest": "2026-11-11T08:17:53Z",
    "seen": [
-    "0d304799e621",
-    "53ddecf9f5b1",
-    "1530955429aa",
-    "705a2aee0bf3",
     "bd60f0eb51aa",
     "f6fe2f9557b7",
     "17efaa05bd14",
@@ -266,7 +262,11 @@
     "3ac35ff64736",
     "9398616ade4d",
     "b958c2272095",
-    "b86930e18372"
+    "b86930e18372",
+    "cd6455aacef5",
+    "e23f07d99f92",
+    "890bd5d68a0a",
+    "44096b209ce3"
    ]
   },
   "https://github.blog/feed/": {
@@ -398,7 +398,7 @@
    ]
   },
   "https://github.com/coreyhaines31/marketingskills/releases.atom": {
-   "newest": "2026-11-09T21:55:04Z",
+   "newest": "2026-11-11T02:26:22Z",
    "seen": [
     "0fdf745467ff",
     "d7ba0ac90f78",
@@ -436,16 +436,18 @@
     "47f25257bd59",
     "1af7073161f5",
     "7a5cc3e7806b",
-    "e854ae64d44e"
+    "e854ae64d44e",
+    "ad01b68dcf44"
    ]
   },
   "https://github.com/google-gemini/gemini-cli/releases.atom": {
-   "newest": "2026-11-04T20:27:11Z",
+   "newest": "2026-11-10T21:17:07Z",
    "seen": [
     "a9d0fbb5d57f",
     "1856452513b7",
     "919e73653bed",
-    "8e073affc9c1"
+    "8e073affc9c1",
+    "0f142a52be51"
    ]
   },
   "https://github.com/huggingface/transformers/releases.atom": {
@@ -537,7 +539,7 @@
    ]
   },
   "https://github.com/ollama/ollama/releases.atom": {
-   "newest": "2026-11-09T23:45:36Z",
+   "newest": "2026-11-10T22:25:00Z",
    "seen": [
     "8cb56d93255a",
     "ea4ec1f2b6c3",
@@ -563,7 +565,8 @@
     "c9fd6b692b78",
     "c923d3b2345f",
     "6375b6236671",
-    "e197d922154f"
+    "e197d922154f",
+    "bc5ff0a04a28"
    ]
   },
   "https://github.com/open-webui/open-webui/releases.atom": {
@@ -589,7 +592,7 @@
    ]
   },
   "https://github.com/openai/codex/releases.atom": {
-   "newest": "2026-11-10T18:02:26Z",
+   "newest": "2026-11-10T21:33:57Z",
    "seen": [
     "4a2f620f713a",
     "78223fbdd62d",
@@ -694,11 +697,15 @@
     "07f8b746a0c6",
     "18acf3102425",
     "cc0c549a8ac5",
-    "436949b8b546"
+    "436949b8b546",
+    "6995b974676a",
+    "2635c8fb78c6",
+    "2e809bbeb26e",
+    "d98534822dcc"
    ]
   },
   "https://github.com/thedotmack/claude-mem/releases.atom": {
-   "newest": "2026-11-10T19:30:00Z",
+   "newest": "2026-11-11T06:13:38Z",
    "seen": [
     "044ac23edd43",
     "33cbd398046b",
@@ -739,19 +746,15 @@
     "9fae90fc5f9e",
     "6685885bb459",
     "1361af2a3ed0",
-    "49255931c45e"
+    "49255931c45e",
+    "56dbc0ea06ca",
+    "571e78ebc8b6",
+    "4c1cf013f6d0"
    ]
   },
   "https://hnrss.org/frontpage?points=300": {
-   "newest": "2026-11-10T16:37:44Z",
+   "newest": "2026-11-10T22:17:56Z",
    "seen": [
-    "dd9979ef5743",
-    "6589fc0fec70",
-    "6a571c7d2c3a",
-    "917865f09bd0",
-    "13a585aca2c4",
-    "5640b8422aa1",
-    "ce7fed74f496",
     "3a7d21e534d1",
     "60728a8dd9ff",
     "84e8451c98cf",
@@ -944,11 +947,18 @@
     "8b5e09b57bb2",
     "0326fede8fee",
     "1bfd837170eb",
-    "89999dfa1616"
+    "89999dfa1616",
+    "02a30ded1aa2",
+    "eff73c0ad26e",
+    "aa8e9ffb2c83",
+    "1d79150406a6",
+    "74217a2dfcc0",
+    "f74b6116931a",
+    "7264b42d79f5"
    ]
   },
   "https://huggingface.co/blog/feed.xml": {
-   "newest": "2026-11-10T00:00:00Z",
+   "newest": "2026-11-11T05:01:16Z",
    "seen": [
     "8ff67d77127c",
     "9101339b1ac2",
@@ -1040,11 +1050,12 @@
     "7b1451fc786c",
     "057e22ab69c0",
     "3229de0d9192",
-    "724fae925148"
+    "724fae925148",
+    "b22522d14a17"
    ]
   },
   "https://krebsonsecurity.com/feed/": {
-   "newest": "2026-11-05T04:36:17Z",
+   "newest": "2026-11-10T21:55:03Z",
    "seen": [
     "b09bb95dc803",
     "6eb01cc69dc7",
@@ -1059,11 +1070,12 @@
     "deacdc2e65dd",
     "c96a68345704",
     "20dd46cf0cc4",
-    "1c658f934fc8"
+    "1c658f934fc8",
+    "c772744595ac"
    ]
   },
   "https://openai.com/news/rss.xml": {
-   "newest": "2026-11-10T12:00:00Z",
+   "newest": "2026-11-12T00:00:00Z",
    "seen": [
     "1dd9ce125c6e",
     "1d5a9cc2d950",
@@ -1191,62 +1203,16 @@
     "01a8528fa117",
     "3588ceed4155",
     "5ca4dc7b6d88",
-    "46ecb159c153"
+    "46ecb159c153",
+    "1ff74ee2cb10",
+    "4e3e5904c85a",
+    "80b38ea7da37",
+    "f28f90d2895a"
    ]
   },
   "https://rss.arxiv.org/rss/cs.AI": {
-   "newest": "2026-11-10T05:00:00Z",
+   "newest": "2026-11-11T05:00:00Z",
    "seen": [
-    "0417e5cfdebe",
-    "1191e71d0895",
-    "75182927bd9f",
-    "e6fc703a6124",
-    "21f634df8d30",
-    "64771dfe43e0",
-    "8384da86fa5f",
-    "5c4c42bc107e",
-    "4f67d354d62b",
-    "25bf2fbed7df",
-    "3c8850d9cc56",
-    "a756fa07c729",
-    "3ca448118cd1",
-    "3ed240da4572",
-    "bed38a816446",
-    "b230349a1c6f",
-    "3c3362cf98a5",
-    "ab511d1bcdee",
-    "128837841538",
-    "aede38a775da",
-    "c33c948ce182",
-    "92ba9bee0df2",
-    "b67ff0ac2081",
-    "091f60664712",
-    "bd860385c6a5",
-    "8bb7cb214842",
-    "277ea88f6a2f",
-    "8b32a7085fbd",
-    "0e36629bf3a0",
-    "38b695ce2c6c",
-    "406ee053027b",
-    "aefb6d0b63ff",
-    "6408a0b4bd69",
-    "e3502152d57b",
-    "9a1e1ba40cfe",
-    "b235af97f4fe",
-    "2118ffd54080",
-    "f6ee0d5f56eb",
-    "1188f19025fb",
-    "af220fa42fee",
-    "b5ef2ae18d93",
-    "6d21aa0c010f",
-    "85083015ac36",
-    "45e8de4cf64d",
-    "bd6db5fb7e6f",
-    "a6314ea80042",
-    "101d1e152be5",
-    "412302737b0d",
-    "ac13097ae122",
-    "855eb96d7ef9",
     "37c00d44dde2",
     "72091e975e66",
     "2bf497d09531",
@@ -1396,36 +1362,62 @@
     "b22ba50cd7b8",
     "3433599d6d32",
     "72ddc8b06a7b",
-    "080d68c252eb"
+    "080d68c252eb",
+    "a9f4a75dc0bf",
+    "51e9082b6461",
+    "983d20996061",
+    "49eb2a53037c",
+    "774e6aa23f43",
+    "7bff75d19402",
+    "b1fb0235d73b",
+    "e87dba8252d1",
+    "40461697d2b3",
+    "dbe1599c5b69",
+    "d13b9f01167b",
+    "3ee4e7457d1e",
+    "e76455e06835",
+    "71dab43dcdb5",
+    "f073b9989814",
+    "6222f54fb4dd",
+    "1e036e409b01",
+    "f6a052c90baa",
+    "b6d9f3d2a7c7",
+    "1a6f30535f3a",
+    "422c06076067",
+    "e8202d39cf52",
+    "9469d7c4274b",
+    "e8031f023c8a",
+    "79487e8f5901",
+    "5b9ec2d4a6a7",
+    "cfb4c237aa1e",
+    "556fe9a54595",
+    "959a82933664",
+    "cb3427da756e",
+    "6ae2d16c9b94",
+    "ae52f9973d79",
+    "d4eb03e67de0",
+    "fe632a84bcab",
+    "d44cd994fb40",
+    "d0b1884ca733",
+    "e1787c103377",
+    "4a07292f6867",
+    "6c2cc6f6f177",
+    "085678731131",
+    "fc4b4c877109",
+    "f44765943c31",
+    "e5ee62f3f9b8",
+    "af11a801dd64",
+    "6665f0b45811",
+    "bcbde73b989d",
+    "4cfa1a673ac2",
+    "41aa6fc45acf",
+    "4f26875ce5ee",
+    "0f72d692b75a"
    ]
   },
   "https://rss.arxiv.org/rss/cs.CR": {
-   "newest": "2026-11-10T05:00:00Z",
+   "newest": "2026-11-11T05:00:00Z",
    "seen": [
-    "345cfd96cded",
-    "b44eb696d1ec",
-    "e316151e41d9",
-    "502e9fedce8e",
-    "5ed2626f7312",
-    "9a477a2994d7",
-    "a1463d8cd82b",
-    "973b505efec1",
-    "4984d2219c05",
-    "45dc5c4f264b",
-    "35d11f15f916",
-    "2a733dfdc2c5",
-    "eee5e75db120",
-    "eb862d24407d",
-    "ed8432787f15",
-    "52b16211858f",
-    "3e87512f80cb",
-    "d8e05c8651b0",
-    "b1139b92b804",
-    "a95bc213672f",
-    "492a229b651e",
-    "da7a337bbe64",
-    "bb94e8f48044",
-    "3dfd6992f5ba",
     "a9c0e1b7f36e",
     "1505ffc61e0b",
     "4bc0f4ae8ad1",
@@ -1601,35 +1593,36 @@
     "0e11e5a6ce3d",
     "698d6fa00350",
     "4acbcec9869d",
-    "725d631faddb"
+    "725d631faddb",
+    "f7cc3ec3cdc5",
+    "591f5b3d7044",
+    "9b1100206fa0",
+    "54402ee7180c",
+    "3a160b9ec260",
+    "7c74460bddeb",
+    "31c62bd1d88e",
+    "effcbfa7584a",
+    "427829c7a978",
+    "4ac588c87b4e",
+    "1df6a8de6413",
+    "7ede9cb3942c",
+    "c4bba649759a",
+    "dc35e9eceb31",
+    "a0591836ff0c",
+    "339987ae5780",
+    "bd1831d76773",
+    "2c09d17cefa8",
+    "22a888d4666e",
+    "9c9086949632",
+    "ca19e701b6db",
+    "5ad70d4cab1d",
+    "6dbcf34e20cf",
+    "1aef9895f8ba"
    ]
   },
   "https://rss.arxiv.org/rss/cs.SE": {
-   "newest": "2026-11-10T05:00:00Z",
+   "newest": "2026-11-11T05:00:00Z",
    "seen": [
-    "29157d6156fb",
-    "5eebbadaa748",
-    "4140f0f42bb6",
-    "115793f12557",
-    "69d0cdf44b7f",
-    "4bd0c4ef26db",
-    "e2f2dc7e8cc2",
-    "c74a9737178c",
-    "5614ba7570cb",
-    "3e0c470abf95",
-    "40714a362b70",
-    "dc3ce726c690",
-    "2459cab6124b",
-    "d0a35fc6809b",
-    "de05f27b6474",
-    "a310b43ea3d7",
-    "bf97d6558a00",
-    "30a4e5f8a9a2",
-    "18422176fe75",
-    "a198c03da0fc",
-    "a4c29e5afef3",
-    "561af5315cc7",
-    "b6b40893ae5f",
     "89cc9a5f765b",
     "e797a8a1c54c",
     "73b9e5b8abd0",
@@ -1806,15 +1799,35 @@
     "fdf321bf460c",
     "61b42a6a20be",
     "bdf984aca212",
-    "393d6377c4b2"
+    "393d6377c4b2",
+    "1b05deea23ff",
+    "23d8304c95ab",
+    "b3086811efca",
+    "201c41edf01c",
+    "4cc8a5bcecb3",
+    "14bddea67162",
+    "14844089fcc1",
+    "79a8a644783a",
+    "12ffeb15ebe5",
+    "0e892987e09b",
+    "c8e313a133dc",
+    "1b65e007e583",
+    "e77a7d1c546a",
+    "5c42943cce4c",
+    "d951725f3534",
+    "27aa6371221a",
+    "2aedf6a1dcd7",
+    "45d28ec4bb0f",
+    "73aab2651135",
+    "9afb4caf8bf2",
+    "f8442c1ac936",
+    "f1cae87a2932",
+    "ce50221c5481"
    ]
   },
   "https://www.bleepingcomputer.com/feed/": {
-   "newest": "2026-11-10T20:54:55Z",
+   "newest": "2026-11-11T10:12:08Z",
    "seen": [
-    "6c8051f534fe",
-    "a094aa58c0da",
-    "494b44d4ddb2",
     "d342f7137dd6",
     "7e8ace9d42e7",
     "862e2db1b4e0",
@@ -2011,7 +2024,10 @@
     "50eb1dccf495",
     "09de80ae0aa4",
     "9814f0299437",
-    "230bcad0faf3"
+    "230bcad0faf3",
+    "16367edd00b6",
+    "6cc651115394",
+    "474586429e7c"
    ]
   },
   "https://www.quantamagazine.org/feed/": {
