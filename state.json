@@ -63,19 +63,13 @@
     "428ac4b42c0b",
     "0b2e1c02de47",
     "5b916f1bea87",
-    "4bad5afe01a1"
+    "4bad5afe01a1",
+    "51d2fad24045"
    ]
   },
   "https://feeds.feedburner.com/TheHackersNews": {
-   "newest": "2026-11-13T08:05:49Z",
+   "newest": "2026-11-13T16:53:08Z",
    "seen": [
-    "6b7369ef168a",
-    "eebdb3f4f6ae",
-    "a45e553ca30b",
-    "f74ce17a74d9",
-    "23872cb1986e",
-    "199bd0864fa3",
-    "a2a9e372db7b",
     "6f084559d703",
     "3a89e69463ce",
     "80697809b26e",
@@ -268,7 +262,14 @@
     "0215fb6873ae",
     "950205e16691",
     "9e0cc84d062d",
-    "c0eea237828e"
+    "c0eea237828e",
+    "5df4bf07aed5",
+    "d030547d1ad3",
+    "fe3ab0485c82",
+    "79815295aaa3",
+    "c6e1d6a77271",
+    "fb5ac890be2a",
+    "e05f7a78ce38"
    ]
   },
   "https://github.blog/feed/": {
@@ -342,7 +343,7 @@
    ]
   },
   "https://github.com/anthropics/claude-code/releases.atom": {
-   "newest": "2026-11-12T22:12:13Z",
+   "newest": "2026-11-13T20:40:01Z",
    "seen": [
     "e630e4025c88",
     "b0ee8db96d1f",
@@ -372,7 +373,8 @@
     "628312f2a0ea",
     "c35a8e452813",
     "11411f2875ee",
-    "dd3a8bb97508"
+    "dd3a8bb97508",
+    "f8d9f4981e60"
    ]
   },
   "https://github.com/anthropics/skills/commits/main.atom": {
@@ -458,7 +460,7 @@
    ]
   },
   "https://github.com/huggingface/transformers/releases.atom": {
-   "newest": "2026-11-06T15:43:27Z",
+   "newest": "2026-11-13T14:10:57Z",
    "seen": [
     "d0451f3c6201",
     "777fa8f3c012",
@@ -476,7 +478,8 @@
     "eda96793c1fd",
     "4aeff53cd83f",
     "71f9e5b2f87e",
-    "9cf18ae96163"
+    "9cf18ae96163",
+    "e665d2c84f08"
    ]
   },
   "https://github.com/mksglu/context-mode/releases.atom": {
@@ -720,7 +723,8 @@
     "d9bada907814",
     "7a7cf774dd8b",
     "ebeee769152e",
-    "019821ba0bf6"
+    "019821ba0bf6",
+    "42d5a08fc170"
    ]
   },
   "https://github.com/thedotmack/claude-mem/releases.atom": {
@@ -777,12 +781,8 @@
    ]
   },
   "https://hnrss.org/frontpage?points=300": {
-   "newest": "2026-11-13T05:08:23Z",
+   "newest": "2026-11-13T17:09:58Z",
    "seen": [
-    "53100366cf45",
-    "9ba2f6beb9e0",
-    "8da996be40f2",
-    "ae3aed79da22",
     "0068d2d053b3",
     "3fc62f73bf2c",
     "9e28ecbe42a9",
@@ -978,11 +978,15 @@
     "b28a262937ac",
     "59e28b83f024",
     "433786cacb98",
-    "1eb97704ce91"
+    "1eb97704ce91",
+    "b629eab883fa",
+    "c605c03f7efe",
+    "8560d24f1d7f",
+    "418ee5183ca4"
    ]
   },
   "https://huggingface.co/blog/feed.xml": {
-   "newest": "2026-11-12T19:07:35Z",
+   "newest": "2026-11-13T18:00:39Z",
    "seen": [
     "8ff67d77127c",
     "9101339b1ac2",
@@ -1078,7 +1082,10 @@
     "b22522d14a17",
     "d2296a64c0dc",
     "56dac742ff29",
-    "a88bddb17214"
+    "a88bddb17214",
+    "40e78db6601d",
+    "8400bdfe1e2a",
+    "2427bacb74a9"
    ]
   },
   "https://krebsonsecurity.com/feed/": {
@@ -1103,7 +1110,7 @@
    ]
   },
   "https://openai.com/news/rss.xml": {
-   "newest": "2026-11-12T20:00:00Z",
+   "newest": "2026-11-13T15:00:00Z",
    "seen": [
     "1dd9ce125c6e",
     "1d5a9cc2d950",
@@ -1241,7 +1248,8 @@
     "0990939c7d6e",
     "372847c94994",
     "90d79223706e",
-    "5b0f73df89a6"
+    "5b0f73df89a6",
+    "5bf4951adbe9"
    ]
   },
   "https://rss.arxiv.org/rss/cs.AI": {
@@ -1860,13 +1868,8 @@
    ]
   },
   "https://www.bleepingcomputer.com/feed/": {
-   "newest": "2026-11-13T10:44:22Z",
+   "newest": "2026-11-13T19:38:36Z",
    "seen": [
-    "54e589c7063e",
-    "4162cca6289c",
-    "2bcaf37a740b",
-    "aa2f36ffa3be",
-    "05dd90fd0f45",
     "7a020fdc3830",
     "0f04a6f0fbac",
     "190252fca79a",
@@ -2061,7 +2064,12 @@
     "3b8d7732462b",
     "3ff055feac94",
     "8762a201a24f",
-    "e49e186a5eab"
+    "e49e186a5eab",
+    "293c69c9ee5b",
+    "db3fd3a5adb8",
+    "b297d876237e",
+    "f6f4a6d64aa8",
+    "ee274201614e"
    ]
   },
   "https://www.quantamagazine.org/feed/": {
@@ -2092,7 +2100,7 @@
    ]
   },
   "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml": {
-   "newest": "2026-11-12T21:55:32Z",
+   "newest": "2026-11-13T20:45:10Z",
    "seen": [
     "18666a8c9ef2",
     "4bee47ba2525",
@@ -2281,7 +2289,11 @@
     "5d3764f6ae26",
     "6a4074486515",
     "7de54e51b559",
-    "5a8fd522dc2e"
+    "5a8fd522dc2e",
+    "8aca57cac804",
+    "fbdf324f447d",
+    "d197d130a8e7",
+    "ca2c5b01207c"
    ]
   }
  }
