@@ -326,7 +326,7 @@
    ]
   },
   "https://github.com/addyosmani/agent-skills/releases.atom": {
-   "newest": "2026-10-31T06:40:31Z",
+   "newest": "2026-11-14T04:33:58Z",
    "seen": [
     "d711b7455301",
     "326fdd3cf767",
@@ -339,7 +339,8 @@
     "5dbe68c7b854",
     "76fdb78b73e1",
     "8bf98022ec94",
-    "5df1aa847736"
+    "5df1aa847736",
+    "387ec31a370b"
    ]
   },
   "https://github.com/anthropics/claude-code/releases.atom": {
@@ -724,7 +725,18 @@
     "7a7cf774dd8b",
     "ebeee769152e",
     "019821ba0bf6",
-    "42d5a08fc170"
+    "42d5a08fc170",
+    "cc0ff7086fa5",
+    "1fd0b44bd66c",
+    "c57903378abd",
+    "1721fe623f63",
+    "4eef880d9734",
+    "f34d20dfc39a",
+    "5d7f75e111e8",
+    "aa327f962ffe",
+    "51bff8438891",
+    "4fcdf828b89d",
+    "57efdb27be98"
    ]
   },
   "https://github.com/thedotmack/claude-mem/releases.atom": {
@@ -781,10 +793,8 @@
    ]
   },
   "https://hnrss.org/frontpage?points=300": {
-   "newest": "2026-11-13T17:09:58Z",
+   "newest": "2026-11-14T02:52:59Z",
    "seen": [
-    "0068d2d053b3",
-    "3fc62f73bf2c",
     "9e28ecbe42a9",
     "1995fa2f36ad",
     "6711c32e886a",
@@ -982,7 +992,9 @@
     "b629eab883fa",
     "c605c03f7efe",
     "8560d24f1d7f",
-    "418ee5183ca4"
+    "418ee5183ca4",
+    "c6f97db719d2",
+    "5388f4beff74"
    ]
   },
   "https://huggingface.co/blog/feed.xml": {
@@ -1249,7 +1261,8 @@
     "372847c94994",
     "90d79223706e",
     "5b0f73df89a6",
-    "5bf4951adbe9"
+    "5bf4951adbe9",
+    "d1318183fe17"
    ]
   },
   "https://rss.arxiv.org/rss/cs.AI": {
@@ -2100,7 +2113,7 @@
    ]
   },
   "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml": {
-   "newest": "2026-11-13T20:45:10Z",
+   "newest": "2026-11-13T23:49:11Z",
    "seen": [
     "18666a8c9ef2",
     "4bee47ba2525",
@@ -2293,7 +2306,8 @@
     "8aca57cac804",
     "fbdf324f447d",
     "d197d130a8e7",
-    "ca2c5b01207c"
+    "ca2c5b01207c",
+    "82539c8cc2e6"
    ]
   }
  }
