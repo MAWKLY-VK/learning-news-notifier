@@ -755,7 +755,11 @@
     "40f43e3058eb",
     "dbca29014095",
     "d787c857e0d4",
-    "2bae7eddac7e"
+    "2bae7eddac7e",
+    "efff73e46ee8",
+    "a649b3d775b6",
+    "2a454d05cf6e",
+    "3b6fd3bf4436"
    ]
   },
   "https://github.com/thedotmack/claude-mem/releases.atom": {
@@ -812,13 +816,8 @@
    ]
   },
   "https://hnrss.org/frontpage?points=300": {
-   "newest": "2026-11-14T12:45:45Z",
+   "newest": "2026-11-14T21:22:24Z",
    "seen": [
-    "d54017fb66be",
-    "ac806380bdbe",
-    "e19027d0addd",
-    "e2d7dabaed78",
-    "a48791396ec6",
     "5fadf619753e",
     "67181f574c35",
     "5f4004f54590",
@@ -1013,7 +1012,12 @@
     "5388f4beff74",
     "9db27ee9714d",
     "5238c1d28e7e",
-    "959a00564dab"
+    "959a00564dab",
+    "fe58eb373a01",
+    "6b9ea8c1b1b1",
+    "0dc5cf8a16dd",
+    "f9076477237d",
+    "1d00426cf0a4"
    ]
   },
   "https://huggingface.co/blog/feed.xml": {
