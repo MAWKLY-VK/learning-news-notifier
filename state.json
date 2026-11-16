@@ -839,10 +839,8 @@
    ]
   },
   "https://hnrss.org/frontpage?points=300": {
-   "newest": "2026-11-15T14:46:58Z",
+   "newest": "2026-11-15T18:36:10Z",
    "seen": [
-    "29489eeb9972",
-    "0162c224f486",
     "80423bc033b9",
     "c290a82df514",
     "8d500037c77f",
@@ -1040,7 +1038,9 @@
     "59de66221897",
     "a42170d891b6",
     "de92e267217a",
-    "2d20317db60d"
+    "2d20317db60d",
+    "2513963c59b1",
+    "f1812084c07a"
    ]
   },
   "https://huggingface.co/blog/feed.xml": {
@@ -1168,7 +1168,7 @@
    ]
   },
   "https://openai.com/news/rss.xml": {
-   "newest": "2026-11-13T15:00:00Z",
+   "newest": "2026-11-15T22:00:01Z",
    "seen": [
     "1dd9ce125c6e",
     "1d5a9cc2d950",
@@ -1308,7 +1308,9 @@
     "90d79223706e",
     "5b0f73df89a6",
     "5bf4951adbe9",
-    "d1318183fe17"
+    "d1318183fe17",
+    "4b0fc5b701ff",
+    "87d7014c15ee"
    ]
   },
   "https://rss.arxiv.org/rss/cs.AI": {
@@ -2159,7 +2161,7 @@
    ]
   },
   "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml": {
-   "newest": "2026-11-15T19:15:43Z",
+   "newest": "2026-11-15T20:43:49Z",
    "seen": [
     "18666a8c9ef2",
     "4bee47ba2525",
@@ -2357,7 +2359,8 @@
     "c97f5c4940d8",
     "c69c0c2fb4c5",
     "48b23efc1e8f",
-    "f9f788924ea2"
+    "f9f788924ea2",
+    "cc4917f194b8"
    ]
   }
  }
