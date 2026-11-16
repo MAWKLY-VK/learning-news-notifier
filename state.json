@@ -68,11 +68,8 @@
    ]
   },
   "https://feeds.feedburner.com/TheHackersNews": {
-   "newest": "2026-11-15T11:27:31Z",
+   "newest": "2026-11-16T09:32:57Z",
    "seen": [
-    "3bc9a46d2904",
-    "f059789b2437",
-    "015a882ee274",
     "4645fb818a8e",
     "077ef200d3e0",
     "838b4b1ce253",
@@ -269,7 +266,10 @@
     "e05f7a78ce38",
     "b58e8e6c37ed",
     "960f41318ea9",
-    "04c1c102f5a7"
+    "04c1c102f5a7",
+    "1a13d7025b37",
+    "f159cf23a7b2",
+    "f0b3319bef62"
    ]
   },
   "https://github.blog/feed/": {
@@ -784,7 +784,7 @@
    ]
   },
   "https://github.com/thedotmack/claude-mem/releases.atom": {
-   "newest": "2026-11-15T18:10:20Z",
+   "newest": "2026-11-16T02:13:21Z",
    "seen": [
     "044ac23edd43",
     "33cbd398046b",
@@ -835,15 +835,13 @@
     "843c4507674c",
     "4143e5bc092c",
     "4854da2e5b38",
-    "8b528b753729"
+    "8b528b753729",
+    "863b997debe9"
    ]
   },
   "https://hnrss.org/frontpage?points=300": {
-   "newest": "2026-11-15T18:36:10Z",
+   "newest": "2026-11-16T02:14:44Z",
    "seen": [
-    "80423bc033b9",
-    "c290a82df514",
-    "8d500037c77f",
     "b7ad4b704cf2",
     "3600b1675934",
     "60d2958ec307",
@@ -1040,7 +1038,10 @@
     "de92e267217a",
     "2d20317db60d",
     "2513963c59b1",
-    "f1812084c07a"
+    "f1812084c07a",
+    "7fa4d881c375",
+    "584453114db5",
+    "858949df0dc1"
    ]
   },
   "https://huggingface.co/blog/feed.xml": {
@@ -1168,7 +1169,7 @@
    ]
   },
   "https://openai.com/news/rss.xml": {
-   "newest": "2026-11-15T22:00:01Z",
+   "newest": "2026-11-16T09:00:00Z",
    "seen": [
     "1dd9ce125c6e",
     "1d5a9cc2d950",
@@ -1310,62 +1311,13 @@
     "5bf4951adbe9",
     "d1318183fe17",
     "4b0fc5b701ff",
-    "87d7014c15ee"
+    "87d7014c15ee",
+    "91e58e2ea930"
    ]
   },
   "https://rss.arxiv.org/rss/cs.AI": {
-   "newest": "2026-11-13T05:00:00Z",
+   "newest": "2026-11-16T05:00:00Z",
    "seen": [
-    "1be3941faae0",
-    "cb6c4f09d9fa",
-    "4bef3c378efd",
-    "64b27cd6f553",
-    "b51aa9ed4741",
-    "b8168e5a2593",
-    "6282b3aa7741",
-    "bdb95614a9ed",
-    "8a389aa176e4",
-    "03178c0fa9c7",
-    "52db0c0e2d8b",
-    "8ea8e75b3f83",
-    "c44b2b197e6c",
-    "f7542294725b",
-    "6457e2b83b16",
-    "9a877006e8ff",
-    "e7f9444959ed",
-    "10e324cb5643",
-    "b0b8152e6e37",
-    "72d560a02d39",
-    "0f205e645068",
-    "c971038e6cf9",
-    "aefb308a6617",
-    "bc6d74b08c9b",
-    "fd318cf351f0",
-    "22743ea9577b",
-    "97ee0824efde",
-    "71d32449cc84",
-    "947195815182",
-    "923846aa7b20",
-    "c48e5449db80",
-    "50622de0f81c",
-    "ef4d93a3948e",
-    "491a147b3ab0",
-    "067cc095907c",
-    "282b878b9ae0",
-    "b4ab52fa64ba",
-    "332d334fed12",
-    "696b0af23be8",
-    "8b33c62ae369",
-    "a9a59d67e7c0",
-    "bb806e13677d",
-    "6d2b1de1061d",
-    "a706740c4247",
-    "c9e42c768fa5",
-    "c51c7911bd65",
-    "bba9b8607c8a",
-    "0838752b3de9",
-    "cfa7eb99c046",
-    "bcf1cd57b75a",
     "1e575c36be49",
     "ac602f48a096",
     "8c4d7df0f1e7",
@@ -1515,37 +1467,62 @@
     "06ea2adb7c4e",
     "892d7dd3d139",
     "cc9a4f0e6c84",
-    "cf465ab71033"
+    "cf465ab71033",
+    "9c3395cd23f3",
+    "02fe647e78b5",
+    "20bd3d0c2c16",
+    "b0d3b364057c",
+    "674d3b42a565",
+    "4c2a5e3662af",
+    "d691aa7a57aa",
+    "3e259cdda1d4",
+    "f00409443add",
+    "90a16e23b67a",
+    "6e4056370b34",
+    "1ce20506e2ac",
+    "481ec8e30a8d",
+    "0b159999357f",
+    "f7acd9fba223",
+    "bc6929b82796",
+    "3f59cc73585e",
+    "f9e5556eff34",
+    "9a870ba4ad8d",
+    "7ea5caf1f1a5",
+    "c3b65ef80546",
+    "99d83eb243d3",
+    "df593b351866",
+    "1502a9104a6b",
+    "fd0d88c5b1f9",
+    "06dd50e5e6ea",
+    "4d8f6140754c",
+    "f43f219239b3",
+    "726039ee089b",
+    "29a3c623a952",
+    "d1fc7333c1f7",
+    "2bf6fa6d905a",
+    "1982a14d2c0c",
+    "7f1c652e6d91",
+    "45b231b9709a",
+    "9ebaabdaa031",
+    "7a8faabf7422",
+    "a401e2a291a0",
+    "bcc470b4ec5b",
+    "4a6c405de9de",
+    "f62f2169c3a0",
+    "190606265dcc",
+    "e6c676bc0b84",
+    "d866525fb6a0",
+    "9b795aa20f83",
+    "762ae9798c5e",
+    "1581a8f4ce33",
+    "961d9caa0690",
+    "135552fd4830",
+    "b82231c6bf22"
    ]
   },
   "https://rss.arxiv.org/rss/cs.CR": {
-   "newest": "2026-11-13T05:00:00Z",
+   "newest": "2026-11-16T05:00:00Z",
    "seen": [
-    "5fefd8099e2f",
-    "04dd8b2ba4b4",
-    "f475fdbcaccd",
-    "0499b389c20c",
-    "43cdb0e02e47",
-    "279feaa2f6ac",
-    "8c037248fc9b",
-    "1c71addf8756",
-    "6e4c95fc734d",
-    "37582e558962",
-    "22676a3677a9",
-    "fce7696c6e4d",
-    "2118b90cfdf7",
-    "ee744adc5aba",
-    "a8b072da7702",
-    "05abe818f238",
-    "eb92f4fe7e2c",
-    "9359f4b2fb7e",
-    "3423e4735190",
-    "a89dd5f0a5cf",
-    "d4dacd71906b",
-    "95aa570637e7",
-    "3b30818fe86c",
-    "5861917d0119",
-    "e3d9834b371b",
     "f1019b1c1e68",
     "a8258108a6d4",
     "39bedda07ca5",
@@ -1720,22 +1697,37 @@
     "15019418ef8a",
     "018f84a7c2c7",
     "b7ad593e5148",
-    "e9f90f3736a6"
+    "e9f90f3736a6",
+    "301d4ca29a8c",
+    "ec2b6d24bd7b",
+    "fc25bf1a927d",
+    "e1473d77766e",
+    "33791a5f9018",
+    "4f98602f96ff",
+    "9fdb04c82521",
+    "cd93d3a88804",
+    "37188127dcb4",
+    "be3d730c2d20",
+    "7db031311d5a",
+    "3130433cc585",
+    "fe3baa4d9652",
+    "0fcfe8d5b1db",
+    "003e84954ecf",
+    "33b66305ac86",
+    "95397de5e943",
+    "2e0e1c348171",
+    "9c369fa3de5b",
+    "fb432d6b9afd",
+    "2a67b9160d46",
+    "ba6353f01993",
+    "ac32fa57e9e4",
+    "a028b3a49f3f",
+    "bf457fff81a1"
    ]
   },
   "https://rss.arxiv.org/rss/cs.SE": {
-   "newest": "2026-11-13T05:00:00Z",
+   "newest": "2026-11-16T05:00:00Z",
    "seen": [
-    "dd30556cff61",
-    "308fd6ea8c80",
-    "e930dd3552db",
-    "45efa4ce8e95",
-    "68ae6330fce3",
-    "357826669d83",
-    "2df2b2557f73",
-    "d125010480a3",
-    "0ea3d4884aef",
-    "ad4b4fc110dd",
     "a219097baadd",
     "db72b16789f8",
     "f7789a0178c5",
@@ -1925,14 +1917,22 @@
     "9ff7f0b6d4f0",
     "bbadf15834c6",
     "a72ca92f0600",
-    "c35aea3f9828"
+    "c35aea3f9828",
+    "bec8e1d02301",
+    "afd8795d2563",
+    "7447dfc86ddc",
+    "8ba716980cfc",
+    "0545f454bcf5",
+    "3dde01bc2271",
+    "a53a498dd099",
+    "61fdefe8dbdf",
+    "9d84d99a1a92",
+    "ac6f2f66a8ab"
    ]
   },
   "https://www.bleepingcomputer.com/feed/": {
-   "newest": "2026-11-15T18:29:53Z",
+   "newest": "2026-11-16T09:30:04Z",
    "seen": [
-    "ba8deb36fe9d",
-    "bc6b0429e7ca",
     "a5afc0aef898",
     "288893f63679",
     "71f0485320c6",
@@ -2130,7 +2130,9 @@
     "e253199b5be0",
     "403e4bdfaeb6",
     "bbb8a6727085",
-    "4201db3ac682"
+    "4201db3ac682",
+    "a60b8a453d05",
+    "7d4f6584a3c9"
    ]
   },
   "https://www.quantamagazine.org/feed/": {
@@ -2161,7 +2163,7 @@
    ]
   },
   "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml": {
-   "newest": "2026-11-15T20:43:49Z",
+   "newest": "2026-11-16T01:26:56Z",
    "seen": [
     "18666a8c9ef2",
     "4bee47ba2525",
@@ -2360,7 +2362,8 @@
     "c69c0c2fb4c5",
     "48b23efc1e8f",
     "f9f788924ea2",
-    "cc4917f194b8"
+    "cc4917f194b8",
+    "cd63ea37174f"
    ]
   }
  }
