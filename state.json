@@ -1,7 +1,7 @@
 {
  "feeds": {
   "https://deepmind.google/blog/rss.xml": {
-   "newest": "2026-11-12T18:00:50Z",
+   "newest": "2026-11-18T21:35:43Z",
    "seen": [
     "ce11f0ad142d",
     "548bdf100a67",
@@ -64,19 +64,14 @@
     "0b2e1c02de47",
     "5b916f1bea87",
     "4bad5afe01a1",
-    "51d2fad24045"
+    "51d2fad24045",
+    "652211f5c064",
+    "0c3c8b23c6ca"
    ]
   },
   "https://feeds.feedburner.com/TheHackersNews": {
-   "newest": "2026-11-18T08:24:31Z",
+   "newest": "2026-11-18T18:31:17Z",
    "seen": [
-    "961277245249",
-    "968629f0ead3",
-    "ad8783319617",
-    "ea5496feaca5",
-    "1da67faa3c4a",
-    "cf5c346fcefd",
-    "1ce9ccf10a03",
     "3fba9192c925",
     "a6006728be28",
     "0afa3606f14e",
@@ -269,7 +264,14 @@
     "ee9a23761ba0",
     "1df53018af16",
     "1db641aaef44",
-    "25f152a1b586"
+    "25f152a1b586",
+    "63ab0fd18797",
+    "c9f8dc26d8d0",
+    "74d12e442320",
+    "55016e2da81b",
+    "9c40ff9a7698",
+    "11aa6bef2bfb",
+    "fb8b318a049e"
    ]
   },
   "https://github.blog/feed/": {
@@ -328,7 +330,7 @@
    ]
   },
   "https://github.com/addyosmani/agent-skills/releases.atom": {
-   "newest": "2026-11-14T04:33:58Z",
+   "newest": "2026-11-18T20:06:40Z",
    "seen": [
     "d711b7455301",
     "326fdd3cf767",
@@ -342,7 +344,8 @@
     "76fdb78b73e1",
     "8bf98022ec94",
     "5df1aa847736",
-    "387ec31a370b"
+    "387ec31a370b",
+    "fac25cba96f5"
    ]
   },
   "https://github.com/anthropics/claude-code/releases.atom": {
@@ -856,12 +859,8 @@
    ]
   },
   "https://hnrss.org/frontpage?points=300": {
-   "newest": "2026-11-18T06:47:26Z",
+   "newest": "2026-11-18T16:08:24Z",
    "seen": [
-    "e17e43249bd6",
-    "9cc25a86e246",
-    "533c46eb72c7",
-    "732f05bbae9a",
     "082e956a26af",
     "617f17abe0c1",
     "3fd8c526c058",
@@ -1057,11 +1056,15 @@
     "b53e942a5ead",
     "4486f033d444",
     "28653ff0f25b",
-    "ed137a23d995"
+    "ed137a23d995",
+    "025c970d7f27",
+    "0b3e6385857d",
+    "18f14f103957",
+    "aa2f4ca9008a"
    ]
   },
   "https://huggingface.co/blog/feed.xml": {
-   "newest": "2026-11-16T00:00:00Z",
+   "newest": "2026-11-18T19:54:56Z",
    "seen": [
     "8ff67d77127c",
     "9101339b1ac2",
@@ -1161,7 +1164,12 @@
     "40e78db6601d",
     "8400bdfe1e2a",
     "2427bacb74a9",
-    "853b24ff0d6e"
+    "853b24ff0d6e",
+    "679cee5ea146",
+    "af1852b4c46d",
+    "bf1424b145e4",
+    "75623b38e68b",
+    "f689168723dc"
    ]
   },
   "https://krebsonsecurity.com/feed/": {
@@ -1187,7 +1195,7 @@
    ]
   },
   "https://openai.com/news/rss.xml": {
-   "newest": "2026-11-18T00:00:00Z",
+   "newest": "2026-11-18T10:00:00Z",
    "seen": [
     "1dd9ce125c6e",
     "1d5a9cc2d950",
@@ -1346,7 +1354,11 @@
     "0604bc2b50fc",
     "c6c361c53bc4",
     "549a77347d5e",
-    "6cab9c8cd383"
+    "6cab9c8cd383",
+    "c7d3ecb00643",
+    "8b6ac2940fdc",
+    "53f2a14376dd",
+    "e683d40fba10"
    ]
   },
   "https://rss.arxiv.org/rss/cs.AI": {
@@ -1965,13 +1977,8 @@
    ]
   },
   "https://www.bleepingcomputer.com/feed/": {
-   "newest": "2026-11-18T10:35:05Z",
+   "newest": "2026-11-18T20:49:32Z",
    "seen": [
-    "3c0f1fb39eea",
-    "cf08225efb6b",
-    "5e34561ea984",
-    "d84dc99ca60f",
-    "154f68998af1",
     "9b6153963ef5",
     "627cc70bbf65",
     "77d8f32442c0",
@@ -2166,11 +2173,16 @@
     "126567e065a7",
     "0ad69605a849",
     "4ccf67b96d4a",
-    "4f4cc6f19074"
+    "4f4cc6f19074",
+    "57cf485fa921",
+    "8e8debc4b233",
+    "4d21e756021a",
+    "9f639cd35360",
+    "ede0adf4c578"
    ]
   },
   "https://www.quantamagazine.org/feed/": {
-   "newest": "2026-11-16T15:15:33Z",
+   "newest": "2026-11-18T15:51:40Z",
    "seen": [
     "21028eea3cf4",
     "47af22fffb9c",
@@ -2194,20 +2206,13 @@
     "01656147c03a",
     "706fe0779f1c",
     "9d065a86a029",
-    "5f0943d803b2"
+    "5f0943d803b2",
+    "397cb559244c"
    ]
   },
   "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml": {
-   "newest": "2026-11-18T11:16:53Z",
+   "newest": "2026-11-18T19:40:36Z",
    "seen": [
-    "35b9b2d37a31",
-    "2daee49bb2cf",
-    "ccaab34e8093",
-    "19c5285a8651",
-    "f3d2a41ac15d",
-    "b5691971a445",
-    "f4b9cd0765da",
-    "a727f381ea56",
     "375572a3e90a",
     "916ee47a1bc9",
     "5b3d649b2a24",
@@ -2399,7 +2404,15 @@
     "3330f1546ea9",
     "ca98ef69f2a9",
     "e44d8e3000a6",
-    "c1fe12706eeb"
+    "c1fe12706eeb",
+    "6a5a111122d9",
+    "06cf1d27df7d",
+    "6e2bd9cede5c",
+    "bee7cf73da9f",
+    "0b475187a3bd",
+    "44dd0bb6a6d1",
+    "06ebd08f939c",
+    "8286da1fb3b7"
    ]
   }
  }
