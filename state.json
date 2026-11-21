@@ -70,10 +70,8 @@
    ]
   },
   "https://feeds.feedburner.com/TheHackersNews": {
-   "newest": "2026-11-20T17:57:20Z",
+   "newest": "2026-11-21T08:49:20Z",
    "seen": [
-    "f4eff089be53",
-    "e91f33b06ca8",
     "aabd8e14b270",
     "9ac8296dadd7",
     "cf3544e85171",
@@ -271,7 +269,9 @@
     "d9e0b261f408",
     "f80afcc47857",
     "9dbbebdeb6a3",
-    "6cc616c5c6e7"
+    "6cc616c5c6e7",
+    "a3eac34b29cf",
+    "9da47b8efcbb"
    ]
   },
   "https://github.blog/feed/": {
@@ -351,7 +351,7 @@
    ]
   },
   "https://github.com/anthropics/claude-code/releases.atom": {
-   "newest": "2026-11-19T22:14:41Z",
+   "newest": "2026-11-20T22:32:56Z",
    "seen": [
     "e630e4025c88",
     "b0ee8db96d1f",
@@ -386,7 +386,8 @@
     "03df320b5bf1",
     "35effb9d49af",
     "3684bd2bd84f",
-    "3f797f5af894"
+    "3f797f5af894",
+    "17cd029e5013"
    ]
   },
   "https://github.com/anthropics/skills/commits/main.atom": {
@@ -583,7 +584,7 @@
    ]
   },
   "https://github.com/ollama/ollama/releases.atom": {
-   "newest": "2026-11-20T21:53:21Z",
+   "newest": "2026-11-21T04:05:14Z",
    "seen": [
     "8cb56d93255a",
     "ea4ec1f2b6c3",
@@ -613,7 +614,8 @@
     "bc5ff0a04a28",
     "adead5d46a01",
     "6b7453baed38",
-    "765a55e578ef"
+    "765a55e578ef",
+    "720d012dfb75"
    ]
   },
   "https://github.com/open-webui/open-webui/releases.atom": {
@@ -820,7 +822,10 @@
     "6c93b3ba608c",
     "48881cd4abe7",
     "5d83f0c31fab",
-    "39d61f548233"
+    "39d61f548233",
+    "5f2ae4d18d65",
+    "dbfeec696153",
+    "1e4ceef14f63"
    ]
   },
   "https://github.com/thedotmack/claude-mem/releases.atom": {
@@ -887,10 +892,6 @@
   "https://hnrss.org/frontpage?points=300": {
    "newest": "2026-11-20T20:12:19Z",
    "seen": [
-    "b07da2305fd4",
-    "28841548a847",
-    "a31b3b7224a8",
-    "0fb845f1a9f4",
     "40477923c530",
     "4204d2eaf2dc",
     "3dab6521dbf0",
@@ -1086,7 +1087,11 @@
     "db672604d03c",
     "ae71870ea349",
     "623127e5447e",
-    "8cd0231b7544"
+    "8cd0231b7544",
+    "ec93e9467297",
+    "504c1e9bd930",
+    "1276f7af1826",
+    "df37fc90a546"
    ]
   },
   "https://huggingface.co/blog/feed.xml": {
@@ -1201,7 +1206,7 @@
    ]
   },
   "https://krebsonsecurity.com/feed/": {
-   "newest": "2026-11-18T02:52:04Z",
+   "newest": "2026-11-21T00:36:39Z",
    "seen": [
     "b09bb95dc803",
     "6eb01cc69dc7",
@@ -1219,7 +1224,8 @@
     "1c658f934fc8",
     "c772744595ac",
     "92a2e83f49f6",
-    "d81e54a179ac"
+    "d81e54a179ac",
+    "56614aef2924"
    ]
   },
   "https://openai.com/news/rss.xml": {
