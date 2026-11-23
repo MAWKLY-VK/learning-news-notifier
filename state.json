@@ -830,7 +830,9 @@
     "1e4ceef14f63",
     "5d338f8cefbd",
     "0c8f61285fec",
-    "939095c83798"
+    "939095c83798",
+    "6b2be2ffa013",
+    "dcf790fb0adb"
    ]
   },
   "https://github.com/thedotmack/claude-mem/releases.atom": {
@@ -897,10 +899,8 @@
    ]
   },
   "https://hnrss.org/frontpage?points=300": {
-   "newest": "2026-11-22T17:06:27Z",
+   "newest": "2026-11-22T19:20:15Z",
    "seen": [
-    "aabb164f2fd3",
-    "6a865ab47062",
     "a3d3d835b565",
     "2500149fcaf0",
     "9ace931c5226",
@@ -1098,7 +1098,9 @@
     "fd2d852f88b6",
     "7aba15673e8c",
     "bb80b02194c0",
-    "89618fac0a4c"
+    "89618fac0a4c",
+    "05a8077cf079",
+    "a17090a6696a"
    ]
   },
   "https://huggingface.co/blog/feed.xml": {
@@ -2264,9 +2266,8 @@
    ]
   },
   "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml": {
-   "newest": "2026-11-22T17:25:20Z",
+   "newest": "2026-11-22T22:48:02Z",
    "seen": [
-    "7e16fd732643",
     "1ac89674c9fb",
     "5742238c656e",
     "7e4e6855385a",
@@ -2465,7 +2466,8 @@
     "1dd1a035b3e6",
     "f42c42349e59",
     "e74ab269ae02",
-    "92bf4d4c8707"
+    "92bf4d4c8707",
+    "70fcb88c5988"
    ]
   }
  }
