@@ -71,11 +71,8 @@
    ]
   },
   "https://feeds.feedburner.com/TheHackersNews": {
-   "newest": "2026-11-24T12:42:09Z",
+   "newest": "2026-11-24T16:54:07Z",
    "seen": [
-    "6473fc7702e5",
-    "bfec2004bdb1",
-    "46d8d781bead",
     "21ad2182a136",
     "e8eb82345a00",
     "4a3beb5aa5ff",
@@ -272,11 +269,14 @@
     "06ddd1a68807",
     "9436fc5b47f7",
     "bb2aa84be511",
-    "bb2efaa9d0e6"
+    "bb2efaa9d0e6",
+    "0c4445d4ccaf",
+    "db22ce6bdf49",
+    "6b48789d1147"
    ]
   },
   "https://github.blog/feed/": {
-   "newest": "2026-11-19T16:00:00Z",
+   "newest": "2026-11-24T16:00:00Z",
    "seen": [
     "1515a8a30657",
     "3902c431970b",
@@ -304,7 +304,8 @@
     "b26bd68dff7d",
     "d21a29b79316",
     "df058a366be1",
-    "3e0e6174df00"
+    "3e0e6174df00",
+    "b1a95c2c8264"
    ]
   },
   "https://github.com/OthmanAdi/planning-with-files/releases.atom": {
@@ -499,7 +500,7 @@
    ]
   },
   "https://github.com/huggingface/transformers/releases.atom": {
-   "newest": "2026-11-21T12:43:39Z",
+   "newest": "2026-11-24T16:13:08Z",
    "seen": [
     "d0451f3c6201",
     "777fa8f3c012",
@@ -519,11 +520,12 @@
     "71f9e5b2f87e",
     "9cf18ae96163",
     "e665d2c84f08",
-    "6e510df6488c"
+    "6e510df6488c",
+    "cf9be6e776a7"
    ]
   },
   "https://github.com/mksglu/context-mode/releases.atom": {
-   "newest": "2026-11-22T18:19:09Z",
+   "newest": "2026-11-24T20:33:06Z",
    "seen": [
     "483f70c33d9f",
     "e4d393f360f4",
@@ -591,7 +593,8 @@
     "4773d4e46e16",
     "de0183eceb09",
     "2aeb2a080d53",
-    "888d25185bd0"
+    "888d25185bd0",
+    "a0ea005dbd43"
    ]
   },
   "https://github.com/ollama/ollama/releases.atom": {
@@ -851,11 +854,12 @@
     "8f7f12c275da",
     "b761f06b4a1f",
     "6013355ccdfe",
-    "000bbf16ec4d"
+    "000bbf16ec4d",
+    "f16517742943"
    ]
   },
   "https://github.com/thedotmack/claude-mem/releases.atom": {
-   "newest": "2026-11-24T05:29:04Z",
+   "newest": "2026-11-24T18:32:35Z",
    "seen": [
     "044ac23edd43",
     "33cbd398046b",
@@ -917,16 +921,13 @@
     "626c1a11d525",
     "b4a8903744ca",
     "b1cd67b0b646",
-    "a43dc55197f7"
+    "a43dc55197f7",
+    "b3f7dda65558"
    ]
   },
   "https://hnrss.org/frontpage?points=300": {
-   "newest": "2026-11-24T06:30:33Z",
+   "newest": "2026-11-24T13:23:47Z",
    "seen": [
-    "db6b197d6fe7",
-    "d3f9baa09475",
-    "021649d9d420",
-    "45ed9c8305d7",
     "4376eb7685b1",
     "8f7a08cea775",
     "7c78f3bd5d1e",
@@ -1122,11 +1123,15 @@
     "4141a993eba3",
     "88e41e11ead7",
     "ac970acc8369",
-    "fcc112bf70c1"
+    "fcc112bf70c1",
+    "a43841b0fc99",
+    "79d3fb59e49b",
+    "d136c62c7f61",
+    "ae5325f95305"
    ]
   },
   "https://huggingface.co/blog/feed.xml": {
-   "newest": "2026-11-23T17:20:37Z",
+   "newest": "2026-11-24T16:34:13Z",
    "seen": [
     "8ff67d77127c",
     "9101339b1ac2",
@@ -1235,7 +1240,8 @@
     "211fbe8009a4",
     "80d31a6dee29",
     "6fd4c32fe34a",
-    "ca38829e7312"
+    "ca38829e7312",
+    "16565a3f5dc0"
    ]
   },
   "https://krebsonsecurity.com/feed/": {
@@ -1262,7 +1268,7 @@
    ]
   },
   "https://openai.com/news/rss.xml": {
-   "newest": "2026-11-23T21:20:00Z",
+   "newest": "2026-11-24T13:00:00Z",
    "seen": [
     "1dd9ce125c6e",
     "1d5a9cc2d950",
@@ -1439,7 +1445,12 @@
     "de5cd1a6d51d",
     "680b35173b97",
     "f8a4e02f4212",
-    "1d0c151fefed"
+    "1d0c151fefed",
+    "99b93f3e1098",
+    "7a6462e387eb",
+    "ec442b764e04",
+    "f3aa9260f109",
+    "3c6728c1bfd1"
    ]
   },
   "https://rss.arxiv.org/rss/cs.AI": {
@@ -2058,19 +2069,8 @@
    ]
   },
   "https://www.bleepingcomputer.com/feed/": {
-   "newest": "2026-11-23T20:54:51Z",
+   "newest": "2026-11-24T21:37:30Z",
    "seen": [
-    "eaaaa83e33fa",
-    "4198413c0e43",
-    "09382f93624b",
-    "27c3e9ac8130",
-    "96a0f026f2e0",
-    "e645dafde1d4",
-    "f167e37bde6d",
-    "a291b7051796",
-    "4e3b797fd4a7",
-    "b35f9e575d4b",
-    "845cf24b8961",
     "ba55b05e53ea",
     "d15dc155427a",
     "af6ffe74845e",
@@ -2259,7 +2259,18 @@
     "f714b48247a9",
     "53716c4432ab",
     "ad3d2932dda1",
-    "f1397973b7c6"
+    "f1397973b7c6",
+    "e94ac3e9d520",
+    "230a967c24e6",
+    "a903b208e0b0",
+    "1f75de46df51",
+    "5ba708d91b20",
+    "cad292c7e46b",
+    "63399c74702a",
+    "adb18ca6aea0",
+    "5f76ac4f7ca9",
+    "0bc0f9692115",
+    "6c270107d398"
    ]
   },
   "https://www.quantamagazine.org/feed/": {
@@ -2294,13 +2305,8 @@
    ]
   },
   "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml": {
-   "newest": "2026-11-23T22:25:12Z",
+   "newest": "2026-11-24T20:02:03Z",
    "seen": [
-    "e2ea79a88d73",
-    "cc5f5a5698bc",
-    "341c23abeae1",
-    "d3cd3ac33675",
-    "741204a424b0",
     "5296547ccc20",
     "8820bb954b2a",
     "d1fd86946b02",
@@ -2495,7 +2501,12 @@
     "929c2afeb380",
     "ae913e06efaf",
     "c5e6ebdc9aed",
-    "e08c20c2b193"
+    "e08c20c2b193",
+    "3f8570ea357c",
+    "2c16cb107e3c",
+    "8d7ef4ed50d1",
+    "e0d131c5664c",
+    "2f2194dae986"
    ]
   }
  }
