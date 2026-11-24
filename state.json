@@ -1,7 +1,7 @@
 {
  "feeds": {
   "https://deepmind.google/blog/rss.xml": {
-   "newest": "2026-11-18T21:35:43Z",
+   "newest": "2026-11-23T16:59:40Z",
    "seen": [
     "ce11f0ad142d",
     "548bdf100a67",
@@ -66,17 +66,13 @@
     "4bad5afe01a1",
     "51d2fad24045",
     "652211f5c064",
-    "0c3c8b23c6ca"
+    "0c3c8b23c6ca",
+    "9dddeb89e408"
    ]
   },
   "https://feeds.feedburner.com/TheHackersNews": {
-   "newest": "2026-11-23T09:11:56Z",
+   "newest": "2026-11-23T17:45:15Z",
    "seen": [
-    "005f2528861a",
-    "8cc04215eff5",
-    "649ecf4a57aa",
-    "7325900e53d9",
-    "1dad8889ea72",
     "5100bc6323f0",
     "6d2a0802c49f",
     "ad2cc061f552",
@@ -271,7 +267,12 @@
     "78074d39dfa2",
     "80927b607c9d",
     "791422e9c323",
-    "31afdc96e80b"
+    "31afdc96e80b",
+    "759d50b40080",
+    "33d65726f50e",
+    "cb673b121b80",
+    "ca0d1bdeb307",
+    "1ab128c432ff"
    ]
   },
   "https://github.blog/feed/": {
@@ -352,7 +353,7 @@
    ]
   },
   "https://github.com/anthropics/claude-code/releases.atom": {
-   "newest": "2026-11-20T22:32:56Z",
+   "newest": "2026-11-23T21:34:41Z",
    "seen": [
     "e630e4025c88",
     "b0ee8db96d1f",
@@ -388,7 +389,8 @@
     "35effb9d49af",
     "3684bd2bd84f",
     "3f797f5af894",
-    "17cd029e5013"
+    "17cd029e5013",
+    "d411c17889d4"
    ]
   },
   "https://github.com/anthropics/skills/commits/main.atom": {
@@ -421,7 +423,7 @@
    ]
   },
   "https://github.com/coreyhaines31/marketingskills/releases.atom": {
-   "newest": "2026-11-20T02:15:25Z",
+   "newest": "2026-11-23T21:01:28Z",
    "seen": [
     "0fdf745467ff",
     "d7ba0ac90f78",
@@ -475,11 +477,14 @@
     "e4bd8b59b2d3",
     "366f46b62600",
     "9d69e320bc66",
-    "3a7b0b90d564"
+    "3a7b0b90d564",
+    "01dcb49d1073",
+    "0295c99249c9",
+    "244150104db5"
    ]
   },
   "https://github.com/google-gemini/gemini-cli/releases.atom": {
-   "newest": "2026-11-19T21:08:05Z",
+   "newest": "2026-11-24T01:16:44Z",
    "seen": [
     "a9d0fbb5d57f",
     "1856452513b7",
@@ -487,7 +492,8 @@
     "8e073affc9c1",
     "0f142a52be51",
     "6b0e20e51c43",
-    "4a1ed8a67e03"
+    "4a1ed8a67e03",
+    "65e3d3cd039a"
    ]
   },
   "https://github.com/huggingface/transformers/releases.atom": {
@@ -645,7 +651,7 @@
    ]
   },
   "https://github.com/openai/codex/releases.atom": {
-   "newest": "2026-11-20T00:47:14Z",
+   "newest": "2026-11-24T00:06:41Z",
    "seen": [
     "4a2f620f713a",
     "78223fbdd62d",
@@ -659,7 +665,8 @@
     "6576466d430a",
     "aabc123ba9b2",
     "9a6398ed26c7",
-    "200047f2e67f"
+    "200047f2e67f",
+    "c0f84bf74fb6"
    ]
   },
   "https://github.com/search?type=repositories&q=topic%3Aclaude-skills%20topic%3Aagent-skills%20topic%3Aclaude-code-plugin%20topic%3Aclaude-code-plugins%20topic%3Amcp-server": {
@@ -838,11 +845,14 @@
     "8661ba722c24",
     "f17b7efc746b",
     "b42cc472d9fa",
-    "8f7f12c275da"
+    "8f7f12c275da",
+    "b761f06b4a1f",
+    "6013355ccdfe",
+    "000bbf16ec4d"
    ]
   },
   "https://github.com/thedotmack/claude-mem/releases.atom": {
-   "newest": "2026-11-23T03:55:41Z",
+   "newest": "2026-11-23T23:19:53Z",
    "seen": [
     "044ac23edd43",
     "33cbd398046b",
@@ -902,19 +912,13 @@
     "3b89eb3cfec2",
     "a552ecc8ffd2",
     "626c1a11d525",
-    "b4a8903744ca"
+    "b4a8903744ca",
+    "b1cd67b0b646"
    ]
   },
   "https://hnrss.org/frontpage?points=300": {
-   "newest": "2026-11-23T03:49:24Z",
+   "newest": "2026-11-23T19:17:55Z",
    "seen": [
-    "d18c0d7ad264",
-    "150a39b9eb9a",
-    "ee3cf7150f29",
-    "582ba2f27ec2",
-    "862946cdcf59",
-    "793baf0e5454",
-    "837857c2036a",
     "f4f8619180b0",
     "d101ca97865c",
     "16cfed0105b1",
@@ -1107,11 +1111,18 @@
     "998077af1569",
     "ec3e7c1475ec",
     "13b9be6458ec",
-    "245bb93c303a"
+    "245bb93c303a",
+    "8415bce77abc",
+    "f12886ce3e89",
+    "7218ec1006de",
+    "8e960e9e50a0",
+    "dad7659d2caa",
+    "b3ccf70de18a",
+    "c2ad59601d2e"
    ]
   },
   "https://huggingface.co/blog/feed.xml": {
-   "newest": "2026-11-20T00:00:00Z",
+   "newest": "2026-11-23T17:20:37Z",
    "seen": [
     "8ff67d77127c",
     "9101339b1ac2",
@@ -1218,7 +1229,9 @@
     "75623b38e68b",
     "f689168723dc",
     "211fbe8009a4",
-    "80d31a6dee29"
+    "80d31a6dee29",
+    "6fd4c32fe34a",
+    "ca38829e7312"
    ]
   },
   "https://krebsonsecurity.com/feed/": {
@@ -1245,7 +1258,7 @@
    ]
   },
   "https://openai.com/news/rss.xml": {
-   "newest": "2026-11-22T00:00:00Z",
+   "newest": "2026-11-23T21:20:00Z",
    "seen": [
     "1dd9ce125c6e",
     "1d5a9cc2d950",
@@ -1419,7 +1432,10 @@
     "f4784c304003",
     "d15c45643214",
     "3ea993db7e3c",
-    "de5cd1a6d51d"
+    "de5cd1a6d51d",
+    "680b35173b97",
+    "f8a4e02f4212",
+    "1d0c151fefed"
    ]
   },
   "https://rss.arxiv.org/rss/cs.AI": {
@@ -2038,15 +2054,8 @@
    ]
   },
   "https://www.bleepingcomputer.com/feed/": {
-   "newest": "2026-11-23T12:02:23Z",
+   "newest": "2026-11-23T20:54:51Z",
    "seen": [
-    "e692538b686e",
-    "fe7730fa4068",
-    "17e71a11c730",
-    "a6d0e88b749c",
-    "7d9fa054e5fe",
-    "7363e725b55a",
-    "93a6b87fe425",
     "eaaaa83e33fa",
     "4198413c0e43",
     "09382f93624b",
@@ -2239,11 +2248,18 @@
     "e84afceb005f",
     "5d81d8091009",
     "d0dd2916cf58",
-    "f8665cc5b1ef"
+    "f8665cc5b1ef",
+    "4be13f5936ea",
+    "594a8d6fa697",
+    "0af9a7510182",
+    "f714b48247a9",
+    "53716c4432ab",
+    "ad3d2932dda1",
+    "f1397973b7c6"
    ]
   },
   "https://www.quantamagazine.org/feed/": {
-   "newest": "2026-11-20T14:50:41Z",
+   "newest": "2026-11-23T15:27:11Z",
    "seen": [
     "21028eea3cf4",
     "47af22fffb9c",
@@ -2269,21 +2285,13 @@
     "9d065a86a029",
     "5f0943d803b2",
     "397cb559244c",
-    "1dcf5d494c16"
+    "1dcf5d494c16",
+    "44a3bfb19311"
    ]
   },
   "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml": {
-   "newest": "2026-11-23T11:00:00Z",
+   "newest": "2026-11-23T22:25:12Z",
    "seen": [
-    "5742238c656e",
-    "7e4e6855385a",
-    "e067a4bed9a3",
-    "dd390d9e8ff6",
-    "d30681dea731",
-    "740465d534ba",
-    "b72669c84c64",
-    "41e28042f793",
-    "b0e212d8576d",
     "e2ea79a88d73",
     "cc5f5a5698bc",
     "341c23abeae1",
@@ -2474,7 +2482,16 @@
     "e74ab269ae02",
     "92bf4d4c8707",
     "70fcb88c5988",
-    "ad10eb648b05"
+    "ad10eb648b05",
+    "c1ba84e025e3",
+    "5a32c857ca88",
+    "026e099a3abc",
+    "6b659de99f07",
+    "d45c4291fdff",
+    "929c2afeb380",
+    "ae913e06efaf",
+    "c5e6ebdc9aed",
+    "e08c20c2b193"
    ]
   }
  }
