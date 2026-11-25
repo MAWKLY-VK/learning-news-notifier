@@ -1,7 +1,7 @@
 {
  "feeds": {
   "https://deepmind.google/blog/rss.xml": {
-   "newest": "2026-11-23T16:59:40Z",
+   "newest": "2026-11-24T13:07:53Z",
    "seen": [
     "ce11f0ad142d",
     "548bdf100a67",
@@ -67,14 +67,13 @@
     "51d2fad24045",
     "652211f5c064",
     "0c3c8b23c6ca",
-    "9dddeb89e408"
+    "9dddeb89e408",
+    "dd94f7af62fb"
    ]
   },
   "https://feeds.feedburner.com/TheHackersNews": {
-   "newest": "2026-11-25T11:51:48Z",
+   "newest": "2026-11-25T12:48:54Z",
    "seen": [
-    "c1c20131973a",
-    "9068a344a035",
     "87a25e1b557b",
     "d596e3f2bace",
     "c477f1812588",
@@ -272,11 +271,13 @@
     "916629091cfd",
     "3885183f3278",
     "d52cc031d711",
-    "6a8ceb0f7d1b"
+    "6a8ceb0f7d1b",
+    "851806c24f2d",
+    "92db407f26f0"
    ]
   },
   "https://github.blog/feed/": {
-   "newest": "2026-11-24T16:00:00Z",
+   "newest": "2026-11-25T16:00:00Z",
    "seen": [
     "1515a8a30657",
     "3902c431970b",
@@ -305,7 +306,9 @@
     "d21a29b79316",
     "df058a366be1",
     "3e0e6174df00",
-    "b1a95c2c8264"
+    "b1a95c2c8264",
+    "1a98b636630d",
+    "557abf555abb"
    ]
   },
   "https://github.com/OthmanAdi/planning-with-files/releases.atom": {
@@ -526,7 +529,7 @@
    ]
   },
   "https://github.com/mksglu/context-mode/releases.atom": {
-   "newest": "2026-11-24T20:33:06Z",
+   "newest": "2026-11-25T16:25:03Z",
    "seen": [
     "483f70c33d9f",
     "e4d393f360f4",
@@ -595,7 +598,8 @@
     "de0183eceb09",
     "2aeb2a080d53",
     "888d25185bd0",
-    "a0ea005dbd43"
+    "a0ea005dbd43",
+    "a1691cdacd0a"
    ]
   },
   "https://github.com/ollama/ollama/releases.atom": {
@@ -858,7 +862,8 @@
     "6013355ccdfe",
     "000bbf16ec4d",
     "f16517742943",
-    "c811fddaecba"
+    "c811fddaecba",
+    "bc610d44f327"
    ]
   },
   "https://github.com/thedotmack/claude-mem/releases.atom": {
@@ -931,14 +936,8 @@
    ]
   },
   "https://hnrss.org/frontpage?points=300": {
-   "newest": "2026-11-25T03:23:07Z",
+   "newest": "2026-11-25T19:11:27Z",
    "seen": [
-    "19362c7ba9ad",
-    "3bddd94ced51",
-    "07706832bb39",
-    "021e663a35a4",
-    "a1e867e2bccb",
-    "d9b3ec7db087",
     "9cac7bbc85bc",
     "5f061d53449b",
     "46507cfdd7fc",
@@ -1132,11 +1131,17 @@
     "bbef1e94d167",
     "9b0ba73bca74",
     "3e6b13f898f6",
-    "e678b565455a"
+    "e678b565455a",
+    "2c369ea15adc",
+    "f96a9b883de0",
+    "aba4bdeff422",
+    "f358b4315f2f",
+    "fbd1d5b569ac",
+    "c34aec08b2df"
    ]
   },
   "https://huggingface.co/blog/feed.xml": {
-   "newest": "2026-11-25T10:22:09Z",
+   "newest": "2026-11-25T18:52:55Z",
    "seen": [
     "8ff67d77127c",
     "9101339b1ac2",
@@ -1247,7 +1252,9 @@
     "6fd4c32fe34a",
     "ca38829e7312",
     "16565a3f5dc0",
-    "d0a3a7f662b5"
+    "d0a3a7f662b5",
+    "d8d6777ecf09",
+    "37b5c9ba9326"
    ]
   },
   "https://krebsonsecurity.com/feed/": {
@@ -2075,14 +2082,8 @@
    ]
   },
   "https://www.bleepingcomputer.com/feed/": {
-   "newest": "2026-11-25T11:16:32Z",
+   "newest": "2026-11-25T22:05:09Z",
    "seen": [
-    "357136bfe66d",
-    "e52f7534557d",
-    "7398c8fe0a0b",
-    "5e44eebabf29",
-    "cab04cab3c66",
-    "5ea1d647d005",
     "be1d39eaf1aa",
     "f8e64d371b0e",
     "b9a8fe94cb9b",
@@ -2276,11 +2277,17 @@
     "3bc6f96dec95",
     "00f16364aca5",
     "7bb089ac45e5",
-    "bd8fc6246012"
+    "bd8fc6246012",
+    "5d8223f882df",
+    "a3b682ce2592",
+    "97df8d954787",
+    "63da0c2dc091",
+    "70f66acc3de7",
+    "50a53afadcff"
    ]
   },
   "https://www.quantamagazine.org/feed/": {
-   "newest": "2026-11-23T15:27:11Z",
+   "newest": "2026-11-25T14:00:49Z",
    "seen": [
     "21028eea3cf4",
     "47af22fffb9c",
@@ -2307,17 +2314,13 @@
     "5f0943d803b2",
     "397cb559244c",
     "1dcf5d494c16",
-    "44a3bfb19311"
+    "44a3bfb19311",
+    "b21d3ad94d32"
    ]
   },
   "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml": {
-   "newest": "2026-11-24T20:02:03Z",
+   "newest": "2026-11-25T21:51:26Z",
    "seen": [
-    "5296547ccc20",
-    "8820bb954b2a",
-    "d1fd86946b02",
-    "f04078cfce7b",
-    "fa1b694d89da",
     "7b4f44d233ec",
     "4245d972502e",
     "6b9e3ee1668a",
@@ -2512,7 +2515,12 @@
     "2c16cb107e3c",
     "8d7ef4ed50d1",
     "e0d131c5664c",
-    "2f2194dae986"
+    "2f2194dae986",
+    "cb4a30660b8d",
+    "36c016fa62e8",
+    "21d2e650faf5",
+    "18183c9633d3",
+    "93c690782c8e"
    ]
   }
  }
